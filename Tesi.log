@@ -1,0 +1,2420 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  2 MAR 2023 16:13
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Tesi.tex
+(Tesi.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-02> (theme/uniprthesis.cls
+Document Class: theme/uniprthesis 2022/06/27 UniPR thesis class
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+) (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\pdfx.sty
+Package: pdfx 2019/02/27 v1.6.3 PDF/X and PDF/A support (CVR/HTH/RRM/PS)
+\pdfx@minorversion=\count194
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/everyshi\everyshi.sty
+Package: everyshi 2020/11/18 v4.00 EveryShipout Package
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+){C:/Users/lorim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\l8u-penc.def
+File: l8u-penc.def 2017/06/23 v0.8 Custom LaTeX file, for UTF8 encoded letters 
+and symbols
+LaTeX Info: Composite with undeclared \b in encoding L8U on input line 278.
+)
+\pdfxsafeforxmp@toks=\toks19
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+\pdfx@tmptoks=\toks20
+ (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count195
+)
+\@linkdim=\dimen143
+\Hy@linkcounter=\count196
+\Hy@pagecounter=\count197
+ (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+) (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count198
+ (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `pdfa' set `true' on input line 4045.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count199
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen144
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count266
+\Field@Width=\dimen145
+\Fld@charsize=\dimen146
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode ON on input line 6055.
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count267
+\c@Item=\count268
+\c@Hfootnote=\count269
+)
+Package hyperref Info: Driver: hpdftex.
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count270
+\c@bookmark@seq@number=\count271
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip50
+)
+Package hyperref Info: Option `unicode' set `true' on input line 1463.
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+Package hyperref Info: Option `psdextra' set `true' on input line 1465.
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc-greekbas
+ic.def
+File: puenc-greekbasic.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (
+greek block) (HO)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\psdextra.def
+File: psdextra.def 2022-11-13 v7.00u Hyperref: Additions to PDF string support
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/colorprofiles\colorpr
+ofiles.sty
+Package: colorprofiles 2018/11/01 v1.0.1 color profiles for PDF/X and PDF/A sup
+port
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/colorprofiles\colorpr
+ofiles.tex))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.d
+ef
+File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\AdobeColorProfiles
+.tex) (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+File: 8bit.def 2008/03/30 v1.1d Input encoding file
+)
+** pdfx: No file Tesi.xmpdata . Metadata will be incomplete!
+<<sRGB.icc>>
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+File: 8bit.def 2008/03/30 v1.1d Input encoding file
+)
+Package hyperref Info: Option `unicode' set `true' on input line 2411.
+Package hyperref Info: Option `unicode' set `true' on input line 2412.
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode
+.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\glyphtounicode-cmr
+.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\glyphtounicode-ntx
+.tex) (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/xmpincl\xmpincl.sty
+Package: xmpincl 2021/09/22 v2.4 Include XMP data in pdflatex
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+File: 8bit.def 2008/03/30 v1.1d Input encoding file
+)
+Using XMP template file: pdfa.xmp
+\xmpinclWrite=\write3
+\xmpinclRead=\read2
+\openout3 = `pdfa.xmpi'.
+
+<<pdfa.xmpi>>)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen147
+\captionmargin=\dimen148
+\caption@leftmargin=\dimen149
+\caption@rightmargin=\dimen150
+\caption@width=\dimen151
+\caption@indent=\dimen152
+\caption@parindent=\dimen153
+\caption@hangindent=\dimen154
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count272
+\c@continuedfloat=\count273
+Package caption Info: hyperref package is loaded.
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count274
+\c@subtable=\count275
+) (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+) (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count276
+\lst@gtempboxa=\box51
+\lst@token=\toks21
+\lst@length=\count277
+\lst@currlwidth=\dimen155
+\lst@column=\count278
+\lst@pos=\count279
+\lst@lostspace=\dimen156
+\lst@width=\dimen157
+\lst@newlines=\count280
+\lst@lineno=\count281
+\lst@maxwidth=\dimen158
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count282
+\lst@skipnumbers=\count283
+\lst@framebox=\box52
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.st
+y
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+ (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count284
+\float@exts=\toks22
+\float@box=\box53
+\@float@everytoks=\toks23
+\@floatcapt=\box54
+)
+\@float@every@algorithm=\toks24
+\c@algorithm=\count285
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoc
+ode.sty
+Package: algpseudocode 
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmi
+cx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count286
+\c@ALG@rem=\count287
+\c@ALG@nested=\count288
+\ALG@tlm=\skip60
+\ALG@thistlm=\skip61
+\c@ALG@Lnr=\count289
+\c@ALG@blocknr=\count290
+\c@ALG@storecount=\count291
+\c@ALG@tmpcounter=\count292
+\ALG@tmplength=\skip62
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip63
+\thm@postskip=\skip64
+\thm@headsep=\skip65
+\dth@everypar=\toks30
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip66
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen159
+))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen160
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count293
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count294
+\leftroot@=\count295
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count296
+\DOTSCASE@=\count297
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen161
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count298
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count299
+\dotsspace@=\muskip17
+\c@parentequation=\count300
+\dspbrk@lvl=\count301
+\tag@help=\toks32
+\row@=\count302
+\column@=\count303
+\maxfields@=\count304
+\andhelp@=\toks33
+\eqnshift@=\dimen162
+\alignsep@=\dimen163
+\tagshift@=\dimen164
+\tagwidth@=\dimen165
+\totwidth@=\dimen166
+\lineht@=\dimen167
+\@envbody=\toks34
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen168
+\ar@mcellbox=\box57
+\extrarowheight=\dimen169
+\NC@list=\toks36
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box58
+)
+\TX@col@width=\dimen170
+\TX@old@table=\dimen171
+\TX@old@col=\dimen172
+\TX@target=\dimen173
+\TX@delta=\dimen174
+\TX@cols=\count305
+\TX@ftn=\toks37
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/tools\hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks38
+\AP@partial=\box59
+\AP@footins=\box60
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count306
+\Gm@cntv=\count307
+\c@Gm@tempcnt=\count308
+\Gm@bindingoffset=\dimen175
+\Gm@wd@mp=\dimen176
+\Gm@odd@mp=\dimen177
+\Gm@even@mp=\dimen178
+\Gm@layoutwidth=\dimen179
+\Gm@layoutheight=\dimen180
+\Gm@layouthoffset=\dimen181
+\Gm@layoutvoffset=\dimen182
+\Gm@dimlist=\toks39
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+\c@thm=\count309
+\c@defn=\count310
+\c@example=\count311
+\c@oss=\count312
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/01/23 3.85 The Babel package
+\babel@savecnt=\count313
+\U@D=\dimen183
+\l@unhyphenated=\language79
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count314
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.l
+df
+Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
+\it@lettering=\count315
+\it@doublequoteactive=\count316
+\it@ISOcompliance=\count317
+))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/it\babel
+-italian.tex
+Package babel Info: Importing font and identification data for italian
+(babel)             from babel-it.ini. Reported on input line 11.
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count318
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
+Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
+Package: todonotes 2023/01/31
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
+)
+\XKV@depth=\count319
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks42
+\pgfutil@tempdima=\dimen184
+\pgfutil@tempdimb=\dimen185
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box61
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks43
+\pgfkeys@temptoks=\toks44
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks45
+))
+\pgf@x=\dimen186
+\pgf@y=\dimen187
+\pgf@xa=\dimen188
+\pgf@ya=\dimen189
+\pgf@xb=\dimen190
+\pgf@yb=\dimen191
+\pgf@xc=\dimen192
+\pgf@yc=\dimen193
+\pgf@xd=\dimen194
+\pgf@yd=\dimen195
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count320
+\c@pgf@countb=\count321
+\c@pgf@countc=\count322
+\c@pgf@countd=\count323
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
+\pgf@sys@id@count=\count324
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count325
+\pgfsyssoftpath@bigbuffer@items=\count326
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen196
+\pgfmath@count=\count327
+\pgfmath@box=\box62
+\pgfmath@toks=\toks49
+\pgfmath@stack@operand=\toks50
+\pgfmath@stack@operation=\toks51
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count328
+))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen197
+\pgf@picmaxx=\dimen198
+\pgf@picminy=\dimen199
+\pgf@picmaxy=\dimen256
+\pgf@pathminx=\dimen257
+\pgf@pathmaxx=\dimen258
+\pgf@pathminy=\dimen259
+\pgf@pathmaxy=\dimen260
+\pgf@xx=\dimen261
+\pgf@xy=\dimen262
+\pgf@yx=\dimen263
+\pgf@yy=\dimen264
+\pgf@zx=\dimen265
+\pgf@zy=\dimen266
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen267
+\pgf@path@lasty=\dimen268
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen269
+\pgf@shorten@start@additional=\dimen270
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count329
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen271
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen272
+\pgf@pt@y=\dimen273
+\pgf@pt@temp=\dimen274
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen275
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen276
+\pgf@sys@shading@range@num=\count330
+\pgf@shadingcount=\count331
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box66
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box67
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen277
+\pgf@nodesepend=\dimen278
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen279
+\pgffor@skip=\dimen280
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
+))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count332
+\pgfplotmarksize=\dimen281
+)
+\tikz@lastx=\dimen282
+\tikz@lasty=\dimen283
+\tikz@lastxsaved=\dimen284
+\tikz@lastysaved=\dimen285
+\tikz@lastmovetox=\dimen286
+\tikz@lastmovetoy=\dimen287
+\tikzleveldistance=\dimen288
+\tikzsiblingdistance=\dimen289
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count333
+\tikznumberofchildren=\count334
+\tikznumberofcurrentchild=\count335
+\tikz@fig@count=\count336
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count337
+\pgfmatrixcurrentcolumn=\count338
+\pgf@matrix@numberofcolumns=\count339
+)
+\tikz@expandcount=\count340
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count341
+\calc@Bcount=\count342
+\calc@Adimen=\dimen290
+\calc@Bdimen=\dimen291
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count343
+\calc@Cskip=\skip73
+)
+\c@@todonotes@numberoftodonotes=\count344
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count345
+\c@Blindtext=\count346
+\c@blind@countparstart=\count347
+\blind@countxx=\count348
+\blindtext@numBlindtext=\count349
+\blind@countyy=\count350
+\c@blindlist=\count351
+\c@blindlistlevel=\count352
+\c@blindlist@level=\count353
+\blind@listitem=\count354
+\c@blind@listcount=\count355
+\c@blind@levelcount=\count356
+\blind@mathformula=\count357
+\blind@Mathformula=\count358
+\c@blind@randomcount=\count359
+\c@blind@randommax=\count360
+\c@blind@pangramcount=\count361
+\c@blind@pangrammax=\count362
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count363
+\l__pdf_internal_box=\box72
+) (Tesi.aux (Capitoli/Introduzione.aux) (Capitoli/Background.aux
+
+LaTeX Warning: Label `fig:Amminoacido' multiply defined.
+
+
+LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `fig:Amminoacido' multiply defined.
+
+
+LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
+
+
+LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
+
+
+LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+) (Capitoli/Covid.aux
+
+LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `fig:Amminoacido' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `fig:Amminoacido' multiply defined.
+
+
+LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `subsec:es_subsec' multiply defined.
+
+
+LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
+
+) (Capitoli/Obiettivi.aux) (Capitoli/Progettazione-Implementazione.aux)
+(Capitoli/Risultati.aux) (Capitoli/Conclusione.aux)
+(Capitoli/Ringraziamenti.aux) (Capitoli/Appendici/Appendice1.aux))
+\openout1 = `Tesi.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count364
+\scratchdimen=\dimen292
+\scratchbox=\box73
+\nofMPsegments=\count365
+\nofMParguments=\count366
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count367
+\MPscratchDim=\dimen293
+\MPnumerator=\count368
+\makeMPintoPDFobject=\count369
+\everyMPtoPDFconversion=\toks55
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 38.
+ (Tesi.out) (Tesi.out)
+\@outlinefile=\write5
+\openout5 = `Tesi.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count370
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* pass: disregarded the geometry package!
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=390.0pt
+* \textheight=592.0pt
+* \oddsidemargin=10.0pt
+* \evensidemargin=52.0pt
+* \topmargin=23.0pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \it@ocap on input line 38.
+LaTeX Info: Redefining \it@ccap on input line 38.
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting 
+italian.ldf    on input line 38.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 745.46222pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=745.46222pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-47.23828pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+
+pdfTeX warning: pdflatex.exe (file ./theme/logo_unipr.pdf): PDF inclusion: foun
+d PDF version <1.6>, but at most version <1.5> allowed
+<theme/logo_unipr.pdf, id=142, 156.79077pt x 142.01357pt>
+File: theme/logo_unipr.pdf Graphic file (type pdf)
+<use theme/logo_unipr.pdf>
+Package pdftex.def Info: theme/logo_unipr.pdf  used on input line 40.
+(pdftex.def)             Requested size: 172.78856pt x 156.49014pt.
+[1
+
+
+ <./theme/logo_unipr.pdf>] [2
+
+] (Tesi.toc [1
+
+
+])
+\tf@toc=\write6
+\openout6 = `Tesi.toc'.
+
+ [2] (Tesi.lof)
+\tf@lof=\write7
+\openout7 = `Tesi.lof'.
+
+ [3
+
+
+] [4
+
+
+]
+(Tesi.loa)
+\tf@loa=\write8
+\openout8 = `Tesi.loa'.
+
+ [5] [6
+
+
+] (Tesi.lot)
+\tf@lot=\write9
+\openout9 = `Tesi.lot'.
+
+ [7]
+\openout2 = `Capitoli/Introduzione.aux'.
+
+ (Capitoli/Introduzione.tex [8
+
+
+
+])
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.65 \include{Capitoli/Introduzione}
+                                     [1]
+\openout2 = `Capitoli/Background.aux'.
+
+ (Capitoli/Background.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Background}\label{chapter:background} [2
+
+
+
+
+
+]
+Capitolo 1.
+<Immagini/800px-Selenocysteine_skeletal_3D.png, id=258, 803.0pt x 1114.1625pt>
+File: Immagini/800px-Selenocysteine_skeletal_3D.png Graphic file (type png)
+<use Immagini/800px-Selenocysteine_skeletal_3D.png>
+Package pdftex.def Info: Immagini/800px-Selenocysteine_skeletal_3D.png  used on
+ input line 14.
+(pdftex.def)             Requested size: 117.00119pt x 162.33995pt.
+<Immagini/StrutturaAmminoacido.png, id=260, 386.6445pt x 319.1925pt>
+File: Immagini/StrutturaAmminoacido.png Graphic file (type png)
+<use Immagini/StrutturaAmminoacido.png>
+Package pdftex.def Info: Immagini/StrutturaAmminoacido.png  used on input line 
+27.
+(pdftex.def)             Requested size: 155.99762pt x 128.78033pt.
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4 <./Immagini/800px-Selenocysteine_skeletal_3D.png> <./Immagini/StrutturaAmmin
+oacido.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmtt/m/n/12 Glicina, alanina, valina, leucina,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmtt/m/n/12 Serina, cisteina, treonina,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmtt/m/n/12 Acido aspartico, acido glutammico,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+<Immagini/GraficoRamachandran.png, id=309, 322.806pt x 311.9655pt>
+File: Immagini/GraficoRamachandran.png Graphic file (type png)
+<use Immagini/GraficoRamachandran.png>
+Package pdftex.def Info: Immagini/GraficoRamachandran.png  used on input line 2
+45.
+(pdftex.def)             Requested size: 155.99762pt x 150.76042pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12 <./Immagini/GraficoRamachandran.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+Underfull \vbox (badness 1337) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 417.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 416--451
+[]$[]$ 
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+\openout2 = `Capitoli/Covid.aux'.
+
+ (Capitoli/Covid.tex
+Capitolo 2.
+[21
+
+
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+<Immagini/coronavirus.png, id=393, 489.83pt x 367.3725pt>
+File: Immagini/coronavirus.png Graphic file (type png)
+<use Immagini/coronavirus.png>
+Package pdftex.def Info: Immagini/coronavirus.png  used on input line 46.
+(pdftex.def)             Requested size: 155.99762pt x 116.99542pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23 <./Immagini/coronavirus.png>]
+<Immagini/RNA_polimerasi.png, id=398, 413.1435pt x 248.127pt>
+File: Immagini/RNA_polimerasi.png Graphic file (type png)
+<use Immagini/RNA_polimerasi.png>
+Package pdftex.def Info: Immagini/RNA_polimerasi.png  used on input line 87.
+(pdftex.def)             Requested size: 234.00238pt x 140.53653pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25 <./Immagini/RNA_polimerasi.png>]
+<Immagini/Composizione_strutturale.png, id=408, 1403.2425pt x 1274.7625pt>
+File: Immagini/Composizione_strutturale.png Graphic file (type png)
+<use Immagini/Composizione_strutturale.png>
+Package pdftex.def Info: Immagini/Composizione_strutturale.png  used on input l
+ine 107.
+(pdftex.def)             Requested size: 272.99881pt x 248.00388pt.
+
+
+LaTeX Warning: Reference `fig:StrutturaCovid' on page 26 undefined on input lin
+e 112.
+
+
+LaTeX Warning: Reference `fig:StrutturaCovid' on page 26 undefined on input lin
+e 112.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+Underfull \vbox (badness 6380) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27 <./Immagini/Composizione_strutturale.png>]
+<Immagini/RBD_structure.png, id=418, 752.8125pt x 245.91875pt>
+File: Immagini/RBD_structure.png Graphic file (type png)
+<use Immagini/RBD_structure.png>
+Package pdftex.def Info: Immagini/RBD_structure.png  used on input line 128.
+(pdftex.def)             Requested size: 272.99881pt x 89.17984pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28])
+Underfull \vbox (badness 1158) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29 <./Immagini/RBD_structure.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]
+\openout2 = `Capitoli/Obiettivi.aux'.
+
+ (Capitoli/Obiettivi.tex
+Capitolo 3.
+) [31
+
+
+
+
+
+]
+\openout2 = `Capitoli/Progettazione-Implementazione.aux'.
+
+ (Capitoli/Progettazione-Implementazione.tex [32
+
+
+
+
+
+]
+Capitolo 4.
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 32--32
+[]    \OT1/cmtt/m/n/12 covid_chiusa = parser.get_structure('STS', './covid_pdb/
+'+title)[] 
+ []
+
+
+Overfull \hbox (104.00024pt too wide) in paragraph at lines 32--32
+[]    \OT1/cmtt/m/n/12 covid_loop = parser.get_structure('STS', './covid_pdb/6v
+xx_chiusa_loop.pdb')[] 
+ []
+
+
+Overfull \hbox (128.70026pt too wide) in paragraph at lines 32--32
+[]        \OT1/cmtt/m/n/12 loop = identify_loop(list_chain_loop, idx_chain_of_i
+nterest, costanti_loopA)[] 
+ []
+
+
+Overfull \hbox (128.70026pt too wide) in paragraph at lines 32--32
+[]        \OT1/cmtt/m/n/12 loop = identify_loop(list_chain_loop, idx_chain_of_i
+nterest, costanti_loopB)[] 
+ []
+
+
+Overfull \hbox (122.52525pt too wide) in paragraph at lines 32--32
+[]    \OT1/cmtt/m/n/12 coil_dict_coordinates = [{"loop": x, "residui":[{"residu
+o":y, "coordinate": []}[] 
+ []
+
+
+Overfull \hbox (116.35025pt too wide) in paragraph at lines 32--32
+[]                \OT1/cmtt/m/n/12 for y in range(len(coil[coil_name.index(x)])
+)]}for x in coil_name][] 
+ []
+
+[33]
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 54--54
+[]        \OT1/cmtt/m/n/12 residue = list(list_chain[chain_of_interest].get_res
+idues())[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 247--247
+[]    \OT1/cmtt/m/n/12 residui_parte_mobile = identificazione_parte_mobile(list
+_chain,[] 
+ []
+
+
+Overfull \hbox (42.25021pt too wide) in paragraph at lines 247--247
+[]    \OT1/cmtt/m/n/12 residui_parte_mobile_after_rotation = apply_rotation_on_
+mobil_part[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 247--247
+[]        \OT1/cmtt/m/n/12 applytransitionmove(residui_parte_mobile_after_rotat
+ion)[] 
+ []
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 247--247
+[]    \OT1/cmtt/m/n/12 res_pt_mob_copy = deepcopy(residui_parte_mobile_after_ro
+tation)[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 247--247
+[]            \OT1/cmtt/m/n/12 residui_parte_mobile_after_rotation, coil_name[i
+dx])[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35]
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 247--247
+[]                    \OT1/cmtt/m/n/12 prova = hillclimbing(loop, [7, 8, 9, 10]
+, a,[] 
+ []
+
+
+Overfull \hbox (79.30023pt too wide) in paragraph at lines 247--247
+[]                        \OT1/cmtt/m/n/12 residui_parte_mobile_after_rotation,
+ coil_name[idx])[] 
+ []
+
+
+Overfull \hbox (66.95023pt too wide) in paragraph at lines 247--247
+[]        \OT1/cmtt/m/n/12 print("Distanza dopo prova delle rotazioni sulla met
+a del loop: ",[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 247--247
+[]            \OT1/cmtt/m/n/12 insert_new_loop(list_chain, idx_chain_of_interes
+t, loop,[] 
+ []
+
+
+Overfull \hbox (48.42522pt too wide) in paragraph at lines 247--247
+[]            \OT1/cmtt/m/n/12 insert_new_loop(list_chain, idx_chain_of_interes
+t, loop_af,[] 
+ []
+
+
+Overfull \hbox (42.25021pt too wide) in paragraph at lines 247--247
+[]                \OT1/cmtt/m/n/12 n_res = suggestedresidue(len(loop), distanza
+_iniziale,[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36]
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 247--247
+[]                \OT1/cmtt/m/n/12 angle = suggestedangle(distanza_iniziale, di
+stanza_raggiunta)[] 
+ []
+
+
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 247--247
+[]                \OT1/cmtt/m/n/12 swap = suggestedchange(distanza_iniziale, di
+stanza_raggiunta)[] 
+ []
+
+
+Overfull \hbox (66.95023pt too wide) in paragraph at lines 247--247
+[]                    \OT1/cmtt/m/n/12 loop_new = hillclimbing(loop, [7, 8, 9, 
+10], angle, 1)[] 
+ []
+
+
+Overfull \hbox (91.65024pt too wide) in paragraph at lines 247--247
+[]                    \OT1/cmtt/m/n/12 loop_new = hillclimbing(loop, [7, 8, 9, 
+10], angle, n_res)[] 
+ []
+
+
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 247--247
+[]                \OT1/cmtt/m/n/12 start = distancefromstarting(loop_new, list_
+chain,[] 
+ []
+
+
+Overfull \hbox (91.65024pt too wide) in paragraph at lines 247--247
+[]                                        \OT1/cmtt/m/n/12 idx_chain_of_interes
+t, coil_name[idx])[] 
+ []
+
+
+Overfull \hbox (42.25021pt too wide) in paragraph at lines 247--247
+[]                \OT1/cmtt/m/n/12 n_res = suggestedresidue(len(loop), distanza
+_iniziale,[] 
+ []
+
+
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 247--247
+[]                \OT1/cmtt/m/n/12 angle = suggestedangle(distanza_iniziale, di
+stanza_raggiunta)[] 
+ []
+
+
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 247--247
+[]                \OT1/cmtt/m/n/12 swap = suggestedchange(distanza_iniziale, di
+stanza_raggiunta)[] 
+ []
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 247--247
+[]                    \OT1/cmtt/m/n/12 loop_new = hillclimbing(loop, [], angle,
+ n_res)[] 
+ []
+
+
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 247--247
+[]                \OT1/cmtt/m/n/12 start = distancefromstarting(loop_new, list_
+chain,[] 
+ []
+
+
+Overfull \hbox (91.65024pt too wide) in paragraph at lines 247--247
+[]                                        \OT1/cmtt/m/n/12 idx_chain_of_interes
+t, coil_name[idx])[] 
+ []
+
+
+Overfull \hbox (104.00024pt too wide) in paragraph at lines 247--247
+[]                            \OT1/cmtt/m/n/12 residui_parte_mobile_after_rotat
+ion, coil_name[idx])[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37]
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 247--247
+[]                    \OT1/cmtt/m/n/12 print("Mancavano tot iterazioni: ", iter
+azioni_massime-i)[] 
+ []
+
+
+Overfull \hbox (79.30023pt too wide) in paragraph at lines 247--247
+[]                    \OT1/cmtt/m/n/12 insert_new_loop(list_chain, idx_chain_of
+_interest, loop,[] 
+ []
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 247--247
+[]                                    \OT1/cmtt/m/n/12 costanti_loopA, coil_nam
+e[idx])[] 
+ []
+
+
+Overfull \hbox (97.82524pt too wide) in paragraph at lines 247--247
+[]                    \OT1/cmtt/m/n/12 insert_new_loop(list_chain, idx_chain_of
+_interest, loop_af,[] 
+ []
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 247--247
+[]                                    \OT1/cmtt/m/n/12 costanti_loopB, coil_nam
+e[idx])[] 
+ []
+
+
+Overfull \hbox (66.95023pt too wide) in paragraph at lines 247--247
+[]                \OT1/cmtt/m/n/12 title = "Situazione-"+coil_name[idx]+"-iter"
++str(i)+".pdb"[] 
+ []
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 247--247
+[]            \OT1/cmtt/m/n/12 if (stopsearch(distanza_iniziale, distanza_raggi
+unta)):[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38]
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 247--247
+[]                    \OT1/cmtt/m/n/12 data = [coil_name[idx], distanzeCA[n], s
+calar_product[n],[] 
+ []
+
+
+Overfull \hbox (60.77522pt too wide) in paragraph at lines 247--247
+[]                            \OT1/cmtt/m/n/12 distanza_raggiunta[n], usedweigh
+t[n], "None",[] 
+ []
+
+
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 247--247
+[]                    \OT1/cmtt/m/n/12 data = [coil_name[idx], distanzeCA[n], s
+calar_product[n],[] 
+ []
+
+
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 247--247
+[]                            \OT1/cmtt/m/n/12 distanza_raggiunta[n], usedweigh
+t[n],[] 
+ []
+
+
+Overfull \hbox (91.65024pt too wide) in paragraph at lines 247--247
+[]                            \OT1/cmtt/m/n/12 loop[residui_usati[n-1]].id[1], 
+torsion_used[n-1],[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 247--247
+[]            \OT1/cmtt/m/n/12 insert_new_loop(list_chain, idx_chain_of_interes
+t, loop,[] 
+ []
+
+
+Overfull \hbox (104.00024pt too wide) in paragraph at lines 247--247
+[]            \OT1/cmtt/m/n/12 visualize_image(distanza_raggiunta, distanza_mig
+liore, angoli_usati,[] 
+ []
+
+
+Overfull \hbox (48.42522pt too wide) in paragraph at lines 247--247
+[]            \OT1/cmtt/m/n/12 insert_new_loop(list_chain, idx_chain_of_interes
+t, loop_af,[] 
+ []
+
+
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 247--247
+[]            \OT1/cmtt/m/n/12 visualize_image(distanza_raggiunta, distanza_mig
+liore,[] 
+ []
+
+
+Overfull \hbox (42.25021pt too wide) in paragraph at lines 247--247
+[]                        \OT1/cmtt/m/n/12 angoli_usati, residui_usati, "LoopB-
+distance")[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 260--260
+[]    \OT1/cmtt/m/n/12 def identificazione_parte_mobile(list_chain, chain_of_in
+terest):[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 260--260
+[]        \OT1/cmtt/m/n/12 residue = list(list_chain[chain_of_interest].get_res
+idues())[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39]
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 290--290
+[]        \OT1/cmtt/m/n/12 subtrac_coord, r_matrix = calcolocentroide(residui, 
+rotation_radians)[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 290--290
+[]                    \OT1/cmtt/m/n/12 atom_coord[k] = atom_coord[k] - subtrac_
+coord[k][] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 290--290
+[]                        \OT1/cmtt/m/n/12 val += r_matrix[j][c1] * get_element
+(c1)[] 
+ []
+
+
+Overfull \hbox (73.12523pt too wide) in paragraph at lines 290--290
+[]                \OT1/cmtt/m/n/12 ### Sommiamo di nuovo le coordinate sottratt
+e in precedenza[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 290--290
+[]                    \OT1/cmtt/m/n/12 atom_coord[k] = atom_coord[k] + subtrac_
+coord[k][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40]
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 335--335
+[]        \OT1/cmtt/m/n/12 residue = list(list_chain[chain_of_interest].get_res
+idues())[] 
+ []
+
+
+Overfull \hbox (66.95023pt too wide) in paragraph at lines 335--335
+[]                    \OT1/cmtt/m/n/12 residui_parte_mobile_after_rotation[idx]
+.get_atoms()):[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41]
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 385--385
+[]            \OT1/cmtt/m/n/12 ### Devo calcolare la distanza tra l'ultimo elem
+ento[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 385--385
+[]            \OT1/cmtt/m/n/12 ### Devo calcolare la distanza tra l'ultimo elem
+ento[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 385--385
+[]            \OT1/cmtt/m/n/12 residuo_parte_mobile = mobil_part[len(mobil_part
+)-1][] 
+ []
+
+
+Overfull \hbox (42.25021pt too wide) in paragraph at lines 385--385
+[]        \OT1/cmtt/m/n/12 lenght = math.sqrt((axis_coord_loop[0] * axis_coord_
+loop[0]) +[] 
+ []
+
+
+Overfull \hbox (54.60022pt too wide) in paragraph at lines 385--385
+[]        \OT1/cmtt/m/n/12 lenght = math.sqrt((axis_coord_ptmob[0] * axis_coord
+_ptmob[0]) +[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42]
+Overfull \hbox (122.52525pt too wide) in paragraph at lines 385--385
+[]        \OT1/cmtt/m/n/12 for i, j in zip(range(len(axis_coord_ptmob)), range(
+len(axis_coord_loop))):[] 
+ []
+
+
+Overfull \hbox (54.60022pt too wide) in paragraph at lines 385--385
+[]            \OT1/cmtt/m/n/12 prodotto_scalare += axis_coord_ptmob[i] * axis_c
+oord_loop[j][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44]
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 542--542
+[]                            \OT1/cmtt/m/n/12 if (atom.id != 'N' and atom.id !
+= 'CA'):[] 
+ []
+
+
+Overfull \hbox (54.60022pt too wide) in paragraph at lines 542--542
+[]                                \OT1/cmtt/m/n/12 ### Sottraggo le coordinate 
+da sottrarre[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 542--542
+[]                                \OT1/cmtt/m/n/12 for k in range(len(atom_coor
+d)):[] 
+ []
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 542--542
+[]                                    \OT1/cmtt/m/n/12 atom_coord[k] = atom_coo
+rd[k] -[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 542--542
+[]                                                \OT1/cmtt/m/n/12 subtrac_coor
+d[k][] 
+ []
+
+
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 542--542
+[]                                    \OT1/cmtt/m/n/12 set_element(k, atom_coor
+d[k])[] 
+ []
+
+
+Overfull \hbox (42.25021pt too wide) in paragraph at lines 542--542
+[]                                    \OT1/cmtt/m/n/12 for c1 in range(len(r_ma
+trix[j])):[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 542--542
+[]                                        \OT1/cmtt/m/n/12 val += r_matrix[j][c
+1] *[] 
+ []
+
+
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 542--542
+[]                                \OT1/cmtt/m/n/12 ### Sommiamo di nuovo le coo
+rdinate sottratte[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 542--542
+[]                                \OT1/cmtt/m/n/12 for k in range(len(atom_coor
+d)):[] 
+ []
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 542--542
+[]                                    \OT1/cmtt/m/n/12 atom_coord[k] = atom_coo
+rd[k] +[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 542--542
+[]                            \OT1/cmtt/m/n/12 ### Sottraggo le coordinate da s
+ottrarre[] 
+ []
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 542--542
+[]                                    \OT1/cmtt/m/n/12 atom_coord[k] = atom_coo
+rd[k] -[] 
+ []
+
+
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 542--542
+[]                                    \OT1/cmtt/m/n/12 set_element(k, atom_coor
+d[k])[] 
+ []
+
+
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 542--542
+[]                                \OT1/cmtt/m/n/12 for c1 in range(len(r_matrix
+[j])):[] 
+ []
+
+
+Overfull \hbox (60.77522pt too wide) in paragraph at lines 542--542
+[]                            \OT1/cmtt/m/n/12 ### Sommiamo di nuovo le coordin
+ate sottratte[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45]
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 542--542
+[]                            \OT1/cmtt/m/n/12 if (atom.id != 'N' and atom.id !
+= 'C'[] 
+ []
+
+
+Overfull \hbox (54.60022pt too wide) in paragraph at lines 542--542
+[]                                \OT1/cmtt/m/n/12 ### Sottraggo le coordinate 
+da sottrarre[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 542--542
+[]                                \OT1/cmtt/m/n/12 for k in range(len(atom_coor
+d)):[] 
+ []
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 542--542
+[]                                    \OT1/cmtt/m/n/12 atom_coord[k] = atom_coo
+rd[k] -[] 
+ []
+
+
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 542--542
+[]                                    \OT1/cmtt/m/n/12 set_element(k, atom_coor
+d[k])[] 
+ []
+
+
+Overfull \hbox (42.25021pt too wide) in paragraph at lines 542--542
+[]                                    \OT1/cmtt/m/n/12 for c1 in range(len(r_ma
+trix[j])):[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 542--542
+[]                                        \OT1/cmtt/m/n/12 val += r_matrix[j][c
+1] *[] 
+ []
+
+
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 542--542
+[]                                \OT1/cmtt/m/n/12 ### Sommiamo di nuovo le coo
+rdinate sottratte[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 542--542
+[]                                \OT1/cmtt/m/n/12 for k in range(len(atom_coor
+d)):[] 
+ []
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 542--542
+[]                                    \OT1/cmtt/m/n/12 atom_coord[k] = atom_coo
+rd[k] +[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 542--542
+[]                            \OT1/cmtt/m/n/12 ### Sottraggo le coordinate da s
+ottrarre[] 
+ []
+
+
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 542--542
+[]                                \OT1/cmtt/m/n/12 for c1 in range(len(r_matrix
+[j])):[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46]
+Overfull \hbox (60.77522pt too wide) in paragraph at lines 542--542
+[]                            \OT1/cmtt/m/n/12 ### Sommiamo di nuovo le coordin
+ate sottratte[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48]
+Overfull \hbox (91.65024pt too wide) in paragraph at lines 619--619
+[]                \OT1/cmtt/m/n/12 if (dist_ragg[i] > distanza and dist_ragg[i]
+ <= distanza+0.5):[] 
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49]
+\openout2 = `Capitoli/Risultati.aux'.
+
+ (Capitoli/Risultati.tex [50
+
+
+
+
+
+]
+Capitolo 5.
+) [51]
+\openout2 = `Capitoli/Conclusione.aux'.
+
+ (Capitoli/Conclusione.tex [52
+
+
+
+
+
+]) [53] [54
+
+
+
+
+] (Tesi.bbl) [55
+
+
+]
+\openout2 = `Capitoli/Ringraziamenti.aux'.
+
+
+(Capitoli/Ringraziamenti.tex [56
+
+
+
+])
+
+Package blindtext Warning: italian not defined, using English instead.
+(blindtext)                 on input line 86.
+
+
+Package blindtext Warning: italian not defined, using English instead.
+(blindtext)                 on input line 86.
+
+
+Package blindtext Warning: italian not defined, using English instead.
+(blindtext)                 on input line 86.
+
+
+Package blindtext Warning: italian not defined, using English instead.
+(blindtext)                 on input line 86.
+
+
+Underfull \vbox (badness 1803) has occurred while \output is active []
+
+ [57]
+
+Package blindtext Warning: italian not defined, using English instead.
+(blindtext)                 on input line 86.
+
+
+Package blindtext Warning: italian not defined, using English instead.
+(blindtext)                 on input line 86.
+
+[58]
+\openout2 = `Capitoli/Appendici/Appendice1.aux'.
+
+ (Capitoli/Appendici/Appendice1.tex
+Appendice A.
+)
+
+Package blindtext Warning: italian not defined, using English instead.
+(blindtext)                 on input line 90.
+
+
+Package blindtext Warning: italian not defined, using English instead.
+(blindtext)                 on input line 90.
+
+
+Package blindtext Warning: italian not defined, using English instead.
+(blindtext)                 on input line 90.
+
+
+Package blindtext Warning: italian not defined, using English instead.
+(blindtext)                 on input line 90.
+
+[59
+
+
+
+
+
+]
+
+Package blindtext Warning: italian not defined, using English instead.
+(blindtext)                 on input line 90.
+
+
+Package blindtext Warning: italian not defined, using English instead.
+(blindtext)                 on input line 90.
+
+[60] (Tesi.aux (Capitoli/Introduzione.aux) (Capitoli/Background.aux)
+(Capitoli/Covid.aux) (Capitoli/Obiettivi.aux)
+(Capitoli/Progettazione-Implementazione.aux) (Capitoli/Risultati.aux)
+(Capitoli/Conclusione.aux) (Capitoli/Ringraziamenti.aux)
+(Capitoli/Appendici/Appendice1.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `Tesi.out' has not changed.
+(rerunfilecheck)             Checksum: 27B406CB05A071418C1B6F140A00C9BE;2137.
+ ) 
+Here is how much of TeX's memory you used:
+ 30608 strings out of 476374
+ 558804 string characters out of 5788854
+ 2048340 words of memory out of 5000000
+ 50239 multiletter control sequences out of 15000+600000
+ 520916 words of font info for 61 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 107i,12n,106p,1912b,2379s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\lorim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1095.pk> <C:\Users\lorim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1200.pk><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lorim/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lorim/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lorim/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lori
+m/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
+sers/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.
+pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmtt12.pfb>
+Output written on Tesi.pdf (70 pages, 1329406 bytes).
+PDF statistics:
+ 648 PDF objects out of 1000 (max. 8388607)
+ 157 named destinations out of 1000 (max. 500000)
+ 337 words of extra memory for PDF output out of 10000 (max. 10000000)
+
