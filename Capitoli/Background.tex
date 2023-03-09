@@ -5,6 +5,7 @@ le proteine e quali sono i loro componenti principali.
 
 \section{Amminoacidi}\label{sec:cap_sec_subsec}
 % Parte presa da wikipedia https://it.wikipedia.org/wiki/Amminoacido
+Le informazioni trattate in questa sezione sono prese da \cite{WikiAmminoacidi}.
 Gli amminoacidi sono una categoria di composti organici che hanno sia il gruppo funzionale amminico (-NH\_2), sia quello carbossilico (-COOH). La parola aminoacido 
 deriva quindi proprio dall'unione dei due gruppi funzionali citati prima. Siccome sono presenti contemporaneamente un gruppo acido (carbossilico) e un gruppo basico (amminico), 
 sono definite molecole anfotere. Anfotere sono sostanze chimiche che possono manifestare sia un comportamento acido che uno basico. 
@@ -26,9 +27,9 @@ catena laterale.
     \centering
     \includegraphics[width=0.4\textwidth]{Immagini/StrutturaAmminoacido.png}
     \caption{Struttura dell'amminoacido}
-    \label{fig:Amminoacido}
+    \label{fig:AmminoacidoStruttura}
 \end{figure}
-\subsection{Catena laterale}\label{subsec:es_subsec}
+\subsection{Catena laterale}\label{subsec:Catena_laterale}
 La catena laterale gioca degli amminoacidi gioca un ruolo importante per la determinazione delle proprietà delle proteine. Esiste una vasta diversità nelle proprietà 
 chimiche delle catene laterali degli amminoacidi, tuttavia essi possono essere raggruppati in 6 classi differenti.
 
@@ -57,7 +58,7 @@ chimiche delle catene laterali degli amminoacidi, tuttavia essi possono essere r
     }
     \vspace*{2mm}
 	\caption{Classi di amminoacidi}
-	\label{tab:perf}    
+	\label{tab:tabellaclassiamminoacido}    
 \end{table}
 
 La prolina non può essere inserita in una qualsiasi classe perché è ciclica. La prolina condivide la maggior parte delle proprietà 
@@ -70,6 +71,7 @@ Gli amminoacidi in azione combinata o in azione singola sono alla base di molte 
 
 
 \section{Proteine}\label{sec:cap_sec_subsec}
+Le informazioni trattate in questa sezione sono prese da \cite{WikiProteine}
 A livello chimico, le proteine non sono altro che macromolecole biologiche costituite da catene di amminoacidi legate insieme da un legame peptidico. Il legame 
 peptidico o giunto peptidico è un legame covalente che unisce il gruppo (-NH\_2) di un amminoacido con il gruppo (-COOH) di un altro amminoacido. Negli organismi 
 viventi le proteine svolgono innumerevoli funzioni, tra cui la catalisi delle reazioni metaboliche, funzione di sintesi come replicazione del DNA, la risposta a 
@@ -199,7 +201,7 @@ immunitaria. Esso consiste in numerose catene polipeptidiche che si dispongono l
 \subsubsection{Livelli di organizzazione}\label{subsec:es_subsec}
 All'interno della proteina si possono distinguere vari livelli di organizzazione, che possono essere tre o quattro a seconda della tipologia della stessa.
 I livelli d'organizzazione sono: 
-vspace{10pt}
+\vspace{10pt}
 \begin{itemize}
     \item la struttura primaria è formata dalla sequenza specifica di amminoacidi, dalla catena peptidica e il numero delle catene determina anche il ripiegamento
     della stessa;
@@ -236,6 +238,7 @@ Ci possono essere casi in cui la proteina è esposta ad un alto livello di degra
 mantenere la sua conformazione.
 
 \section{Principio di Ramachandran}\label{sec:cap_sec_subsec}
+Le informazioni trattate in questa sezione sono prese da \cite{SlideRamachandran} e da \cite{TutorialRamachandran}.
 Come detto nella sezione precedente Phi $\varphi$ e Psi $\psi$ determinano la conformazione di un polipeptide. Il principio di Ramachandran ci dice quali $\alpha-elica$, 
 $\beta-foglietto$ e spire sono le conformazioni più probabili da adottare per una catena polipeptidica, poiché la maggior parte delle configurazioni sono 
 impossibili a causa delle collisioni steriche tra gli atomi. 
@@ -244,7 +247,7 @@ impossibili a causa delle collisioni steriche tra gli atomi.
     \centering
     \includegraphics[width=0.4\textwidth]{Immagini/GraficoRamachandran.png}
     \caption{Esempio del grafico di Ramachandran}
-    \label{fig:Amminoacido}
+    \label{fig:graficoRamachandran}
 \end{figure}
 
 Il principio di Ramachandran ha stabilito che solo alcune configurazioni di angoli di torsione sono stabili e presenti naturalmente nelle proteine. 
@@ -384,6 +387,7 @@ ricerca locale:
 \section{Hydropathic INTeractions HINT}\label{sec:cap_sec_subsec}
 % File preso da Federica Agosta https://link.springer.com/article/10.1007/s10822-022-00477-y
 %https://it.wikipedia.org/wiki/Forza_intramolecolare
+Le informazioni trattate in questa sezione sono prese da \cite{AgostaCozzini} e da \cite{ForzaIntramolecolare}.
 La valutazione della stabilità intramolecolare di una proteina gioca un ruolo fondamentale nella comprensione del loro comportamento e nel meccanismo di azione. Piccole alterazioni strutturali possono impattare l'attività biologica e di conseguenza la modulazione farmacologica. 
 L'analisi della struttura tridimensionale della proteina e la risultante stabilità permettono di predirre un possibile meccanismo di attivazione e rivelano nuove strategie per scoprire nuovi farmaci. Ogni modifica apportata alla struttura di una proteina porta quasi sicuramente ad una variazione del suo meccanismo di azione, e valutare la stabilità di una proteina mutata può essere molto costoso in termini di tempo.
 La stabilità delle proteine mutate è influenzata dall'interazione intramolecolare, ovvero sono forze che permettono di creare e tenere insieme una struttura. Nel tentativo di analizzare la stabilità proteica, sono stati sviluppati molti metodi che svariano in diversi approcci dai meccanismi molecolari basati su force field fino a tecniche di machine learning. Tuttavia, questa pratica risulta essere molto costosa, specialmente quando sono presenti un elevato numero di mutazioni. Uno degli aspetti fondamentali su cui è basato HINT è dovuta al fatto che la stabilità delle proteine mutate è dimostrato essere influenzata dalle interazioni intramolecolari. Le strutture native delle proteine sono relativamente stabili poiché si formano come risultato di un equilibrio tra le varie forze non covalenti a cui sono soggette: i legami idrogeno, i legami ionici, le forze di Wan der Walls e le interazioni idrofobiche. In generale le interazioni chimiche deboli sono attrazzioni tra atomi appartenenti o alla stessa molecola (intramolecolari) o a molecole diverse (intermolecolari). A differenza dei legami covalenti che legano gli atomi tra loro, le interazioni chimiche deboli non sono forti abbastanza per legare tra loro atomi isolati. Per questo le interazioni chimiche deboli si formano e si rompono in continuazione alla temperatura fisiologica dell'organismo. a meno che, cumulandosi in gran numero, esse non diano collettivamente stabilità alle strutture che contribuiscono a generare.

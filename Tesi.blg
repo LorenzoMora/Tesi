@@ -1,0 +1,186 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Tesi.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: Capitoli/Introduzione.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: Capitoli/Background.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: Capitoli/Covid.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: Capitoli/Obiettivi.aux
+Reallocating 'name_of_file' (item size: 1) to 43 items.
+A level-1 auxiliary file: Capitoli/Progettazione-Implementazione.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: Capitoli/Risultati.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: Capitoli/Conclusione.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apalike.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: Capitoli/Ringraziamenti.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: Capitoli/Appendici/Appendice1.aux
+Database file #1: ./Bibliografia.bib
+You're missing a field name---line 193 of file ./Bibliografia.bib
+ :  
+ :  "url"        = "http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec20"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 257 of file ./Bibliografia.bib
+ :  
+ :  journal={Journal of Computer-Aided Molecular Design},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 283 of file ./Bibliografia.bib
+ :  
+ :  journal={Malaysian J Pathol},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 297 of file ./Bibliografia.bib
+ :  
+ :  journal={SIMG},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 335 of file ./Bibliografia.bib
+ :  
+ :  journal={Frontiers in Immunology},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 351 of file ./Bibliografia.bib
+ :  
+ :  journal={Front Med Technol.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Duan Liangwei, Zheng Qianqian, Zhang Hongxia, Niu Yuna, Lou Yunwei, Wang Hui" for entry GlicoproteinaSpike
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Duan Liangwei, Zheng Qianqian, Zhang Hongxia, Niu Yuna, Lou Yunwei, Wang Hui" for entry GlicoproteinaSpike
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Duan Liangwei, Zheng Qianqian, Zhang Hongxia, Niu Yuna, Lou Yunwei, Wang Hui" for entry GlicoproteinaSpike
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Duan Liangwei, Zheng Qianqian, Zhang Hongxia, Niu Yuna, Lou Yunwei, Wang Hui" for entry GlicoproteinaSpike
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Duan Liangwei, Zheng Qianqian, Zhang Hongxia, Niu Yuna, Lou Yunwei, Wang Hui" for entry GlicoproteinaSpike
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Duan Liangwei, Zheng Qianqian, Zhang Hongxia, Niu Yuna, Lou Yunwei, Wang Hui" for entry GlicoproteinaSpike
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Valério M, Borges-Araújo L, Melo MN, Lousa D, Soares CM" for entry RBDSpike
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Valério M, Borges-Araújo L, Melo MN, Lousa D, Soares CM" for entry RBDSpike
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Valério M, Borges-Araújo L, Melo MN, Lousa D, Soares CM" for entry RBDSpike
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Valério M, Borges-Araújo L, Melo MN, Lousa D, Soares CM" for entry RBDSpike
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1023 of file apalike.bst
+Warning--empty year in ReportCovid
+Warning--empty institution in ReportCovid
+Too many commas in name 1 of "Duan Liangwei, Zheng Qianqian, Zhang Hongxia, Niu Yuna, Lou Yunwei, Wang Hui" for entry GlicoproteinaSpike
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Duan Liangwei, Zheng Qianqian, Zhang Hongxia, Niu Yuna, Lou Yunwei, Wang Hui" for entry GlicoproteinaSpike
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Duan Liangwei, Zheng Qianqian, Zhang Hongxia, Niu Yuna, Lou Yunwei, Wang Hui" for entry GlicoproteinaSpike
+while executing---line 1098 of file apalike.bst
+Warning--empty year in GlicoproteinaSpike
+Warning--empty journal in GlicoproteinaSpike
+Warning--empty year in AgostaCozzini
+Warning--empty journal in AgostaCozzini
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
+while executing---line 1098 of file apalike.bst
+Warning--empty year in BioPythonManual
+Warning--empty year in ProprietàCovid
+Warning--empty journal in ProprietàCovid
+Warning--empty year in SlideRamachandran
+Warning--empty institution in SlideRamachandran
+Warning--empty year in TutorialRamachandran
+Warning--empty institution in TutorialRamachandran
+Warning--empty year in RNApolimerasi
+Warning--empty institution in RNApolimerasi
+Warning--empty year in StoriaCovid
+Warning--empty journal in StoriaCovid
+Too many commas in name 1 of "Valério M, Borges-Araújo L, Melo MN, Lousa D, Soares CM" for entry RBDSpike
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Valério M, Borges-Araújo L, Melo MN, Lousa D, Soares CM" for entry RBDSpike
+while executing---line 1098 of file apalike.bst
+Warning--empty year in RBDSpike
+Warning--empty journal in RBDSpike
+Warning--empty year in ForzaIntramolecolare
+Warning--empty institution in ForzaIntramolecolare
+Warning--empty year in WikiAmminoacidi
+Warning--empty year in WikiProteine
+You've used 13 entries,
+            1935 wiz_defined-function locations,
+            534 strings with 5510 characters,
+and the built_in function-call counts, 3431 in all, are:
+= -- 331
+> -- 91
+< -- 13
++ -- 32
+- -- 26
+* -- 204
+:= -- 661
+add.period$ -- 34
+call.type$ -- 13
+change.case$ -- 84
+chr.to.int$ -- 13
+cite$ -- 36
+duplicate$ -- 155
+empty$ -- 247
+format.name$ -- 39
+if$ -- 635
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 5
+newline$ -- 63
+num.names$ -- 39
+pop$ -- 99
+preamble$ -- 1
+purify$ -- 78
+quote$ -- 0
+skip$ -- 102
+stack$ -- 0
+substring$ -- 162
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 78
+warning$ -- 23
+while$ -- 26
+width$ -- 0
+write$ -- 138
+(There were 39 error messages)

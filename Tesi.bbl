@@ -1,37 +1,68 @@
 \begin{thebibliography}{}
 
-\bibitem[Allen and Zilberstein, 2009]{allen2009complexity}
-Allen, M. and Zilberstein, S. (2009).
-\newblock Complexity of decentralized control: Special cases.
-\newblock In {\em 23rd Annual Conference on Neural Information Processing
-  Systems 2009, 7-10 December , Vancouver, British Columbia, Canada}, pages
-  19--27. Curran Associates, Inc.
+\bibitem[di~Sanità EpiCentro L'epidemiologia per la~sanità pubblica,
+  ]{ReportCovid}
+di~Sanità EpiCentro L'epidemiologia per la~sanità pubblica, I.~S.
+\newblock Tutto sulla pandemia di sars-cov-2.
+\newblock Technical report.
 
-\bibitem[Bernstein et~al., 2002]{bernstein2002complexity}
-Bernstein, D.~S., Givan, R., Immerman, N., and Zilberstein, S. (2002).
-\newblock The complexity of decentralized control of markov decision processes.
-\newblock {\em Mathematics of operations research}, 27(4):819--840.
+\bibitem[Duan~Liangwei, ]{GlicoproteinaSpike}
+Duan~Liangwei, Zheng~Qianqian, Z. H. N. Y. L. Y. W.~H.
+\newblock The sars-cov-2 spike glycoprotein biosynthesis, structure, function,
+  and antigenicity: Implications for the design of spike-based vaccine
+  immunogens.
 
-\bibitem[De~Weerdt et~al., 2003]{de2003resource}
-De~Weerdt, M., Bos, A., Tonino, H., and Witteveen, C. (2003).
-\newblock A resource logic for multi-agent plan merging.
-\newblock {\em Annals of Mathematics and Artificial Intelligence},
-  37(1-2):93--130.
+\bibitem[Federica~Agosta, ]{AgostaCozzini}
+Federica~Agosta, Glen E.~Kellogg, P.~C.
+\newblock From oncoproteins to spike proteins: the evaluation of intramolecular
+  stability using hydropathic force field.
 
-\bibitem[Durfee, 2001]{durfee1999distributed}
-Durfee, E.~H. (2001).
-\newblock {\em Distributed Problem Solving and Planning}, pages 118--149.
-\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
+\bibitem[Jeff~Chang, ]{BioPythonManual}
+Jeff~Chang, Brad~Chapman, I. F. T. H. M. d. H. P. C. T. A. E. T. B.~W.
+\newblock {\em Biopython Tutorial and Cookbook}.
+\newblock Open Bioinformatics Foundation (OBF), Lyon, France.
 
-\bibitem[Gelfond and Lifschitz, 1998]{gelfond1998action}
-Gelfond, M. and Lifschitz, V. (1998).
-\newblock Action languages.
-\newblock {\em Electron. Trans. Artif. Intell.}, 2:193--210.
+\bibitem[MALIK, ]{ProprietàCovid}
+MALIK, Y.~A.
+\newblock Properties of coronavirus and sars-cov-2.
 
-\bibitem[Russell and Norvig, 2010]{modernApproach}
-Russell, S.~J. and Norvig, P. (2010).
-\newblock {\em Artificial Intelligence - {A} Modern Approach, Third
-  International Edition}.
-\newblock Pearson Education.
+\bibitem[Martz, ]{SlideRamachandran}
+Martz, E.
+\newblock The ramachandran principle.
+\newblock Technical report.
+
+\bibitem[Proteopedia, ]{TutorialRamachandran}
+Proteopedia.
+\newblock The ramachandran principle phi and psi angles in proteins.
+\newblock Technical report.
+
+\bibitem[Raffaele, ]{RNApolimerasi}
+Raffaele, U. V.-S.~S.
+\newblock Rna polimerasi, la “fotocopiatrice distratta” di sars-cov-2.
+\newblock Technical report.
+
+\bibitem[Tinelli, ]{StoriaCovid}
+Tinelli, M.
+\newblock La storia del sars-cov-2.
+
+\bibitem[Valério~M, ]{RBDSpike}
+Valério~M, Borges-Araújo~L, M. M. L. D. S.~C.
+\newblock Sars-cov-2 variants impact rbd conformational dynamics and ace2
+  accessibility.
+
+\bibitem[Wikipedia, ]{ForzaIntramolecolare}
+Wikipedia.
+\newblock Forza intramolecolare.
+\newblock Technical report.
+
+\bibitem[WikipediaAmminoacidi, ]{WikiAmminoacidi}
+WikipediaAmminoacidi.
+\newblock Amminoacidi.
+\newblock Technical report, Wikipedia.
+
+\bibitem[WikipediaProteine, ]{WikiProteine}
+WikipediaProteine.
+\newblock Proteine.
+\newblock Technical report, Wikipedia.
 
 \end{thebibliography}
