@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  9 MAR 2023 16:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  12 MAR 2023 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1226,13 +1226,13 @@ Overfull \hbox (27.53456pt too wide) in paragraph at lines 8--12
 e da [[]].
  []
 
-<Immagini/800px-Selenocysteine_skeletal_3D.png, id=283, 803.0pt x 1114.1625pt>
+<Immagini/800px-Selenocysteine_skeletal_3D.png, id=288, 803.0pt x 1114.1625pt>
 File: Immagini/800px-Selenocysteine_skeletal_3D.png Graphic file (type png)
 <use Immagini/800px-Selenocysteine_skeletal_3D.png>
 Package pdftex.def Info: Immagini/800px-Selenocysteine_skeletal_3D.png  used on
  input line 15.
 (pdftex.def)             Requested size: 117.00119pt x 162.33995pt.
-<Immagini/StrutturaAmminoacido.png, id=285, 386.6445pt x 319.1925pt>
+<Immagini/StrutturaAmminoacido.png, id=290, 386.6445pt x 319.1925pt>
 File: Immagini/StrutturaAmminoacido.png Graphic file (type png)
 <use Immagini/StrutturaAmminoacido.png>
 Package pdftex.def Info: Immagini/StrutturaAmminoacido.png  used on input line 
@@ -1331,7 +1331,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11]
-<Immagini/GraficoRamachandran.png, id=339, 322.806pt x 311.9655pt>
+<Immagini/GraficoRamachandran.png, id=344, 322.806pt x 311.9655pt>
 File: Immagini/GraficoRamachandran.png Graphic file (type png)
 <use Immagini/GraficoRamachandran.png>
 Package pdftex.def Info: Immagini/GraficoRamachandran.png  used on input line 2
@@ -1452,7 +1452,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22]
-<Immagini/coronavirus.png, id=435, 489.83pt x 367.3725pt>
+<Immagini/coronavirus.png, id=440, 489.83pt x 367.3725pt>
 File: Immagini/coronavirus.png Graphic file (type png)
 <use Immagini/coronavirus.png>
 Package pdftex.def Info: Immagini/coronavirus.png  used on input line 47.
@@ -1467,7 +1467,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23 <./Immagini/coronavirus.png>]
-<Immagini/RNA_polimerasi.png, id=441, 413.1435pt x 248.127pt>
+<Immagini/RNA_polimerasi.png, id=446, 413.1435pt x 248.127pt>
 File: Immagini/RNA_polimerasi.png Graphic file (type png)
 <use Immagini/RNA_polimerasi.png>
 Package pdftex.def Info: Immagini/RNA_polimerasi.png  used on input line 89.
@@ -1491,7 +1491,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25 <./Immagini/RNA_polimerasi.png>]
-<Immagini/Composizione_strutturale.png, id=454, 1403.2425pt x 1274.7625pt>
+<Immagini/Composizione_strutturale.png, id=459, 1403.2425pt x 1274.7625pt>
 File: Immagini/Composizione_strutturale.png Graphic file (type png)
 <use Immagini/Composizione_strutturale.png>
 Package pdftex.def Info: Immagini/Composizione_strutturale.png  used on input l
@@ -1527,7 +1527,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27 <./Immagini/Composizione_strutturale.png>]
-<Immagini/RBD_structure.png, id=465, 752.8125pt x 245.91875pt>
+<Immagini/RBD_structure.png, id=470, 752.8125pt x 245.91875pt>
 File: Immagini/RBD_structure.png Graphic file (type png)
 <use Immagini/RBD_structure.png>
 Package pdftex.def Info: Immagini/RBD_structure.png  used on input line 132.
@@ -1570,13 +1570,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
  (Capitoli/Obiettivi.tex
 Capitolo 3.
-<Immagini/Struttura_aperta_chiusa.png, id=480, 366.168pt x 404.712pt>
+<Immagini/Struttura_aperta_chiusa.png, id=485, 366.168pt x 404.712pt>
 File: Immagini/Struttura_aperta_chiusa.png Graphic file (type png)
 <use Immagini/Struttura_aperta_chiusa.png>
 Package pdftex.def Info: Immagini/Struttura_aperta_chiusa.png  used on input li
-ne 15.
+ne 14.
 (pdftex.def)             Requested size: 234.00238pt x 258.63809pt.
-) [31
+[31
 
 
 
@@ -1592,12 +1592,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32 <./Immagini/Struttura_aperta_chiusa.png>]
+<Immagini/Struttura_spike_dettaglio.png, id=496, 497.4585pt x 442.65375pt>
+File: Immagini/Struttura_spike_dettaglio.png Graphic file (type png)
+<use Immagini/Struttura_spike_dettaglio.png>
+Package pdftex.def Info: Immagini/Struttura_spike_dettaglio.png  used on input 
+line 31.
+(pdftex.def)             Requested size: 234.00238pt x 208.22289pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34 <./Immagini/Struttura_spike_dettaglio.png>]
 \openout2 = `Capitoli/Progettazione-Implementazione.aux'.
 
 
 (Capitoli/Progettazione-Implementazione.tex
 Capitolo 4.
-[33
+[35
 
 
 
@@ -1612,7 +1637,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34]
+[36]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 5
 1.
  (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
@@ -1637,7 +1662,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35]
+[37]
 Overfull \hbox (17.62482pt too wide) in paragraph at lines 71--93
 []$[]$ 
  []
@@ -1654,7 +1679,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36]
+[38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1666,7 +1691,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37]
+[39]
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
 00.
  (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
@@ -1688,12 +1713,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38]
+[40]
 \openout2 = `Capitoli/Risultati.aux'.
 
  (Capitoli/Risultati.tex
 Capitolo 5.
-) [39
+) [41
 
 
 
@@ -1702,13 +1727,13 @@ Capitolo 5.
 ]
 \openout2 = `Capitoli/Conclusione.aux'.
 
- (Capitoli/Conclusione.tex [40
+ (Capitoli/Conclusione.tex [42
 
 
 
 
 
-]) [41] [42
+]) [43] [44
 
 
 
@@ -1723,10 +1748,10 @@ Underfull \hbox (badness 1231) in paragraph at lines 64--67
 []\OT1/cmr/m/n/12 WikipediaProteine.  Pro-tei-ne.  Tech-ni-cal re-port,
  []
 
-[43
+[45
 
 
-]) [44]
+]) [46]
 \openout2 = `Capitoli/Ringraziamenti.aux'.
 
  (Capitoli/Ringraziamenti.tex)
@@ -1749,7 +1774,7 @@ Package blindtext Warning: italian not defined, using English instead.
 
 Underfull \vbox (badness 1803) has occurred while \output is active []
 
- [45
+ [47
 
 
 
@@ -1762,7 +1787,7 @@ Package blindtext Warning: italian not defined, using English instead.
 Package blindtext Warning: italian not defined, using English instead.
 (blindtext)                 on input line 86.
 
-[46]
+[48]
 \openout2 = `Capitoli/Appendici/Appendice1.aux'.
 
  (Capitoli/Appendici/Appendice1.tex
@@ -1784,7 +1809,7 @@ Package blindtext Warning: italian not defined, using English instead.
 Package blindtext Warning: italian not defined, using English instead.
 (blindtext)                 on input line 90.
 
-[47
+[49
 
 
 
@@ -1799,7 +1824,7 @@ Package blindtext Warning: italian not defined, using English instead.
 Package blindtext Warning: italian not defined, using English instead.
 (blindtext)                 on input line 90.
 
-[48] (Tesi.aux (Capitoli/Introduzione.aux) (Capitoli/Background.aux)
+[50] (Tesi.aux (Capitoli/Introduzione.aux) (Capitoli/Background.aux)
 (Capitoli/Covid.aux) (Capitoli/Obiettivi.aux)
 (Capitoli/Progettazione-Implementazione.aux) (Capitoli/Risultati.aux)
 (Capitoli/Conclusione.aux) (Capitoli/Ringraziamenti.aux)
@@ -1811,13 +1836,13 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: 80F5BDFF737EB4111832B52E506DDDCF;2431.
+(rerunfilecheck)             Checksum: E1722D53A7D0CC75C3C04FA1AFE56E9F;2431.
  ) 
 Here is how much of TeX's memory you used:
- 30930 strings out of 476374
- 563395 string characters out of 5788854
+ 30941 strings out of 476374
+ 563729 string characters out of 5788854
  2079340 words of memory out of 5000000
- 50488 multiletter control sequences out of 15000+600000
+ 50495 multiletter control sequences out of 15000+600000
  521756 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,12n,106p,1912b,2379s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1837,9 +1862,9 @@ cmsy10.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmsy8.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmti12.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Tesi.pdf (58 pages, 1620908 bytes).
+Output written on Tesi.pdf (60 pages, 1849195 bytes).
 PDF statistics:
- 745 PDF objects out of 1000 (max. 8388607)
- 223 named destinations out of 1000 (max. 500000)
- 374 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 760 PDF objects out of 1000 (max. 8388607)
+ 226 named destinations out of 1000 (max. 500000)
+ 379 words of extra memory for PDF output out of 10000 (max. 10000000)
 

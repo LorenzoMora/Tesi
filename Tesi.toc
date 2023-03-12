@@ -33,12 +33,12 @@
 \contentsline {subsection}{\numberline {2.2.2}Scudo di glicani della glicoproteina spike}{28}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}RBD}{29}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Obbiettivi}{31}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Progettazione}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Biopython}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Strategie di ricerca}{33}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Strutture dati a supporto}{34}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Approccio Top-Down al codice}{35}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Risultati}{39}{chapter.5}%
-\contentsline {chapter}{Conclusione}{41}{chapter*.19}%
-\contentsline {chapter}{Bibliografia}{43}{chapter*.19}%
-\contentsline {chapter}{\numberline {A}Appendice di Esempio}{47}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {4}Progettazione}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Biopython}{35}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Strategie di ricerca}{35}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Strutture dati a supporto}{36}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Approccio Top-Down al codice}{37}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Risultati}{41}{chapter.5}%
+\contentsline {chapter}{Conclusione}{43}{chapter*.20}%
+\contentsline {chapter}{Bibliografia}{45}{chapter*.20}%
+\contentsline {chapter}{\numberline {A}Appendice di Esempio}{49}{appendix.Alph1}%

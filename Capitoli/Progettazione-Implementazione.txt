@@ -1,0 +1,628 @@
+Il seguente è lo pseudo codice che guida l'algoritmo della mia ricerca locale
+
+\begin{verbatim}
+	parser = PDBParser(PERMISSIVE = True, QUIET = True)
+	title = '6vxx_chiusa.pdb'
+	chain_of_interest = 'B'
+	idx_chain_of_interest = -1
+	covid_chiusa = parser.get_structure('STS', './covid_pdb/'+title)
+	covid_loop = parser.get_structure('STS', './covid_pdb/6vxx_chiusa_loop.pdb')
+	model = covid_loop.get_models()
+	models = list(model)
+	
+	### Parte di identificazione dei loop
+	for model_chain in models:
+	list_chain_loop = list(model_chain.get_chains())
+	for id in range(len(list_chain_loop)):
+	if (list_chain_loop[id].id == chain_of_interest):
+	idx_chain_of_interest = id
+	coil = []
+	loop = identify_loop(list_chain_loop, idx_chain_of_interest, costanti_loopA)
+	coil.append(loop)
+	loop = identify_loop(list_chain_loop, idx_chain_of_interest, costanti_loopB)
+	loop_r = loop[::-1]
+	coil.append(loop_r)
+	
+	
+	coil_dict_coordinates = [{"loop": x, "residui":[{"residuo":y, "coordinate": []}
+		for y in range(len(coil[coil_name.index(x)]))]}for x in coil_name]
+	for loop,idx in zip(coil, range(len(coil))):
+	set_coordinate_loop(loop, idx)
+\end{verbatim}
+Innanzitutto viene creato attreverso la funzione messa a disposizione dalla libreria biopython il parser per poter effettivamente eseguire il parsing del file pdb.
+Il file pdb è un formato particolare che viene utilizzato per il salvataggio su file delle strutture proteiche. Il parser generato in precedenza ci permette di
+utilizzare alcuni metodi specifici come quello per ottenere la struttare proteica contenuta all'interno del file. La struttura a sua volta ha una composizione pressoche
+ad albero e ci sono vari livelli al suo interno, noi prendiamo il modello e le catene all'interno del modello. La catena di nostro interesse è la B, una volta identificato
+il suo id possiamo farci accesso come se stessimo indicizzando un array. 
+
+Il prossimo step è quello di andare a recuperare i loop che collegano la parte fissa alla parte mobile utilizzando la procedura identify\_loop. I loop all'interno di
+questa struttura sono due quindi abbiamo due costanti che contengono appunto le costanti di partenza e fine dei due loop. I due loop contengono due residui in più; 
+questo, perché il loop A continente l'ultimo residuo della parte fissa all'inizio e il primo residuo della parte mobile alla fine, mentre il loop B contiene 
+l'ultimo residuo della parte mobile all'inizio e il primo residuo della parte fissa alla fine. Essi hanno senso contrario, questo comporta che il loop B una volta
+individuato venga invertito, ulteriormente invertito una volta che deve essere caricato come risultato. Vengono conservati due residui in più perché vogliamo essere
+certi di attaccarci nel posto corretto e senza sbagliare ne l'aggancio con il punto di partenza nel con quello di arrivo per non rischiare di modificare la struttura.
+
+\begin{verbatim}
+	def identify_loop(list_chain, chain_of_interest, costanti):
+	loop = []
+	residue = list(list_chain[chain_of_interest].get_residues())
+	for r in residue:
+	if (r.id >= costanti[0]) and (r.id <= costanti[1]):
+	loop.append(r)  
+	return loop
+\end{verbatim}
+La procedura identify\_loop si occupa appunto di andare ad individuare i loop all'interno della catena. Vengono presi come parametro la lista delle catene, l'idx della
+catena di interesse e le costanti. Una volta presa la catena di interesse abbiamo un metodo che ci permette di ottenere i residui all'interno della stessa e scorrendo 
+i residui troviamo quelli che hanno l'id compreso tra le costanti. Viene restituita quindi la lista contenenti i residui che soddisfano la condizione.
+\\
+Una volta individuati i loop, salviamo le coordinate dei singoli atomi in una struttura creata apposta in modo tale da non aver problemi di condivisione della memoria,
+ovvero non vogliamo che una modifica alla coordinata di un atomo sia condivisa con tutti gli altri atomi. 
+\begin{verbatim}
+	def set_coordinate_loop(loop, idx):
+	appoggio = coil_dict_coordinates[idx]['residui']
+	idx_res = 0
+	for residue in loop:
+	appoggio[idx_res]['coordinate'] = []
+	for atom in residue.get_atoms():
+	array = []
+	c = atom.get_vector()
+	for el in c.get_array():
+	array.append(el)
+	appoggio[idx_res]['coordinate'].append(array)
+	idx_res += 1
+\end{verbatim}
+La procedura set\_coordinate\_loop è molto semplice ovvero prende tutti i residui presenti all'interno dell loop, di ogni residuo prendiamo gli atomi e le relative 
+coordinate [x, y, z] e le salviamo all'interno dell'apposito spazio creato per loro all'interno del dizionario.
+
+
+\begin{verbatim}
+	list_chain = list(models[0].get_chains())
+	residui_parte_mobile = identificazione_parte_mobile(list_chain, 
+	idx_chain_of_interest)
+	residui_parte_mobile_after_rotation = apply_rotation_on_mobil_part
+	(residui_parte_mobile)
+	if (transition_step != 0):
+	print("Applico la funzione di traslazione")
+	applytransitionmove(residui_parte_mobile_after_rotation)
+	res_pt_mob_copy = deepcopy(residui_parte_mobile_after_rotation)
+	insert_new_mobil_part(list_chain, idx_chain_of_interest, 
+	residui_parte_mobile_after_rotation)
+	printpdb("Rotazione_parte_mobile.pdb")
+	for loop, idx in zip(coil, range(len(coil))):
+	print("Loop-",coil_name[idx])
+	distanza_iniziale = objective_function(loop, 
+	residui_parte_mobile_after_rotation, coil_name[idx])
+	distanza_migliore.append(distanza_iniziale)
+	distanza_raggiunta.append(distanza_iniziale)   
+	angolo_positivo = False
+	residuo_piccolo = False
+	angolo_positivo_residuo = 0
+	swap_residuo = 0 
+	loop_new = []  
+	print("Initial distance: ", distanza_iniziale)
+	
+	print("Rotazioni canoniche sulla meta del loop")
+	for a in angle_to_direction:
+	for j in [0,1]:
+	if (coil_name[idx] == 'A'):
+	prova = hillclimbing(loop, [7, 8, 9, 10], a, 
+	int(len(loop)/2)+1, j)
+	residui_usati.append(int(len(loop)/2)+1)
+	else:
+	prova = hillclimbing(loop, [], a, 
+	int(len(loop)/2), j)
+	residui_usati.append(int(len(loop)/2))
+	distance = objective_function(prova, 
+	residui_parte_mobile_after_rotation, coil_name[idx])
+	distanza_raggiunta.append(distance)
+	angoli_usati.append(a)
+	if (distance < distanza_iniziale):
+	distanza_iniziale = distance
+	distanza_migliore.append(distanza_iniziale)
+	set_coordinate_loop(prova, idx)
+	get_coordinate_loop(loop, idx)
+	print("Distanza dopo prova delle rotazioni sulla meta del loop: ", 
+	distanza_iniziale)
+	
+	if (coil_name[idx] == 'A'):
+	insert_new_loop(list_chain, idx_chain_of_interest, loop, 
+	costanti_loopA, coil_name[idx])
+	else:
+	loop_af = loop[::-1] 
+	insert_new_loop(list_chain, idx_chain_of_interest, loop_af, 
+	costanti_loopB, coil_name[idx])
+	title = "Canonial_rotation" + coil_name[idx] +".pdb"
+	printpdb(title)
+	
+	for i in range(iterazioni_massime):
+	if (coil_name[idx] == 'A'):
+	n_res = suggestedresidue(len(loop), distanza_iniziale, 
+	distanza_raggiunta)
+	angle = suggestedangle(distanza_iniziale, distanza_raggiunta)
+	swap = suggestedchange(distanza_iniziale, distanza_raggiunta)
+	if(swap):
+	contatore_swap_effettuati += 1
+	if angolo_positivo:
+	angle = 0.5
+	else:
+	angle = -0.5
+	loop_new = hillclimbing(loop, [7, 8, 9, 10], angle, 1)
+	residui_usati.append(1)
+	angoli_usati.append(angle)
+	else:
+	loop_new = hillclimbing(loop, [7, 8, 9, 10], angle, n_res)
+	residui_usati.append(n_res)
+	angoli_usati.append(angle)
+	start = distancefromstarting(loop_new, list_chain, 
+	idx_chain_of_interest, coil_name[idx])
+	else:
+	n_res = suggestedresidue(len(loop), distanza_iniziale, 
+	distanza_raggiunta)
+	angle = suggestedangle(distanza_iniziale, distanza_raggiunta)
+	swap = suggestedchange(distanza_iniziale, distanza_raggiunta)
+	if(swap):
+	contatore_swap_effettuati += 1
+	if angolo_positivo:
+	angle = 0.5
+	else:
+	angle = -0.5
+	loop_new = hillclimbing(loop, [], angle, 1)
+	angoli_usati.append(angle)
+	residui_usati.append(1)
+	else:
+	loop_new = hillclimbing(loop, [], angle, n_res)
+	residui_usati.append(n_res)
+	angoli_usati.append(angle)
+	start = distancefromstarting(loop_new, list_chain, 
+	idx_chain_of_interest, coil_name[idx])
+	if (start):
+	distance = objective_function(loop_new, 
+	residui_parte_mobile_after_rotation, coil_name[idx])
+	distanza_raggiunta.append(distance)
+	if (distance <= distanza_iniziale):
+	distanza_iniziale = distance
+	set_coordinate_loop(loop_new, idx)
+	distanza_migliore.append(distanza_iniziale)
+	if (distanza_iniziale <= 0.1):
+	print("Ho raggiunto la distanza minima")
+	print("Mancavano tot iterazioni: ", iterazioni_massime-i)
+	break 
+	
+	get_coordinate_loop(loop, idx)
+	
+	if (i % print_pdb_timeout == 0):
+	if (coil_name[idx] == 'A'):
+	insert_new_loop(list_chain, idx_chain_of_interest, loop, 
+	costanti_loopA, coil_name[idx])
+	else: 
+	loop_af = loop[::-1] 
+	insert_new_loop(list_chain, idx_chain_of_interest, loop_af, 
+	costanti_loopB, coil_name[idx])
+	title = "Situazione-"+coil_name[idx]+"-iter"+str(i)+".pdb"
+	printpdb(title)
+	
+	if (stopsearch(distanza_iniziale, distanza_raggiunta)):
+	print("Ho fermato la ricerca perchè non stavi   
+	migliorando abbastanza")
+	#print(distanza_raggiunta)
+	break
+	
+	print("Final distance: ", distanza_iniziale)
+	ultime = distanza_raggiunta[len(distanza_raggiunta)-5:
+	len(distanza_raggiunta)]
+	print("Ultime 5 distanze: ", ultime)
+	print("Swap effettuati: ", contatore_swap_effettuati)
+	print('\n')
+	
+	title = "Loop-" + coil_name[idx] + ".csv"
+	with open(title, 'w') as file:
+	# 2. Create a CSV writer1
+	writer = csv.writer(file)
+	# 3. Write data to the file
+	writer.writerow(header)
+	for n in range(len(distanza_raggiunta)):
+	if (n == 0):
+	data = [coil_name[idx], distanzeCA[n], scalar_product[n], 
+	distanza_raggiunta[n], usedweight[n], "None", 
+	"None", "None"]
+	else:
+	data = [coil_name[idx], distanzeCA[n], scalar_product[n], 
+	distanza_raggiunta[n], usedweight[n], 
+	loop[residui_usati[n-1]].id[1], torsion_used[n-1], 
+	angoli_usati[n-1]]
+	writer.writerow(data)
+	
+	if (coil_name[idx] == 'A'):
+	insert_new_loop(list_chain, idx_chain_of_interest, loop, 
+	costanti_loopA, coil_name[idx])
+	visualize_image(distanza_raggiunta, distanza_migliore, angoli_usati, 
+	residui_usati, "LoopA-distance")
+	else:
+	loop_af = loop[::-1] 
+	insert_new_loop(list_chain, idx_chain_of_interest, loop_af, 
+	costanti_loopB, coil_name[idx])
+	visualize_image(distanza_raggiunta, distanza_migliore, 
+	angoli_usati, residui_usati, "LoopB-distance")
+\end{verbatim}
+In questo secondo blocco di codice andiamo ad effettuare le operazioni per portare a convergenza i loop. La prima operazione da fare è quella di andare ad individuare 
+la parte mobile, mediante una procedura che funziona in modo simile a quella descritta in precedenza per i loop. 
+
+\begin{verbatim}
+	def identificazione_parte_mobile(list_chain, chain_of_interest):
+	mobil_part = []
+	residue = list(list_chain[chain_of_interest].get_residues())
+	for r in residue:
+	if (r.id >= costanti_parte_mobile[0]) and 
+	(r.id <= costanti_parte_mobile[1]):
+	mobil_part.append(r)
+	return mobil_part
+\end{verbatim}
+La procedura identificazione\_parte\_mobile si occupa di andare ad identificare la parte mobile soggetta poi a rotazione. Si sviluppa nello stesso modo rispetto alla 
+procedura per l'identificazione dei loop. In questo caso non vengono passate costanti alla procedura perché la parte mobile è soltanto una quindi vengono prese dalle
+variabili globali. In questo caso non ci sono aggiunte di residui in più per controllare la convergenza, ma solo ed esclusivamente i residui della parte mobile.
+L'operazione successiva è quella di applicare una rotazione alla parte mobile.
+
+\begin{verbatim}
+	def apply_rotation_on_mobil_part(residui):
+	rotation_radians = np.radians(rotation_angle)
+	subtrac_coord, r_matrix = calcolocentroide(residui, rotation_radians)
+	after_rotation = []
+	for residuo in residui:
+	for atom in residuo.get_atoms():
+	atom_coord = atom.get_coord()
+	### Sottraggo le coordinate da sottrarre
+	for k in range(len(atom_coord)):
+	atom_coord[k] = atom_coord[k] - subtrac_coord[k]
+	set_element(k, atom_coord[k])
+	### Dobbiamo moltiplicare
+	for j in range(len(r_matrix)):
+	val = 0
+	for c1 in range(len(r_matrix[j])):
+	val += r_matrix[j][c1] * get_element(c1)
+	atom_coord[j] = val
+	### Sommiamo di nuovo le coordinate sottratte in precedenza
+	for k in range(len(atom_coord)):
+	atom_coord[k] = atom_coord[k] + subtrac_coord[k]
+	atom.set_coord(atom_coord)
+	after_rotation.append(residuo)   
+	return after_rotation
+\end{verbatim}
+La procedura apply\_rotation\_on\_mobil\_part ci permette di andare a ruotare di x gradi la parte mobile. Vengono trasformati in radianti i gradi di rotazione;viene 
+calcolato il centroide della parte mobile come somma di tutte le coordinate diviso il numero di punti sommati viene normalizzato e viene la matrice di rotazione. Dopodiché
+per rendere effettiva la rotazione si prendono le coordinate dei singoli atomi vi si sottraggono le coordinate del centroide, il risultato viene moltiplicato per la matrice
+di rotazione e infine al risultato vengono sommate le coordinate sottratte in precedenza. Per evitare il problema di condivisione della memoria citato in precedenza mi 
+appoggio ad un array globale con dei metodi di set e get riportati qui sotto. 
+\begin{verbatim}
+	def set_element(index, coord):
+	array_appoggio[index] = 0
+	array_appoggio[index] = coord
+	
+	def get_element(index):
+	return array_appoggio[index]
+\end{verbatim}
+
+Oltre alla rotazione della parte mobile è possibile anche traslare la stessa secondo una direzione, il coefficente di traslazione e uno dei parametri presi da riga di 
+comando e la traslazione avviene se e soltanto se il parametro è diverso da zero. 
+\begin{verbatim}
+	def applytransitionmove(residui):
+	for residuo in residui:
+	for atom in residuo.get_atoms():
+	atom_coord = atom.get_coord()
+	for i in range(len(atom_coord)):
+	if (transition_axis[i] == 1):
+	atom_coord[i] += transition_step
+	atom.set_coord(atom_coord)
+\end{verbatim}
+La procedura applytransitionmove si occupa come detto in precendenza di applicare una traslazione secondo gli assi [x, y, z]. Viene preso ogni singolo atomo e per ciascuna
+delle sue coordinate ci si domanda se è necessario traslarla, se necessario si aggiunge quindi lo step di traslazione. 
+
+Dopo aver completato la rotazione e traslazione della parte mobile è necessario fare una copia della stessa per essere sicuri di non modificarla e in caso di modifica 
+abbiamo sempre una copia della stessa. Dopodichè andiamo a reinserire la parte mobile modificata all'interno del file pdb attraverso la seguente procedura.
+
+\begin{verbatim}
+	def insert_new_mobil_part(list_chain, chain_of_interest, 
+	residui_parte_mobile_after_rotation):
+	residue = list(list_chain[chain_of_interest].get_residues())
+	idx = 0
+	for r in residue:
+	if (r.id >= costanti_parte_mobile[0]) 
+	and (r.id <= costanti_parte_mobile[1]):
+	for atomr, atoml in zip(r.get_atoms(), 
+	residui_parte_mobile_after_rotation[idx].get_atoms()):
+	atomr.set_coord(atoml.get_coord())
+	idx += 1
+\end{verbatim}
+La procedura insert\_new\_mobil\_part si occupa di andare ad inserire all'interno della struttura della proteina la parte mobile precedentemente modificata per fare ciò 
+è necessario andare a scorrere di nuovo tutta la nostra catena di interesse e una volta trovati i residui corretti sostituire le loro coordinate con quelle nuove generate
+dopo la rotazione. Dopo questa fase di lavoro sulla parte mobile si apre il capitolo sulla convergenza dei singoli loop, come detto in precedenza essi sono due e vengono
+allineati in modo tale da non dover duplicare le operazioni. Come prima cosa dobbiamo andare a misurare quelle che sono le distanze di partenza.
+
+\begin{verbatim}
+	def objective_function(loop, mobil_part, loop_name):
+	residuo_loop = None
+	residuo_parte_mobile = None
+	if (loop_name == 'A'):
+	### Devo calcolare la distanza tra l'ultimo elemento 
+	### del loop e il primo elemento della parte mobile
+	residuo_loop = loop[len(loop)-1]
+	residuo_parte_mobile = mobil_part[0]
+	else:
+	### Devo calcolare la distanza tra l'ultimo elemento 
+	### del loop e il primo elemento della parte mobile
+	residuo_loop = loop[len(loop)-1]
+	residuo_parte_mobile = mobil_part[len(mobil_part)-1] 
+	atom_loop = residuo_loop['CA']
+	atom_ptmob = residuo_parte_mobile['CA']
+	distanzaCA = atom_loop - atom_ptmob
+	atomC_loop = residuo_loop['C'].get_coord()
+	atomN_loop = residuo_loop['N'].get_coord()
+	axis_coord_loop = atomN_loop - atomC_loop
+	lenght = math.sqrt((axis_coord_loop[0] * axis_coord_loop[0]) + 
+	(axis_coord_loop[1] * axis_coord_loop[1]) + 
+	(axis_coord_loop[2] * axis_coord_loop[2]))
+	for i in range(len(axis_coord_loop)):
+	axis_coord_loop[i] = axis_coord_loop[i]/lenght
+	
+	atomC_ptmob = residuo_parte_mobile['C'].get_coord()
+	atomN_ptmob = residuo_parte_mobile['N'].get_coord()
+	axis_coord_ptmob = atomN_ptmob - atomC_ptmob
+	lenght = math.sqrt((axis_coord_ptmob[0] * axis_coord_ptmob[0]) + 
+	(axis_coord_ptmob[1] * axis_coord_ptmob[1]) + 
+	(axis_coord_ptmob[2] * axis_coord_ptmob[2]))
+	for i in range(len(axis_coord_ptmob)):
+	axis_coord_ptmob[i] = axis_coord_ptmob[i]/lenght
+	
+	prodotto_scalare = 0
+	for i, j in zip(range(len(axis_coord_ptmob)), range(len(axis_coord_loop))):
+	prodotto_scalare += axis_coord_ptmob[i] * axis_coord_loop[j]
+	weight = suggestedweight(distanzaCA)
+	usedweight.append(weight)
+	distanzeCA.append(distanzaCA)
+	scalar_product.append(prodotto_scalare)
+	distanza = distanzaCA + weight*(1-prodotto_scalare)
+	return distanza
+\end{verbatim}
+
+La procedura objective\_function si occupa di calcolare la distanza tra due residui, ovvero nel caso del loopA l'ultimo del loop A il primo della parte mobile, mentre
+nel caso del loop B l'ultimo della parte mobile. La distanza viene calcolata nel seguente modo ovvero, viene presa la distanza tra gli atomi C$\alpha$ dei due residui e
+poi ci viene sommato il prodotto scalare generato dall'asse tra gli atomi N e C dei due residui, moltiplicato per un coefficente detto peso in modo da rendererlo influente.
+Il prodotto scalare viene inserito per fare in modo che si converga nel modo corretto con la direzione corretta, altrimenti si rischia di non convergere perchè è possibile 
+che N e C siano opposti rispetto all'altro residuo. Il peso che viene moltiplicato al prodotto scalare viene suggerito dalla procedura suggestedweight che ci restituisce
+un peso in base alla distanza dei CA. Calcolata la distanza iniziale, ho pensato di applicare delle rotazioni "canoniche" dalla metà del loop in avanti sia su phi che su 
+psi, questo ci garantisce di colmare grandi distanze immediatamente per poi lavorare di fino nella ricerca successiva. Le rotazioni "canoniche" si basano sui seguenti 
+angoli: [-180, -90, -60, -30, -15, -5, -3, -1, -0.5, 0.5, 1, 3, 5, 15, 30, 60, 90, 180]. In precedenza ho nominato phi e psi che sono angoli torsionali, in verità applichiamo
+la rotazione sull'asse dell'angolo torsionale, ovvero per quanto riguarda phi l'asse è tra C$\alpha$\-N, mentre psi l'asse è tra C$\alpha$\-C. La procedura che si occupa di 
+applicare la rotazione è la seguente.
+
+\begin{verbatim}
+	def hillclimbing(loop, constat_to_not_touch, angle, 
+	n_res, direction = -1):
+	loop_new = []
+	### Scegliamo a caso un atomo su cui agire
+	idx_res_start = n_res
+	### Scegliamo se ruotare su phi o psi
+	if (direction == -1):
+	torsional_angle = random.randint(0,1)
+	else:
+	torsional_angle = direction
+	torsion_used.append(torsional_angle)
+	
+	if(idx_res_start not in constat_to_not_touch):
+	r_matrix =  []
+	subtrac_coord = []
+	if (torsional_angle == 0):
+	atomN_coord = None
+	atomCA_coord = None
+	for atom in loop[idx_res_start].get_atoms():
+	if atom.id == 'N':
+	atomN_coord = atom.get_coord()
+	if atom.id == 'CA':
+	atomCA_coord = atom.get_coord()
+	### Vettore u su cui dobbiamo ruotare
+	subtrac_coord = atomN_coord
+	axis_coord = atomCA_coord - atomN_coord
+	r_matrix = rotation_matrix(axis_coord, angle)
+	else:
+	### Dobbiamo Calpha - C
+	atomC_coord = None
+	atomCA_coord = None
+	for atom in loop[idx_res_start].get_atoms():
+	if atom.id == 'C':
+	atomC_coord = atom.get_coord()
+	if atom.id == 'CA':
+	atomCA_coord = atom.get_coord()
+	### Vettore u su cui dobbiamo ruotare
+	subtrac_coord = atomC_coord
+	axis_coord = atomCA_coord - atomC_coord
+	r_matrix = rotation_matrix(axis_coord, angle)
+	
+	### Con questo primo ciclo copio semplicemente 
+	i vecchi residui che non verranno modificati
+	for i in range(0, idx_res_start):
+	loop_new.append(loop[i])
+	
+	### Con questo secondo ciclo applico la rotazione 
+	sugli atomi
+	
+	for i in range(idx_res_start, len(loop)):
+	if (torsional_angle == 0):
+	if i == idx_res_start:
+	for atom in loop[i].get_atoms():
+	if (atom.id != 'N' and atom.id != 'CA'):
+	atom_coord = atom.get_coord()
+	### Sottraggo le coordinate da sottrarre
+	for k in range(len(atom_coord)):
+	atom_coord[k] = atom_coord[k] - 
+	subtrac_coord[k]
+	set_element(k, atom_coord[k])
+	### Dobbiamo moltiplicare
+	for j in range(len(r_matrix)):
+	val = 0
+	for c1 in range(len(r_matrix[j])):
+	val += r_matrix[j][c1] * 
+	get_element(c1)
+	atom_coord[j] = val
+	### Sommiamo di nuovo le coordinate sottratte 
+	### in precedenza
+	for k in range(len(atom_coord)):
+	atom_coord[k] = atom_coord[k] + 
+	subtrac_coord[k]
+	atom.set_coord(atom_coord)
+	else:
+	for atom in loop[i].get_atoms():
+	atom_coord = atom.get_coord()
+	### Sottraggo le coordinate da sottrarre
+	for k in range(len(atom_coord)):
+	atom_coord[k] = atom_coord[k] - 
+	subtrac_coord[k]
+	set_element(k, atom_coord[k])
+	### Dobbiamo moltiplicare
+	for j in range(len(r_matrix)):
+	val = 0
+	for c1 in range(len(r_matrix[j])):
+	val += r_matrix[j][c1] * 
+	get_element(c1)
+	atom_coord[j] = val
+	### Sommiamo di nuovo le coordinate sottratte 
+	### in precedenza
+	for k in range(len(atom_coord)):
+	atom_coord[k] = atom_coord[k] + 
+	subtrac_coord[k]
+	atom.set_coord(atom_coord)
+	if (torsional_angle == 1):
+	if i == idx_res_start:
+	for atom in loop[i].get_atoms():
+	if (atom.id != 'N' and atom.id != 'C' 
+	and atom.id != 'CA'):
+	atom_coord = atom.get_coord()
+	### Sottraggo le coordinate da sottrarre
+	for k in range(len(atom_coord)):
+	atom_coord[k] = atom_coord[k] - 
+	subtrac_coord[k]
+	set_element(k, atom_coord[k])
+	### Dobbiamo moltiplicare
+	for j in range(len(r_matrix)):
+	val = 0
+	for c1 in range(len(r_matrix[j])):
+	val += r_matrix[j][c1] * 
+	get_element(c1)
+	atom_coord[j] = val
+	### Sommiamo di nuovo le coordinate sottratte 
+	### in precedenza
+	for k in range(len(atom_coord)):
+	atom_coord[k] = atom_coord[k] + 
+	subtrac_coord[k]
+	atom.set_coord(atom_coord)
+	else:
+	for atom in loop[i].get_atoms():
+	atom_coord = atom.get_coord()
+	### Sottraggo le coordinate da sottrarre
+	for k in range(len(atom_coord)):
+	atom_coord[k] = atom_coord[k] - 
+	subtrac_coord[k]
+	set_element(k, atom_coord[k])
+	### Dobbiamo moltiplicare
+	for j in range(len(r_matrix)):
+	val = 0
+	for c1 in range(len(r_matrix[j])):
+	val += r_matrix[j][c1] * 
+	get_element(c1)
+	atom_coord[j] = val
+	### Sommiamo di nuovo le coordinate sottratte 
+	### in precedenza
+	for k in range(len(atom_coord)):
+	atom_coord[k] = atom_coord[k] + 
+	subtrac_coord[k]
+	atom.set_coord(atom_coord)
+	loop_new.append(loop[i])
+	else: 
+	loop_new = loop
+	return loop_new
+\end{verbatim}
+
+La procedura hillclimbing si occupa di andare ad applicare una rotazione su uno degli assi degli angoli torsionali (phi, psi). Alcuni parametri hanno dei valori di 
+default che cambiano quello che è il comportamento della procedura, ovvero l'angolo torsionale può essere deciso sia randomicamente all'interno della procedura oppure
+può essere passato dall'esterno come nel caso delle rotazioni "canoniche" in cui ogni singolo angolo viene provato sia per phi che psi. Una volta deciso l'angolo 
+torsionale si verifica che la scelta del residuo su cui vogliamo cominciare ad effettuare le rotazioni non compaia dentro a quei residui esplicitati nella variabile
+constat\_to\_not\_touch e poi si compie la rotazione. Ci sono residui che non devono essere toccati ovvero, che da quei residui non può partire nessuna rotazione 
+perché sono una parte fissa, mentre se la rotazione parte prima loro possono comunque essere coinvolti. La rotazione su phi o psi non cambia il metodo, ma cambio solo 
+gli interpreti della rotazione. 
+
+Terminate le rotazioni "canoniche" si cominciano le iterazioni specificate come parametro del programma e in queste rotazioni il residuo e l'angolo su cui si va a
+lavorare vengono suggeriti dalle seguenti procedure.
+\begin{verbatim}
+	def suggestedangle(distanza, dist_ragg):
+	global angolo_positivo
+	global angolo_positivo_residuo
+	if (len(dist_ragg)-angolo_positivo_residuo > 49):
+	change = False
+	for i in range(len(dist_ragg)-50, len(dist_ragg)):
+	if(dist_ragg[i] > distanza):
+	change = True
+	else:
+	change = False
+	break
+	if (change):
+	angolo_positivo_residuo = len(dist_ragg)
+	angolo_positivo = not(angolo_positivo)
+	angle = 0
+	
+	if (distanza >= 20):
+	angle = 5
+	elif (distanza >= 15):
+	angle = 4
+	elif (distanza >= 10):
+	angle = 3
+	elif (distanza >= 5):
+	angle = 2
+	elif (distanza >= 2):
+	angle = 1
+	elif (distanza >= 1):
+	angle = 0.7
+	elif (distanza >= 0.5):
+	angle = 0.5
+	else:
+	angle = 0.1
+	
+	if angolo_positivo:
+	return angle
+	else:
+	return -angle
+	
+	def suggestedresidue(lunghezza, distanza, dist_ragg):
+	n_res = lunghezza-1
+	n_res = random.randint(1, lunghezza-1)
+	return n_res
+\end{verbatim}
+
+La procedura suggestedangle mi suggerisce un angolo e il segno dell'angolo ovvero l'angolo viene deciso mediante confronto della distanza, mentre il segno viene 
+deciso in base ai risultati dell'esecuzione. La distanza considerata è la migliore ottenuta fino in questo momento, mentre vengono prese le ultime 50 distanze e sono
+tutte maggiori rispetto alla distanza migliore si inverte il precedente segno dell'angolo, in modo alternare. 
+
+La procedura suggestedresidue mi suggerisce in modo randomico un residuo su cui andare a lavorare, viene escluso il primo perchè è per entrambi quello di partenza. 
+Durante l'esecuzione delle iterazioni potrebbe essere necessario eseguire una grossa rivoluzione, ovvero ho pensato ad una tecnica per ribaltare il risultato.
+\begin{verbatim}
+	def suggestedchange(distanza, dist_ragg):
+	swap = False
+	global swap_residuo
+	if (len(dist_ragg)-swap_residuo  > 10):
+	for i in range(len(dist_ragg)-11, len(dist_ragg)):
+	if (dist_ragg[i] > distanza and dist_ragg[i] <= distanza+0.5):
+	swap = True
+	else:
+	swap = False
+	break
+	if (swap):
+	swap_residuo = len(dist_ragg)
+	return swap
+\end{verbatim}
+La procedura suggestedchange è usata per suggerire al programma principale di applicare un cambiamento ovvero se per 10 risultati consecutivi dell'esecuzione otteniamo
+una distanza risultante compresa tra la distanza migliore e la distanza migliore a cui viene aggiunto 0.5 significa che non risciamo a trovare una via per avvicinarci di 
+più quindi applicare una rotazione alla base del loop di mezzo grado potrebbe darci una mano per ottenere il nostro risultato. 
+
+Una volta terminata la rotazione verifichiamo che non ci siamo discostati dal punto di partenza mediante la funzione distancefromstarting, che non fa altro che verificare
+che le distanze presenti in precedenza siano ancora invariate, misurariamo quindi la distanza del loop e se ci siamo avvicinati ci teniamo il nuovo risultato e il nuovo 
+loop altrimenti torniamo alla versione precedente e ricominciamo da li. 
+
+Ci sono due modi per interrompere preventivamente l'esecuzione del programma: raggiungere la distanza minima di 0.1; oppure essere fermati da una procedura che verifica
+che negli ultimi 1000 passaggi abbiamo fatto progressi per almeno 0.01.
