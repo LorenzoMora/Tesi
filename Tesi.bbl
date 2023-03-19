@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Alexa, 2022]{Alexa_2022_CVPR}
+Alexa, M. (2022).
+\newblock Super-fibonacci spirals: Fast, low-discrepancy sampling of so(3).
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, pages 8291--8300.
+
 \bibitem[di~Sanità EpiCentro L'epidemiologia per la~sanità pubblica,
   ]{ReportCovid}
 di~Sanità EpiCentro L'epidemiologia per la~sanità pubblica, I.~S.

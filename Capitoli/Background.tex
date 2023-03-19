@@ -453,3 +453,176 @@ In questo esempio, la funzione A\_star prende in input la cella di partenza 'sta
 	\end{lstlisting}
 \end{minipage}
 
+\section{Algebra e Geometria}\label{sec:algebra}
+L'algebra e la geometria sono due aree fondamentali della matematica che sono strettamente correlate e si influenzano a vicenda. La geometria si occupa dello studio delle figure geometriche nello spazio, come punti, linee, piani, poligoni, solidi e curve. 
+
+L'algebra, come accennato in precedenza, si occupa dello studio delle proprietà delle operazioni aritmetiche e delle relazioni tra le variabili. L'algebra fornisce uno strumento matematico molto potente per la risoluzione di problemi e l'espressione di relazioni matematiche in modo astratto.
+
+L'algebra e la geometria sono strettamente correlate, poiché l'algebra può essere utilizzata per risolvere problemi geometrici, come ad esempio la determinazione di equazioni di rette e di superfici, la risoluzione di equazioni di secondo grado che descrivono curve, e la risoluzione di problemi di trigonometria.
+
+D'altra parte, la geometria può essere utilizzata per visualizzare le relazioni algebriche, ad esempio rappresentando graficamente le funzioni algebriche o le equazioni differenziali.
+
+\subsection{Spazio vettoriale}\label{subsec:spazi_vettoriali}
+Gli spazi vettoriali sono una struttura algebrica complessa, composta da: un campo, in cui gli elementi sono detti scalari; un insieme, i cui elementi sono detti vettori; due operazioni binarie, la somma e la moltiplicazione scalare con determinate proprietà. 
+
+Per ogni numero naturale $n \ge 1$ consideriamo l'insieme $\mathbf{R}^n$ delle n-uple ordinate di numeri reali: 
+
+	$$\mathbf{R}^n = \{v = (x_1, .., x_n)| x_i \in \mathbf{R}\}$$.
+
+Viene chiamato $\mathbf{R}^n$ lo spazio n-dimensionale e i suoi elementi vettori o punti. 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\textwidth]{Immagini/SpazioVettoriale.png}
+	\caption{Uno spazio vettoriale è una collezione di oggetti, chiamati "vettori", che possono essere sommati e riscalati.}
+	\label{fig:vettori}
+\end{figure}
+Presi due vettori $$v = (x_1, .., x_n) e w = (y_1, .., y_n)$$ si possono sommare componente per componente per ottenere un nuovo vettore: 
+
+	$$v + w = (x_1 + y_1, .., x_n + y_n)$$.
+
+Un numero $c \in \mathbf{R}$ si può moltiplicare con un vettore $v = (x_1, .., x_n)$ in modo da ottenere un nuovo vettore:
+
+	$$cv = (cx_1, .., cx_n)$$.
+
+Le operazioni di somma e moltiplicazione per scalare sono anche chiamate operazioni di spazio vettoriale. 
+
+Per la somma di vettori $v, w, u \in \mathbf{R}$ vengono verificate le seguenti proprietà:
+\vspace{10pt}
+\begin{itemize}
+	\item $v + w = w + v$;
+	\vspace{5pt}
+	\item $(v + w) + u = v + (w + u)$;
+	\vspace{5pt}
+	\item $v + \mathcal{O} = v, v + (-v) = \mathcal{O}$, dove $\mathcal{O} = (0, .., 0)$.
+\end{itemize}
+
+Per la moltiplicazione per scalare di $a, b \in \mathbf{R}$ con $v, w \in \mathbf{R}^n$ valgono invece: 
+\vspace{10pt}
+\begin{itemize}
+	\item $a(bv) = (ab)v$;
+	\vspace{5pt}
+	\item $a(v + w) = av + aw, (a + b)v = av + bv$;
+	\vspace{5pt}
+	\item $1v = v$.
+\end{itemize}
+Si osserva che le operazioni di somma e di moltiplicazione per scalare si possono definire non solo nell'insieme dei numeri reali o delle n-uple di numeri, ma anche in altri insiemi (di funzioni, di matrici, ...). Un insieme con somma e moltiplicazione per scalare che verificano tutte le proprietà precedentemente descritte si dice spazio vettoriale.
+
+\subsection{Prodotto scalare}\label{subsec:prodotto_scalare}
+Il prodotto scalare di $v = (x_1, .., x_n) e w = (y_1, .., y_n)$ è il numero
+	$$\langle v,w \rangle := x_1y_1 + x_2y_2 + ... + x_ny_n = \sum_{i=1}^{n} x_iy_i$$
+talvolta viene anche denotato come $v \cdot w$. 
+
+Ci sono importanti proprietà alla base del prodotto scalare, ovvero per $v, w, u \in \mathbf{R}^n e c \in \mathbf{R}$ valgono:
+\vspace{10pt}
+\begin{itemize}
+	\item $\langle v,w \rangle = \langle w,v \rangle$;
+	\vspace{5pt}
+	\item $\langle v,w + u \rangle = \langle v,w \rangle + \langle v,u \rangle$;
+	\vspace{5pt}
+	\item $\langle cv,w \rangle = c\langle v,w \rangle = \langle v,cw \rangle$;
+	\vspace{5pt}
+	\item $\langle v,v \rangle \ge 0$, e $\langle v,v \rangle = 0 \iff v = \mathcal{O}$ (positività di $\langle , \rangle$).
+\end{itemize}
+
+Nel piano cartesiano il prodotto scalare permette di definire e trattare la nozione geometrica di lunghezza di un vettore. Tale concetto può essere esteso ad uno spazio vettoriale di dimensione arbitraria introducendo un concetto analogo: la norma. 
+
+\subsection{Matrici di rotazione}\label{subsec:matrici_rotazione}
+In matematica, e in particolare in geometria, una rotazione è una trasformazione del piano o dello spazio euclideo che sposta gli oggetti in modo rigido e che lascia fisso almeno un punto, nel caso del piano, o una retta, nel caso dello spazio. I punti che restano fissi nella trasformazione formano più in generale un sottospazio: quando questo insieme è un punto o una retta, si chiama rispettivamente il centro e l'asse della rotazione.
+
+Più precisamente, una rotazione è una isometria di uno spazio euclideo che ne preserva l'orientazione, ed è descritta da una matrice ortogonale speciale. Qualunque sia il numero delle dimensioni dello spazio di rotazione, gli elementi della rotazione sono:
+\vspace{10pt}
+\begin{itemize}
+	\item il verso (orario-antiorario);
+	\vspace{5pt}
+	\item l'ampiezza dell'angolo di rotazione;
+	\vspace{5pt}
+	\item l centro di rotazione (il punto attorno a cui avviene il movimento rotatorio).
+\end{itemize}
+
+Nel nostro caso ci concentriamo nello spazio a 3 dimensioni; in questo caso la rotazione è determinata da un asse, dato da una retta r passante per l'origine, e da un angolo $\theta$ di rotazione. Per evitare ambiguità, si fissa una direzione dell'asse, e si considera la rotazione di angolo $\theta$ effettuata in senso antiorario rispetto all'asse orientato. Senza cambiare base, la rotazione di un angolo $\theta$ intorno ad un asse determinato dal versore $(x, y, z)$ (ossia un vettore di modulo unitario) è descritta dalla matrice seguente:
+$$
+\begin{bmatrix}
+	x^2+(1-x^2)\cos(\theta) & xy(1-\cos(\theta))-z\sin{\theta} & xz(1-\cos{\theta})+y\sin{\theta} \\
+	xy(1-\cos(\theta))-z\sin{\theta} & y^2+(1-y^2)\cos(\theta) & yz(1-\cos{\theta})-x\sin{\theta} \\
+	xz(1-\cos(\theta))-y\sin{\theta} & yz(1-\cos{\theta})+x\sin{\theta} & z^2+(1-z^2)\cos(\theta) \\
+\end{bmatrix}
+$$
+Ponendo $(x, y, z) = (1, 0, 0)$ oppure $(x, y, z) = (0, 1, 0)$ oppure $(x, y, z) = (0, 0, 1)$ si ottiene rispettivamente la rotazione attorno all'asse $x$, all'asse $y$ e all'asse $z$. 
+Tale matrice è stata ottenuta scrivendo la matrice associata alla trasformazione lineare (rispetto alle basi canoniche nel dominio e codominio) della formula di Rodrigues.
+
+\subsection{Super Fibonacci Spirals}\label{subsec:superfibonaccispiral}
+Le informazioni di questa sezione sono state recuperate da \cite{Alexa_2022_CVPR}.
+Le super spirali di Fibonacci sono un'estensione delle spirali di Fibonacci che consentono la generazione rapida di un arbitrario ma fisso numero di orientamenti 3D. Una valutazione completa rispetto ad altri metodi mostra che gli insiemi di orientamenti generati hanno una bassa discrepanza, componenti spuri minimi nello spettro di potenza e volumi Voronoi quasi identici. 
+L'ottimizzazione degli insiemi per discrepanze basse è difficile. Inoltre, l'ottimizzazione $\mathcal{SO}(3)$ è scomoda a causa della geometria sottostante. \footnote{$\mathcal{SO}(3)$ è il gruppo delle rotazioni tridimensionali che preservano la norma e il prodotto vettoriale, e che hanno determinante 1. Sono tutte le possibili rotazioni attorno ad un punto nello spazio tridimensionale, senza alcuna traslazione.}
+
+Lo strumento principale per usare il campionamento di Fibonacci su $\mathcal{S}^3$ è una mappatura che preserva il volume di un cilindro solido in $\mathcal{R}^3$ alla 3-sfera. Considerando il cilindro ${(h, y = (y_0, y_1))| -\pi < h \le \pi, y^Ty \le 1}$. Allora 
+$$
+	x(h, y) = \begin{pmatrix}
+				z \cos{h} \\
+				z \sin{h} \\
+				y_0 \\
+				y_1  
+			  \end{pmatrix}, z = \sqrt{1 - y^Ty}
+$$
+mappa punti nel cilindro della sfera $\mathcal{R}^4$. La mappatura inversa di $x = (x_0, x_1, x_2, x_3)$ è data da $(h, y_0, y_1) = (\arctan2(x_1,x_0),x_2,x_3)$. Questo mostra che la mappatura è una biezione tra l'interno relativo del cilindro e la sfera senza equatore $x_0 = x_1 = 0$. La linea ${-\pi < h \le \pi, y^Ty \le 1}$ sulla superficie del cilindro sono mappate ai punti $(0, 0, y_0, y_1)$ sull'equatore della sfera. All'interno del cilindro $y^Ty < 1$ dove la mappatura è biettiva, possiamo calcolare la Jacobians come: 
+$$
+	\mathcal{J}_{h, j} = \begin{pmatrix}
+		-z\sin{h} -\frac{y_0}{z}\cos{h} -\frac{y_1}{z}\cos{h} \\
+		z\cos{h} -\frac{y_0}{z}\sin{h} -\frac{y_1}{z}\sin{h} \\
+		0 1 0 \\
+		0 0 1 \\
+	\end{pmatrix}
+$$
+Usando quindi Jacobians possiamo analizzare il cambio di volume e reclamare che la mappatura $x(h, y) = {(h, y)| -\pi < h \le \pi, y^Ty < 1} \mapsto \mathcal{S}^3 \subset \mathcal{R}^4$ preserva il volume. 
+
+Si può dimostrare ciò che viene reclamato in precedenza come $det(x(h, y), J_(h, y))$, perché $x(h, y)$ è ortogonale alla tangente al piano e ha lunghezza unitaria. Sviluppando si ottiene
+
+$$
+	+z \cos{h}(z \cos{h}) - z \sin{h}(z \sin{h})
+$$
+$$
+	+y_0 (y_0 \sin^2{h} + y_0 \cos^2{h}) 
+$$
+$$
+	-y_1 (y_1 \cos^2{h} - y_1 \sin^2{h}) 
+$$
+$$
+	= (1 - y^Ty)(\cos^2{h} + \sin^2{h}) + y^Ty = 1
+$$.
+
+Data la mappatura, l'idea è quella di utilizzare il campionamento di Fibonacci 2 volte per generare punti sul cilindro: la prima lungo l'asse principale $h$ del cilindro; la seconda sul cerchio $(y_0, y_1)$ ortogonale all'asse. Usando due differenti costanti $\phi$ e $\psi$, per i due campionamenti otteniamo:
+$$
+	y(t) = \bigg(\sqrt{t}\sin{\frac{2\pi nt}{\phi}}, \sqrt{t}\cos{\frac{2\pi nt}{\phi}} \bigg)
+$$
+
+$$
+	z(t) = \bigg(\frac{nt}{\psi} - \biggl\lfloor\frac{nt}{\psi}\biggl\rfloor, \sqrt{t}\sin{\frac{2\pi nt}{\phi}}, \sqrt{t}\cos{\frac{2\pi nt}{\phi}}\bigg)^T
+$$.
+
+Inserendo questo campione nella mappatura della 3-sfera otteniamo la seguente semplice curva che esibisce la simmetria aspettata:
+$$
+w(t) = \begin{pmatrix}
+	\sqrt{t}\sin{\frac{2\pi nt}{\phi}} \\
+	\sqrt{t}\cos{\frac{2\pi nt}{\phi}} \\
+	\sqrt{t-1}\sin{\frac{2\pi nt}{\psi}} \\
+	\sqrt{t-1}\cos{\frac{2\pi nt}{\psi}} \\
+\end{pmatrix}
+$$.
+
+Il campionamento di questa curva a valori regolari di $t_i$ è un metodo naturale per la generazione di campioni di orientamento. L'implementazione algoritmica è la seguente \ref{alg:sampling}.
+\begin{algorithm}
+	\caption{Generazione di n campioni in $\mathcal{SO}(3)$}\label{alg:sampling}
+	\begin{algorithmic}
+		\Function{Super-Fibonacci}{n, $\phi$, $\psi$} 
+			\For{$i \in {0, .., n-1}$}
+				 \State $s \gets i + \frac{1}{2}$
+				 \State $t \gets \frac{s}{n}$, $d \gets 2\pi s$
+				 \State $r \gets \sqrt{t}$, $R \gets \sqrt{1 - t}$
+				 \State $\alpha \gets \frac{d}{\phi}$, $\beta \gets \frac{d}{\psi}$
+				 \State $q_i \gets (r\sin{\alpha}, r\cos{\alpha}, R\sin{\beta}, R\cos{\beta})$
+		    \EndFor
+	    \EndFunction
+	\end{algorithmic}
+\end{algorithm}
+
+Questo algoritmo mostra che un insieme di $kn$ campioni contiene l'insieme generato per $n$ campioni o, più generalmente, insieme con $m$ e $n$ campioni condividono ogni $k$-esimo campione, dove $k$ è il minimo comune diviso tra $m$ e $n$. Giocano un ruolo fondamentale anche gli altri due parametri di questo algoritmo, ovvero $\phi$ e $\psi$ che devono essere irrazionali, ma anche la loro relazione è importante. Non ci sono però teorie matematiche a supporto quindi è necessario adattarli alla situazione d'uso.
