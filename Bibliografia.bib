@@ -97,30 +97,11 @@
 	"url"        = "http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec20"
 }
 
-@techreport{WikiProteine,
-	title       = "Proteine",
-	author      = "WikipediaProteine",
-	institution = "Wikipedia",
-	url = "https://it.wikipedia.org/wiki/Proteine"
-}
-
-@techreport{WikiAmminoacidi,
-	title       = "Amminoacidi",
-	author      = "WikipediaAmminoacidi",
-	institution = "Wikipedia",
-	url = "https://it.wikipedia.org/wiki/Amminoacido"
-}
-
-@techreport{SlideRamachandran,
-	title       = "The Ramachandran Principle",
-	author      = "Eric Martz",
-	url = "https://docs.google.com/presentation/d/13_RwaMP5484OTUfon9xkMnEpmJlNzRAfPP2WxHcv2fE/edit#slide=id.p"
-}
-
-@techreport{TutorialRamachandran,
-	title       = "The Ramachandran Principle Phi and Psi Angles in Proteins",
-	author      = "Proteopedia",
-	url = "https://proteopedia.org/wiki/index.php/Tutorial:Ramachandran_principle_and_phi_psi_angles"
+@book{Principi,
+	author={David L. Nelson, Michael M. Cox},
+	title={I principi di biochimica di Lehninger},
+	year={2014},
+	publisher={Zanichelli},
 }
 
 @article{AgostaCozzini,
@@ -128,12 +109,6 @@
 	author={Federica Agosta, Glen E. Kellogg, Pietro Cozzini}
 	journal={Journal of Computer-Aided Molecular Design},
 	year={2022},
-}
-
-@techreport{ForzaIntramolecolare,
-	title       = "Forza Intramolecolare",
-	author      = "Wikipedia",
-	url = "https://it.wikipedia.org/wiki/Forza_intramolecolare"
 }
 
 @article{ProprietàCovid,
@@ -152,7 +127,7 @@
 
 @techreport{ReportCovid,
 	title       = "Tutto sulla pandemia di SARS-CoV-2",
-	author      = "Istituto Superiore di Sanità EpiCentro - L'epidemiologia per la sanità pubblica",
+	author      = "Istituto Superiore di Sanità",
 	url = "https://www.epicentro.iss.it/coronavirus/sars-cov-2"
 }
 
@@ -184,4 +159,85 @@
 	month     = {June},
 	year      = {2022},
 	pages     = {8291-8300}
+}
+
+@article{EUGENEKELLOGG2000651,
+	title = {Hydrophobicity: is LogPo/w more than the sum of its parts?},
+	journal = {European Journal of Medicinal Chemistry},
+	volume = {35},
+	number = {7},
+	pages = {651-661},
+	year = {2000},
+	issn = {0223-5234},
+	doi = {https://doi.org/10.1016/S0223-5234(00)00167-7},
+	url = {https://www.sciencedirect.com/science/article/pii/S0223523400001677},
+	author = {Glen {Eugene Kellogg} and Donald J. Abraham},
+	keywords = {hydropathy, hydrophobicity, structure-based drug design, ligand-based drug design, free energy, solvation energy},
+	abstract = {The empirically calculated parameter LogPo/w, the log10 of the coefficient for solvent partitioning between 1-octanol and water, has been used to provide the key data for a unique non-covalent interaction force field called HINT (Hydropathic INTeractions). This experimentally-derived force field encodes entropic as well as enthalpic information and also includes some representation of solvation and desolvation energetics in biomolecular associations. The theoretical basis for the HINT model is discussed. This review includes: 1) discussion of calculational representation of the hydrophobic effect, 2) the rationale for describing the experimental LogPo/w based descriptors used in the HINT force field and model as free energy-like, 3) the relationship between hydrophobic fragment constants and partial group electrostatic charge, and 4) the implications of structurally-conserved water molecules on free energy of molecular association. Several recent applications of HINT in structure-based and ligand-based drug discovery are reviewed. Finally, future directions in the HINT model development are proposed.}
+}
+
+@article{Kellogg1991,
+	title = {HINT: A new method of empirical hydrophobic field calculation for CoMFA},
+	journal = {Journal of Computer-Aided Molecular Design},
+	volume = {5},
+	number = {6},
+	pages = {545-552},
+	year = {1991},
+	issn = {1573-4951},
+	doi = {10.1007/BF00135313},
+	url = {https://doi.org/10.1007/BF00135313},
+	author = {Glen E. Kellogg, Simon F. Semus,  Donald J. Abraham},
+	keywords = {hydropathy, hydrophobicity, structure-based drug design, ligand-based drug design, free energy, solvation energy},
+	abstract = {An empirical hydrophobic field-like 3D function has been calculated with the program HINT (hydrophobic interactions) and imported into the SYBYL implementation of CoMFA (Comparative Molecular Field Analysis). The addition of hydrophobicity appears to offer increased chemical interpretability of CoMFA models. An example is given using the steroid model reported by Cramer et al. (J. Am. Chem. Soc., 110 (1988) 5959). While addition of the HINT field did not improve statistical parameters in this model, the CoMFA coefficient contours from the hydrophobic field unambiguously define the most active steroid molecules in the chemical terms of hydrophobic and polar substituents.}
+}
+
+@article{ExtensionFragment,
+	author = {Abraham, Donald J. and Leo, Albert J.},
+	title = {Extension of the fragment method to calculate amino acid zwitterion and side chain partition coefficients},
+	journal = {Proteins: Structure, Function, and Bioinformatics},
+	volume = {2},
+	number = {2},
+	pages = {130-152},
+	keywords = {amino acid hydophobicity scale, QSAR, amino acids, peptide side chains},
+	doi = {https://doi.org/10.1002/prot.340020207},
+	url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.340020207},
+	eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/prot.340020207},
+	abstract = {Abstract The fragment method of calculation partition coefficients (P) has been extended to include the common amino acids (AAs). The results indicate that polar and charged side chains influence the hydrophobicity of atoms in the side chain in a predictable manner. Feild effects, as evidenced through polar proximity factors and bond factors, need to be considered for accurate estimation of transfer phenomena. The calculated log P and ΔG°′ values of the 20 AAs agree well with the observed values. Pro calculates to be more hydrophilic than the observed log P. Hydrophobicity scales for peptide side chain residues are compared and evaluated in terms of suitability. Calculated π values for nonpolar side chain residures agree well with the observed values; calculated values for uncharged polar side chain residues deviate by about 0.6 log units except for Gln and Cys; and polar side chain residues with charged side chains calculate as too hydorphilic. Reasons for the differences are explored. We also suggest that tightly bound water to polar moieties in amino acids and peptides may be transferred into the octanol phase during partitioning experiments. A quantitative methodology is persented which characterizes the thermodynamic partitioning of groups and individual atoms in amino acids and proteins.},
+	year = {1987}
+}
+
+@book{Algebra,
+	author={L. alessandrini, L.Nicolodi},
+	title={Geometria A},
+	year={2004},
+	publisher={Uninova},
+}
+
+@Article{ijms22147425,
+	AUTHOR = {Salleh, Mohd Zulkifli and Derrick, Jeremy P. and Deris, Zakuan Zainy},
+	TITLE = {Structural Evaluation of the Spike Glycoprotein Variants on SARS-CoV-2 Transmission and Immune Evasion},
+	JOURNAL = {International Journal of Molecular Sciences},
+	VOLUME = {22},
+	YEAR = {2021},
+	NUMBER = {14},
+	ARTICLE-NUMBER = {7425},
+	URL = {https://www.mdpi.com/1422-0067/22/14/7425},
+	PubMedID = {34299045},
+	ISSN = {1422-0067},
+	ABSTRACT = {The emergence of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) presents significant social, economic and political challenges worldwide. SARS-CoV-2 has caused over 3.5 million deaths since late 2019. Mutations in the spike (S) glycoprotein are of particular concern because it harbours the domain which recognises the angiotensin-converting enzyme 2 (ACE2) receptor and is the target for neutralising antibodies. Mutations in the S protein may induce alterations in the surface spike structures, changing the conformational B-cell epitopes and leading to a potential reduction in vaccine efficacy. Here, we summarise how the more important variants of SARS-CoV-2, which include cluster 5, lineages B.1.1.7 (Alpha variant), B.1.351 (Beta), P.1 (B.1.1.28/Gamma), B.1.427/B.1.429 (Epsilon), B.1.526 (Iota) and B.1.617.2 (Delta) confer mutations in their respective spike proteins which enhance viral fitness by improving binding affinity to the ACE2 receptor and lead to an increase in infectivity and transmission. We further discuss how these spike protein mutations provide resistance against immune responses, either acquired naturally or induced by vaccination. This information will be valuable in guiding the development of vaccines and other therapeutics for protection against the ongoing coronavirus disease 2019 (COVID-19) pandemic.},
+	DOI = {10.3390/ijms22147425}
+}
+
+@article{LAHA2020104445,
+	title = {Characterizations of SARS-CoV-2 mutational profile, spike protein stability and viral transmission},
+	journal = {Infection, Genetics and Evolution},
+	volume = {85},
+	pages = {104445},
+	year = {2020},
+	issn = {1567-1348},
+	doi = {https://doi.org/10.1016/j.meegid.2020.104445},
+	url = {https://www.sciencedirect.com/science/article/pii/S1567134820302768},
+	author = {Sayantan Laha and Joyeeta Chakraborty and Shantanab Das and Soumen Kanti Manna and Sampa Biswas and Raghunath Chatterjee},
+	keywords = {SARS-CoV-2, Hot-spot mutations, Spike glycoprotein, Frequent mutation, Protein stability},
+	abstract = {The recent pandemic of SARS-CoV-2 infection has affected more than 3.0 million people worldwide with more than 200 thousand reported deaths. The SARS-CoV-2 genome has the capability of gaining rapid mutations as the virus spreads. Whole-genome sequencing data offers a wide range of opportunities to study mutation dynamics. The advantage of an increasing amount of whole-genome sequence data of SARS-CoV-2 intrigued us to explore the mutation profile across the genome, to check the genome diversity, and to investigate the implications of those mutations in protein stability and viral transmission. We have identified frequently mutated residues by aligning ~660 SARS-CoV-2 genomes and validated in 10,000 datasets available in GISAID Nextstrain. We further evaluated the potential of these frequently mutated residues in protein structure stability of spike glycoprotein and their possible functional consequences in other proteins. Among the 11 genes, surface glycoprotein, nucleocapsid, ORF1ab, and ORF8 showed frequent mutations, while envelop, membrane, ORF6, ORF7a and ORF7b showed conservation in terms of amino acid substitutions. Combined analysis with the frequently mutated residues identified 20 viral variants, among which 12 specific combinations comprised more than 97% of the isolates considered for the analysis. Some of the mutations across different proteins showed co-occurrences, suggesting their structural and/or functional interaction among different SARS-COV-2 proteins, and their involvement in adaptability and viral transmission. Analysis of protein structure stability of surface glycoprotein mutants indicated the viability of specific variants and are more prone to be temporally and spatially distributed across the globe. A similar empirical analysis of other proteins indicated the existence of important functional implications of several variants. Identification of frequently mutated variants among COVID-19 patients might be useful for better clinical management, contact tracing, and containment of the disease.}
 }

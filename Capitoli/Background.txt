@@ -1,0 +1,267 @@
+\section{Amminoacidi}\label{sec:cap_sec_subsec}
+% Parte presa da wikipedia https://it.wikipedia.org/wiki/Amminoacido
+Le informazioni trattate in questa sezione sono prese da \cite{WikiAmminoacidi}.
+Gli amminoacidi sono una categoria di composti organici che hanno sia il gruppo funzionale amminico (-NH\_2), sia quello carbossilico (-COOH). La parola aminoacido 
+deriva quindi proprio dall'unione dei due gruppi funzionali citati prima. Siccome sono presenti contemporaneamente un gruppo acido (carbossilico) e un gruppo basico (amminico), 
+sono definite molecole anfotere. Anfotere sono sostanze chimiche che possono manifestare sia un comportamento acido che uno basico. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\textwidth]{Immagini/800px-Selenocysteine_skeletal_3D.png}
+	\caption{Esempio di amminoacido}
+	\label{fig:Amminoacido}
+\end{figure}
+
+In biochimica, ci si riferisce di solito ad un sottogruppo dei seguenti, ovvero gli $L-\alpha-amminoacidi$, ovvero amminoacidi il cui gruppo amminico e carbossilico sono 
+legati allo stesso atomo di carbonio, chiamato appunto $\alpha$ e la loro configurazione è ad L, ovvero il gruppo amminico si troverà sempre alla sinistra del carbonio $\alpha$.
+Sono presenti 22 $L-\alpha-amminoacidi$ che costituiscono la struttura delle proteine, anche detti amminoacidi proteinogenici. 
+Oltre hai al gruppo carbosillico e al gruppo aminico, ogni amminoacido si contraddistingue dagli altri per la presenza di un residuo R, conosciuto anche con il nome di 
+catena laterale.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\textwidth]{Immagini/StrutturaAmminoacido.png}
+	\caption{Struttura dell'amminoacido}
+	\label{fig:AmminoacidoStruttura}
+\end{figure}
+\subsection{Catena laterale}\label{subsec:Catena_laterale}
+La catena laterale gioca degli amminoacidi gioca un ruolo importante per la determinazione delle proprietà delle proteine. Esiste una vasta diversità nelle proprietà 
+chimiche delle catene laterali degli amminoacidi, tuttavia essi possono essere raggruppati in 6 classi differenti.
+
+\begin{table}[ht]
+	\centering
+	\resizebox{0.99\linewidth}{!}{
+		\begin{tabular}{%
+				|>{\itshape}p{40mm}%
+				|>{\ttfamily}p{75mm}|}
+			\hline
+			Tipo di catena laterale & Amminoacidi \\
+			\hline
+			Alifatica & Glicina, alanina, valina, leucina, isoleucina\\
+			\hline
+			Contenente idrossile o solfuro & Serina, cisteina, treonina, metionina\\
+			\hline
+			Aromatica & Fenilalanina, tiroxina, triptofano\\
+			\hline
+			Basica & Istidina, lisina, arginina\\
+			\hline
+			Acido e la sua ammide & Acido aspartico, acido glutammico, asparagina, glutammina\\
+			\hline
+			Ciclica & Prolina\\
+			\hline
+		\end{tabular}
+	}
+	\vspace*{2mm}
+	\caption{Classi di amminoacidi}
+	\label{tab:tabellaclassiamminoacido}    
+\end{table}
+
+La prolina non può essere inserita in una qualsiasi classe perché è ciclica. La prolina condivide la maggior parte delle proprietà 
+con i gruppi alifatici. La rigidità dell'anello gioca un ruolo cruciale nella struttura delle proteine. Come già detto, 
+gli amminoacidi sono i mattoni di costruzione delle proteine e la metà di questi sono anche essenziali per l'essere umano, 
+poiché non è in grado di produrseli da soli.  
+
+Gli amminoacidi in azione combinata o in azione singola sono alla base di molte attività presenti nel nostro corpo.
+%%% Valuta se inserire le caratteristiche peculiari degli amminoacidi
+
+
+\section{Proteine}\label{sec:cap_sec_subsec}
+Le informazioni trattate in questa sezione sono prese da \cite{WikiProteine}
+A livello chimico, le proteine non sono altro che macromolecole biologiche costituite da catene di amminoacidi legate insieme da un legame peptidico. Il legame 
+peptidico o giunto peptidico è un legame covalente che unisce il gruppo (-NH\_2) di un amminoacido con il gruppo (-COOH) di un altro amminoacido. Negli organismi 
+viventi le proteine svolgono innumerevoli funzioni, tra cui la catalisi delle reazioni metaboliche, funzione di sintesi come replicazione del DNA, la risposta a 
+stimoli e il trasporto di molecole da un luogo ad un altro. Le proteine in generale si differiscono nella sequenza degli amminoacidi, che viene conservata nei geni 
+e che si traduce in un particolare ripiegamento della stessa e una struttura tridimensionale specifica che caratterizza la sua attività.
+
+A differenza di altre macromolecole biologiche come i polisaccaridi e gli acidi nucleici, le proteine sono essenziali negli organismi viventi perché prendono parte 
+a praticamente tutti i processi che avvengono nelle cellule. La maggior parte appartiene alla categoria degli enzimi, che caratterizzano le reazioni biochimiche 
+vitali per il metabolismo degli organismi. Hanno anche funzioni strutturali o meccaniche nei muscoli e che costituiscono il citoscheletro. Alcune sono fondamentali 
+per l'invio di segnali inter ed intracellulari e nella difesa immunitaria. Una volta che sono sintetizzate all'interno del organismo, esistono per un periodo di 
+tempo limitato per poi esser degradate e riciclate attraverso meccanismi cellulari. 
+
+Le proteine possono essere purificate da altri componenti cellulari e utilizzando tecniche come: l'ultracentrifugazione; la precipitazione; l'elettroforesi; 
+la cromatografia. L'avvento dell'ingengneria genetica ha portato a nuove tecniche che ne facilitano la purificazione. 
+
+Una catena lineare di residui amminoacidi è chiamata polipeptide, ed una proteina generalmente è costituita da uno o più polipeptidi lunghi eventualmente coordinati 
+a gruppi non peptidici, chiamati prostetici o cofattori. I polipeptidi che contengono meno di 20/30 amminoacidi non vengono quasi mai considerati proteine, ma più 
+spesso chiamati peptidi. La sequenza degli amminoacidi in una proteina è definita della sequenza presente nel gene a sua volta codificata nel codice genetico, 
+solitamente ne sono specificati 20 ma possono essere di più in alcuni organismi.
+
+Le proteine che hanno stesso numero e tipo di amminoacidi possono differire per come vengono posti all'interno della struttura, anche una singola variazione può 
+portare ad una variazione nella struttura tridimensionale della macromolecola che può rendere la proteina non funzionale. 
+
+\subsection{Classificazione}\label{subsec:es_subsec}
+
+Durante l'evoluzione ci sono stati duplicamenti di geni e alterazioni della funzione di una proteina che portano tutt'ora ad avere circa 500 famiglie proteiche. 
+All'interno della stessa famiglia le proteine svolgono funzioni leggermente diverse, ma per quanto riguarda la loro composizione a livello di sequenza di amminoacidi
+è quasi identica. Chiaramente ci sono anche casi in cui le proteine all'interno della stessa famiglia si differiscono a livello di sequenza di amminoacidi, ma hanno 
+una conformazione tridimensionale molto simile. 
+
+Si afferma quindi che nel corso dell'evoluzione si sia più conservata la conformazione tridimensionale, piuttosto che la sequenza. Si può dire che due proteine hanno 
+la stessa struttura generale quando almeno un quarto della loro sequenza amminoacidi corrisponde. Si dice invece che due proteine hanno un qualche grado di parentela, 
+se almeno il 30\% degli amminoacidi corrisponde. Alcune proteine possono anche essersi formate per rimescolamento dei domini proteici o per la duplicazione 
+all'interno della proteina stessa con unioni accidentali di DNA. 
+
+La classificazione può essere ottenuta grazie alla composizione chimica, alla configurazione molecolare o alla solubilità. Ci sono quindi proteine semplici che 
+sono costituite da soli amminoacidi e proteine coniugate composte dalla proteina semplice e da un gruppo prostetico non proteico.
+
+Tra le proteine semplici vi sono le proteine fibrose, tendenzialmente non solubili nei solventi acquosi e poco attaccabili dagli enzimi proteolitici, inoltre sono
+presenti le proteine globulari. Mentre per quanto riguarda le proteine coniugate troviamo l'emoglobina, le clorofille e le opsine.
+
+Si possono poi classificare le proteine in base alla funzione che compiono, ci sono le proteine strutturali che sono componenti delle strutture permanenti e che 
+hanno funzione meccanica, poi trovano posto le proteine di trasporto che prendono le sostanza poco idrosolubili e ne consentono il trasporto nell'organismo e poi
+trovano posto gli enzimi che sono proteine catalitiche. A queste funzioni che abbiamo brevemente descritto si aggiugono la regolazione dell'espressione dei geni, 
+la duplicazione, trascrizione e traduzione del DNA, la regolazione delle reazioni metaboliche, la generazione e la ricezione degli impulsi nervosi. 
+
+\subsection{biochimica}\label{subsec:es_subsec}
+
+La stra grande maggioranza delle proteine sono costituite da polimeri lineari combinando 20 diversi $L-\alpha-amminoacidi$. Tutti gli aminoacidi che possono essere 
+impiegati nella costruzione di proteine hanno una struttura comune, un carbonio $\alpha$ con un gruppo amminico, un gruppo carbosillico e una catena laterale 
+variabile a seconda dell'aminoacido, l'unica che si distingue è la prolina che contiene un anello insolito al gruppo amminico. Le catene laterali degli amminoacidi 
+hanno ognuna la loro struttura e le loro proprietà chimiche, l'effetto combinato delle catene laterali determina la struttura tridimensionale e la reattività chimica
+della proteina. Una volta collegati tramite legame peptidico gli amminoacidi sono chiamati residui e la serie di carbonio, azoto e atomi d'ossigeno è nota come 
+catena principale o backbone.
+
+Il legame peptidico ha due forme di risonanza che contribuiscono al doppio legame e non permettono la rotazione attorno al suo asse, in modo tale che i carbonio 
+$\alpha$ dei vari residui siano pressoche complanari. Ci sono però altri due angoli nel legame peptidico che ne determinano la forma assunta. 
+
+\subsection{Composizione}\label{subsec:es_subsec}
+Uno dei dogmi fondamentali della biologia è che ad ogni struttura tridimensionale di una proteina via sia associata una specifica funzione biochimica. In questo modo
+le proteine possono essere classificate in due famiglie: le proteine globulari e le proteine a struttura estesa o fibrosa. Questa separazione riflette anche una
+separazione funzionale:
+\vspace{10pt}
+\begin{itemize}
+	\item le proteine estese o fibrose svolgono funzioni biomeccaniche quindi fornendo sostegno strutturale;
+	\vspace{5pt}
+	\item le proteine globulari sono coinvolte in molteplici e specifiche funzioni biologiche e sono di fondamentale importanza per l'economia cellulare.
+\end{itemize}
+
+Una proteina è formata da uno o più polipeptidi, che sono molecole con più di 10 unità di amminoacidi, eventualmente accompagnati o legati da uno o più gruppi
+prostetici. Una proteina attiva può esistere solo in soluzioni salina diluita e la sua struttura dipendera esclusivamente dalle caratteristiche chimico-fisiche
+della soluzione in cui è inserita, che può anche determinare modifiche strutturali e alterare le sue propieta funzionali. 
+
+La molecola proteica risulta costituita da atomi di carbonio, ossigeno, idrogeno e azoto, può contenere anche zolfo  e, talvolta, fosforo e/o metalli.
+
+\subsection{Struttura}\label{subsec:es_subsec}
+Mettiamo un sunto sensato delle sottosottosezioni....
+\subsubsection{Ripiegamento}\label{subsec:es_subsec}
+Prendendo una proteina, ovvero una macromolecola formata da decina di migliaia di atomi, potrebbe assumere un numero di ripiegamenti elevati; tuttavia, non è 
+cosi perché ci sono considerazioni fisiche che limitano la maggior parte dei ripiegamenti. Gli atomi non possono sovrapporsi e il loro comportamento è da immaginarsi
+come delle semplici sfere, con un certo raggio detto raggio di van der Waals. Ciascun amminoacido contribuisce alla formazione della catena con tre possibili legami:
+\vspace{10pt}
+\begin{itemize}
+	\item legame peptidico (C-N) tra il carbonio di un amminoacido e l'azoto di un amminoacido adiacente;
+	\vspace{5pt}
+	\item legame convezionalmente chiamato C$\alpha$-C che è presente nei due carboni della catena principale del singolo amminoacido;
+	\vspace{5pt}
+	\item legame C$\alpha$-N all'interno dello stesso amminoacido.
+\end{itemize} 
+
+Il legame peptidico è planare e non consente alcuna rotazione, mentre gli altri due legami possono ruotare e definiscono due angoli: l'angolo di rotazione del 
+legame C$\alpha$-C è detto $\psi$; l'angolo di rotazione del legame C$\alpha$-N è $\varphi$. La conformazione degli atomi che fanno parte della catena principale 
+è determinata dagli angoli descritti in precedenza. Non è pero possibile ruotare come si vuole questi angoli dato che non sono possibili collisioni steriche tra gli 
+amminoacidi. Ramachandran come vedremo nella prossima sezione nel dettaglio ha individuato e rappresentato in un grafico le coppie di angoli di rotazione a seconda
+delle coppie di atomi. Dal grafico si può vedere che le proteine assumono due grandi tipologie di conformazione: l'$\alpha-elica$ e il $\beta-foglietto$.
+
+Tra gli atomi che sono all'interno di una proteina si stabiliscono dei legami che possono essere covalenti o non covalenti, i legami non covalenti sono sicuramente 
+meno potenti, tuttavia il numero all'internoo di una proteina li rende fondamentali per comprendere il ripiegamento. Ci sono tre tipi di legami non covalenti:
+\vspace{10pt}
+\begin{itemize}
+	\item il legame idrogeno, che si effettua tra un atomo di ossigeno e uno vicino ad idrogeno;
+	\vspace{5pt}
+	\item le attrazzioni elettrostatiche che avvengono tra gruppi laterali con cariche periferiche opposte;
+	\vspace{5pt}
+	\item le attrazzioni di van der Waals si verificano tra dipoli molecola istantanei indotti, tra dipoli permanenti o tra un dipolo permanente e uno corrisponde 
+	indotto, nelle quali entrano in gioco forze diverse.
+\end{itemize} 
+
+Vanno aggiunte alle precendenti interazioni la tendenza dei gruppo di amminoacidi idrofobici ad avvicinarsi e unirsi tra loro, formando delle tasche idrofobiche che
+sono però lontane dai legami idrogeno sempre presenti in un ambiente acquoso. Tendenzialmente questi gruppi sono posti all'interno della proteina, mentre i suoi 
+amminoacidi idrofili (polari e con carica) saranno tendenzialmente all'esterno, poiché essa si trova tipicamente in un ambiente acquoso. Di solito la proteina 
+tende poi ad assumere la struttura tridimensionale che ha la più bassa energia libera.
+
+\subsubsection{Le conformazioni più comuni}\label{subsec:es_subsec}
+L'$\alpha-elica$ e il $\beta-foglietto$ sono le conformazioni più comuni riscontrabili nelle catene polipeptidiche di una proteina. Una singola proteina può 
+prevedere sia $\alpha-elica$ che $\beta-foglietto$ in numero variabile.
+
+L'$\alpha-elica$ è la più comune nelle proteine, in particolare nei recettori cellulari, e si possono trovare più $\alpha-elica$ per singola proteina. L'elica è 
+una delle conformazioni più favorevoli perché riduce al minimo l'energia libera. Essa si forma quando una catena polipeptidica si ripiega su se stessa con formazione
+di legami idrogeno tra un legame peptidico e il quarto successivo, nel dettaglio tra il gruppo chetonico C=O dell'uno e il gruppo N-H dell'altro, e il legame 
+è tra O e H. Tutti i gruppi amminici di un'elica sono rivolti verso l'N-terminale della proteina, tutti quelli chetonici verso il C-terminale, così l'elica assume 
+parziale carica positiva all'N-terminale e parziale carica negativa al C-terminale.
+
+Il $\beta-foglio$ pieghettato è la seconda conformazione più comune nelle proteine, si trova maggiormente in alcuni enzimi e nelle proteine coinvolte nella difesa 
+immunitaria. Esso consiste in numerose catene polipeptidiche che si dispongono l'una adiacente all'altra, collegate in una struttura continua da brevi sequenze ad U.
+
+\subsubsection{Livelli di organizzazione}\label{subsec:es_subsec}
+All'interno della proteina si possono distinguere vari livelli di organizzazione, che possono essere tre o quattro a seconda della tipologia della stessa.
+I livelli d'organizzazione sono: 
+\vspace{10pt}
+\begin{itemize}
+	\item la struttura primaria è formata dalla sequenza specifica di amminoacidi, dalla catena peptidica e il numero delle catene determina anche il ripiegamento
+	della stessa;
+	\vspace{5pt}
+	\item la struttura secondaria consiste nella conformazione delle catene ($\alpha-elica$, $\beta-foglietto$, etc..). All'interno di una singola proteina vi può 
+	essere una combinazione una combinazione di varie tipologie di sequenze;
+	\vspace{5pt}
+	\item il dominio è un'unità globulare o fibrosa formata da catene polipeptidiche ripiegate in più regioni compatte, costituiscono divisioni della struttura 
+	terziaria, ha la caratteristica di ripiegarsi più o meno indipendentemente rispetto al resto della proteina. Molte delle proteine più complesse sono 
+	aggregazioni modulari di numerosi dominii proteici;
+	\vspace{5pt} 
+	\item la struttura terziaria, che dal punto di vista termodinamo è quella ccon la più bassa energia libera, è rappresentata dalla configurazione tridimensionale
+	completa che la catena polipeptidica assume nell'ambiente in cui si trova;
+	\vspace{5pt}
+	\item la struttura quaternaria deriva dall'associazione di due o più unità polipeptidiche, unite tra loro da legami deboli.
+\end{itemize} 
+
+Le proteine contenenti una parte non polipeptidica sono anche dette coniugate. Due proteine possono essere definite isoforme se a parità di struttura primaria ci sono 
+differenze in uno degli altri livelli di struttura. Quando si dice denaturare una proteina significa distruggerne la sua conformazione spaziale, anche se viene 
+mantenuta intatta la struttura primaria, essa non è più in grado di esplicare la sua funzione.
+
+\subsubsection{Proteine complesse}\label{subsec:es_subsec}
+Le proteine prese singolarmente sono si complesse, ma all'intermo degli organismi possono aggregarsi ad altre proteine identiche e non creando cosi dei complessi
+proteici. Tutto ciò avviene grazie ai legami non covalenti che permettono ad una proteina di assumere una determinata configurazione. Nella proteina sono presenti 
+una o più zone capaci di interazioni covalenti e vengono chiamate sidi di legame. Quando le proteine si uniscono insieme in un complesso proteico, le singole unità 
+vengono chiamate subunità proteiche.
+
+Ci sono complessi proteici formati da molte subunità che permettono di realizzare filamenti, poiché in un polo possiedono un sito di legame e dall'altro una struttura
+proteica complementare allo stesso sito. Vi sono poi proteine la cui funzione è resa possibile proprio dalla loro struttura poco caratterizzabile e quasi casuale;
+esse principalmente hanno molte funzioni all'interno della cellula. La loro caratteristica è quella di avere ridondanza di amminoacidi e bassa presenza di 
+amminoacidi idrofobici. 
+
+Ci possono essere casi in cui la proteina è esposta ad un alto livello di degradazione, esse sono quindi stabilizzate da legami di solfuro, che permettono di 
+mantenere la sua conformazione.
+
+\section{Principio di Ramachandran}\label{sec:cap_sec_subsec}
+Le informazioni trattate in questa sezione sono prese da \cite{SlideRamachandran} e da \cite{TutorialRamachandran}.
+Come detto nella sezione precedente Phi $\varphi$ e Psi $\psi$ determinano la conformazione di un polipeptide. Il principio di Ramachandran ci dice quali $\alpha-elica$, 
+$\beta-foglietto$ e spire sono le conformazioni più probabili da adottare per una catena polipeptidica, poiché la maggior parte delle configurazioni sono 
+impossibili a causa delle collisioni steriche tra gli atomi. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\textwidth]{Immagini/GraficoRamachandran.png}
+	\caption{Esempio del grafico di Ramachandran}
+	\label{fig:graficoRamachandran}
+\end{figure}
+
+Il principio di Ramachandran ha stabilito che solo alcune configurazioni di angoli di torsione sono stabili e presenti naturalmente nelle proteine. 
+Queste configurazioni stabili sono descritte come regioni favorevoli o regioni accettabili nel grafico di Ramachandran. Le configurazioni non favorevoli o 
+non accettabili sono associate con strutture instabili o anomale.
+
+Il principio di Ramachandran viene utilizzato nella biologia strutturale per verificare la qualità delle predizioni di struttura proteica e per identificare 
+eventuali errore nella modellizzazione. Viene anche utilizzato nella progettazione di proteine artificiali e nella modifica della struttura delle proteine 
+esistenti per migliorare le proprietà terapeutiche o funzionali.
+
+Non tutte le coppie di angoli teoricamente possibili sono realmente ottenibili all'interno delle strutture peptidiche in quanto impedite dalla presenza di 
+ingombri sterici fra i gruppi delle catene laterali dei residui amminoacidici; le zone del grafico in cui tali contatti sterici sfavorevoli non sono presenti 
+possono essere delimitate da linee di contorno, e possono essere associate ai motivi secondari assunti dalla catena. La conformazione complessiva del peptide 
+è quindi definita assegnando i valori a ciascuna coppia di angoli $\psi$i, $\varphi$i per ogni amminoacido.
+
+Nel caso della glicina, le zone di conformazioni possibili nel grafico presentano una simmetria centrale e sono molto più ampie rispetto a quelle degli 
+altri amminoacidi grazie alla simmetria del residuo ed alle piccole dimensioni dell'atomo di idrogeno legato in posizione $\alpha$. Gli altri amminoacidi presentano 
+invece un diagramma asimmetrico, con un insieme di zone indicanti le conformazioni ammesse meno esteso, e la cui ampiezza dipende soprattutto dalla presenza 
+di gruppi stericamente ingombranti in posizione $\beta$. La presenza di catene laterali, anche lunghe, che non siano ramificate al carbonio $\beta$, come nel caso della 
+leucina, ha invece una scarsa influenza e riduce solo di poco il dominio delle conformazioni permesse.
+
+Un caso a parte si ha per la prolina, la cui struttura rigida rende possibili solo poche conformazioni in una porzione limitata del grafico.

@@ -1,14 +1,25 @@
 \begin{thebibliography}{}
 
+\bibitem[Abraham and Leo, 1987]{ExtensionFragment}
+Abraham, D.~J. and Leo, A.~J. (1987).
+\newblock Extension of the fragment method to calculate amino acid zwitterion
+  and side chain partition coefficients.
+\newblock {\em Proteins: Structure, Function, and Bioinformatics},
+  2(2):130--152.
+
 \bibitem[Alexa, 2022]{Alexa_2022_CVPR}
 Alexa, M. (2022).
 \newblock Super-fibonacci spirals: Fast, low-discrepancy sampling of so(3).
 \newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
   Pattern Recognition (CVPR)}, pages 8291--8300.
 
-\bibitem[di~Sanità EpiCentro L'epidemiologia per la~sanità pubblica,
-  ]{ReportCovid}
-di~Sanità EpiCentro L'epidemiologia per la~sanità pubblica, I.~S.
+\bibitem[David L.~Nelson, 2014]{Principi}
+David L.~Nelson, M. M.~C. (2014).
+\newblock {\em I principi di biochimica di Lehninger}.
+\newblock Zanichelli.
+
+\bibitem[di~Sanità, ]{ReportCovid}
+di~Sanità, I.~S.
 \newblock Tutto sulla pandemia di sars-cov-2.
 \newblock Technical report.
 
@@ -18,34 +29,44 @@ Duan~Liangwei, Zheng~Qianqian, Z. H. N. Y. L. Y. W.~H.
   and antigenicity: Implications for the design of spike-based vaccine
   immunogens.
 
+\bibitem[{Eugene Kellogg} and Abraham, 2000]{EUGENEKELLOGG2000651}
+{Eugene Kellogg}, G. and Abraham, D.~J. (2000).
+\newblock Hydrophobicity: is logpo/w more than the sum of its parts?
+\newblock {\em European Journal of Medicinal Chemistry}, 35(7):651--661.
+
 \bibitem[Federica~Agosta, ]{AgostaCozzini}
 Federica~Agosta, Glen E.~Kellogg, P.~C.
 \newblock From oncoproteins to spike proteins: the evaluation of intramolecular
   stability using hydropathic force field.
+
+\bibitem[Glen E.~Kellogg, 1991]{Kellogg1991}
+Glen E.~Kellogg, Simon F.~Semus, D. J.~A. (1991).
+\newblock Hint: A new method of empirical hydrophobic field calculation for
+  comfa.
+\newblock {\em Journal of Computer-Aided Molecular Design}, 5(6):545--552.
 
 \bibitem[Jeff~Chang, ]{BioPythonManual}
 Jeff~Chang, Brad~Chapman, I. F. T. H. M. d. H. P. C. T. A. E. T. B.~W.
 \newblock {\em Biopython Tutorial and Cookbook}.
 \newblock Open Bioinformatics Foundation (OBF), Lyon, France.
 
-\bibitem[MALIK, ]{ProprietàCovid}
-MALIK, Y.~A.
-\newblock Properties of coronavirus and sars-cov-2.
+\bibitem[L.~alessandrini, 2004]{Algebra}
+L.~alessandrini, L. (2004).
+\newblock {\em Geometria A}.
+\newblock Uninova.
 
-\bibitem[Martz, ]{SlideRamachandran}
-Martz, E.
-\newblock The ramachandran principle.
-\newblock Technical report.
+\bibitem[Laha et~al., 2020]{LAHA2020104445}
+Laha, S., Chakraborty, J., Das, S., Manna, S.~K., Biswas, S., and Chatterjee,
+  R. (2020).
+\newblock Characterizations of sars-cov-2 mutational profile, spike protein
+  stability and viral transmission.
+\newblock {\em Infection, Genetics and Evolution}, 85:104445.
 
-\bibitem[Proteopedia, ]{TutorialRamachandran}
-Proteopedia.
-\newblock The ramachandran principle phi and psi angles in proteins.
-\newblock Technical report.
-
-\bibitem[Raffaele, ]{RNApolimerasi}
-Raffaele, U. V.-S.~S.
-\newblock Rna polimerasi, la “fotocopiatrice distratta” di sars-cov-2.
-\newblock Technical report.
+\bibitem[Salleh et~al., 2021]{ijms22147425}
+Salleh, M.~Z., Derrick, J.~P., and Deris, Z.~Z. (2021).
+\newblock Structural evaluation of the spike glycoprotein variants on
+  sars-cov-2 transmission and immune evasion.
+\newblock {\em International Journal of Molecular Sciences}, 22(14).
 
 \bibitem[Tinelli, ]{StoriaCovid}
 Tinelli, M.
@@ -55,20 +76,5 @@ Tinelli, M.
 Valério~M, Borges-Araújo~L, M. M. L. D. S.~C.
 \newblock Sars-cov-2 variants impact rbd conformational dynamics and ace2
   accessibility.
-
-\bibitem[Wikipedia, ]{ForzaIntramolecolare}
-Wikipedia.
-\newblock Forza intramolecolare.
-\newblock Technical report.
-
-\bibitem[WikipediaAmminoacidi, ]{WikiAmminoacidi}
-WikipediaAmminoacidi.
-\newblock Amminoacidi.
-\newblock Technical report, Wikipedia.
-
-\bibitem[WikipediaProteine, ]{WikiProteine}
-WikipediaProteine.
-\newblock Proteine.
-\newblock Technical report, Wikipedia.
 
 \end{thebibliography}

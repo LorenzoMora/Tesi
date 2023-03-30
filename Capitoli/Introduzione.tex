@@ -1,8 +1,38 @@
 \chapter*{Introduzione} %Se si cambia il Titolo cambiare anche la riga successiva così che appia corretto nell'indice
 \addcontentsline{toc}{chapter}{Introduzione} %Per far apparire Introduzione nell'indice (Il nome deve rispecchiare quello del chapter)
 \pagenumbering{arabic} % Settaggio numerazione normale
-L'introduzione deve contenere un riassunto del lavoro di Tesi.
-In particolare bisogna esprimere chiaramente e molto sinteticamente: contesto dello studio, motivazioni, contributo e conclusioni.
-Bisogna quindi fare un sommario dello studio ad alto livello, fornendo le intuizioni senza ricadere in dettagli tecnici.
-Anche lo stile dovrebbe essere più discorsivo rispetto alle parti tecniche della tesi.
+%L'introduzione deve contenere un riassunto del lavoro di Tesi.
+%In particolare bisogna esprimere chiaramente e molto sinteticamente: contesto dello studio, motivazioni, contributo e conclusioni.
+%Bisogna quindi fare un sommario dello studio ad alto livello, fornendo le intuizioni senza ricadere in dettagli tecnici.
+%Anche lo stile dovrebbe essere più discorsivo rispetto alle parti tecniche della tesi.
+La glicoproteina spike del SARS-CoV-2 è una proteina di superficie virale che svolge un ruolo cruciale nell'entrata del virus nelle cellule ospiti. Essa è costituita da tre domini principali: il dominio N-terminale, il dominio centrale e il dominio C-terminale. Il dominio N-terminale della proteina spike si lega ai recettori delle cellule ospiti, in particolare l'enzima di conversione dell'angiotensina 2 (ACE2), che si trova sulla superficie delle cellule del tratto respiratorio. La proteina spike è una delle principali destinazioni dei vaccini COVID-19, poiché è il bersaglio principale del sistema immunitario nell'identificare e combattere il virus.
+
+L'obbiettivo principale è quello di studiare il comportamento della glicoproteina attraverso tecniche di ricerca locale, che tengano maggiormente in considerazione la stabilità della proteina stessa evitando di generare clash. Per l'appunto uno degli obbiettivi di questo framework è quello di preservare la catena laterale degli amminoacidi in qualsiasi movimento. Non vengono però applicate delle rotazioni alla catena laterale dell'amminoacido che rimane fissa, ma si agisce sulla backbone (catena principale), cercando di incastrare correttamente tutto. 
+L'altro obiettivo è quello di trovare un cammino minimo tra le due conformazioni aperta e chiusa, in modo da "simulare" il processo naturale di evoluzione delle conformazioni. Il framework si pone quindi al di sotto di un sistema di dinamica molecolare, ma che consente una panoramica di studio del comportamento della proteina.
+
+Dal titolo della tesi si evince che il framework è basato sulla ricerca locale, che è una famiglia di algoritmi di ottimizzazione che cercano di migliorare iterativamente una soluzione corrente mediante la modifica di componenti o variabili della soluzione stessa. All'interno di questo sistema viene utilizzata in due ambiti: il primo è quello di ricerca di convergenza tra le due conformazioni; mentre il secondo è utilizzate sempre in ambito di convergenza ma questa volta tra il loop e la nuova conformazione della parte mobile. Nel primo caso si tratta di un algoritmo di shortest-path che utilizza la ricerca locale per migliorare la soluzione corrente. 
+
+SPIEGARE L'IMPORTANZA DELLA MIA RICERCA
+
+La tesi è organizzata nel seguente modo:
+\vspace{10pt}
+\begin{itemize}
+	\item nella Sezione 1 si introducono quelle che sono le nozioni preliminari per contestualizzare il lavoro svolto;
+	\vspace{5pt}
+	\item nella Sezione 2 si introduce il covid-19 e in modo dettagliato il caso di studio della glicoproteina Spike;
+	\vspace{5pt}
+	\item nella Sezione 3 si introducono gli obbiettivi dell'elaborato;
+	\vspace{5pt}
+	\item nella Sezione 4 si mostra lo pseudo-codice che guida il framework;
+	\vspace{5pt}
+	\item nella Sezione 5 si mostrano i risultati conseguiti;
+	\vspace{5pt}
+	\item nella Conclusione oltre a riassumere brevemente il lavoro svolto, vengono evidenziati alcuni possibili sviluppi futuri. 
+	\vspace{5pt}
+\end{itemize}
+
+INTRODUCI I DIFETTI DEL SISTEMA
+
+INTRODUCI LE CONCLUSIONI
+
 

@@ -1,18 +1,24 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Esempio di amminoacido\relax }}{4}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Struttura dell'amminoacido\relax }}{4}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Esempio del grafico di Ramachandran\relax }}{12}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Uno spazio vettoriale è una collezione di oggetti, chiamati "vettori", che possono essere sommati e riscalati.\relax }}{22}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces La struttura è comune a tutti gli amminoacidi. Il gruppo R è legato al carbonio $\alpha $ ed è diverso per ogni amminoacido. Solo nel caso della glicina il gruppo R è un atomo di idrogeno\relax }}{4}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Formazione di un legame peptidico per condensazione, li gruppo $\alpha $-amminico di un amminoacido (con ilgruppo R2) agisce da nucleofilo e reagisce con Il gruppo ossidrilico del carbossile di un altro amminoacido (con Il gruppo R1), formando un legame peptidico (ombreggiato in rosa).\relax }}{8}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Livelli di struttura delle proteine. La struttura primaria è una sequenza di amminoacidi unita da legame peptidico. I polipeptidi risultanti possono disporsi in una struttura regolare ricorrente che viene definita struttura secondaria, come l'$\alpha $ elica. Essa costituisce una delle parti della struttura terziaria, che può essere a sua volta una delle subunità della struttura quaternaria.\relax }}{9}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Tre legami separano due atomi di carbonio $\alpha $ in successione in una catena polipeptidica. I legaml N---$C_\alpha $ e $C_\alpha $---C possono ruotare, descrivendo due angoli diedrici chiamati rispettivamente $\phi $ e $\psi $. Il legame C---N non è libero di ruotare. La rotazione degll altri legami singoli dello scheletro peptidico è resa difficoltosa dalle dimensioni e dalle cariche del gruppi R.\relax }}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Esempio grafico di Ramachandran\relax }}{12}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Uno spazio vettoriale è una collezione di oggetti, chiamati "vettori", che possono essere sommati e riscalati.\relax }}{21}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Molecola di un coronavirus\relax }}{29}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Principio del RNA polimerasi\relax }}{31}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Struttura di massima della glicoproteina spike\relax }}{33}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Struttura del dominio di legame del recettore SARS-CoV-2, nella conformazione aperta (A) e chiusa (B). (C) rappresenta la struttura legata ad ACE2\relax }}{35}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Struttura di un Coronavirus\relax }}{27}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Proteina spike: A, in due viste: NTD blu, RBD verde, CTD2 azzurro, CTD3 arancione, S1/S2 link rosso e S2 celeste. B, sovrapposizione degli RBD in conformazione chiusa e aperta; vi è anche lo stato di pre-fusione in colore verde sbiadito.\relax }}{30}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Struttura della glicoproteina spike\relax }}{31}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces SARS-CoV-2 RBD/ACE2. L'immagine a sinistra mostra la struttura complessiva del SARS-CoV-2(blu) legata a ACE2(giallo). L'immagine centrale mostra in dettaglio alcuni legame idrogeno e un ponte salino tra SARS-CoV-2 e ACE2. Nell'immagine sulla destra viene mostrata la mappa del potenziale elettrostatico del SARS-CoV-2 RBD con l'elica N-terminale di ACE2. Il dettaglio lo si può trovare nella Tab. \ref {tab:rtablega}\relax }}{33}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces La Glicoproteina spike nelle due configurazioni: contraddistinta dal colore magenta troviamo la configurazione chiusa; contraddistinta dal colore ciano troviamo la configurazione aperta.\relax }}{38}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Nell'immagine dettagliata notiamo i due loop che collegano la parte mobile alla parte fissa colorati rispettivamente di rosso e di blu.\relax }}{40}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces La Glicoproteina spike nelle due configurazioni: contraddistinta dal colore magenta troviamo la configurazione chiusa; contraddistinta dal colore ciano troviamo la configurazione aperta.\relax }}{36}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Nell'immagine dettagliata notiamo i due loop che collegano la parte mobile alla parte fissa colorati rispettivamente di rosso e di blu.\relax }}{38}{figure.caption.20}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces In (\textbf {a}) vengono mostrati i 6 vicini come intorno del punto (0,0,0) contrassegnato di rosso; mentre in (\textbf {b}) vengono mostrati i 26 vicini di (0,0,0) contrassegnato sempre in rosso.\relax }}{41}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Punti equidistanti sulla superficie di una sfera, creando una distribuzione uniforme degli stessi.\relax }}{45}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces La funzione Y2 è quella che mi permette di descrivere meglio il comportamento richiesto.\relax }}{56}{figure.caption.27}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces In rosso sono riportati i centroidi delle due configurazioni che stiamo analizzando, mentre in verde evidenziamo il parallelepipedo che racchiude lo spazio di ricerca.\relax }}{57}{figure.caption.28}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces In (\textbf {a}) viene mostrato il vicinato d'esplorazione; mentre in (\textbf {b}) viene mostrato il percorso pratico minimo.\relax }}{58}{figure.caption.29}%

@@ -7,13 +7,16 @@
 Come spiegato nel precedente capitolo il caso di studio su cui ci focalizziamo e incentriamo il nostro lavoro è la glicoproteina spike del SARS-CoV-2. Focalizziamo la nostra attenzione su questa proteina per studiarne il comportamento attraverso l'uso di tecniche di ricerca locale, avvicinandosi molto alle tecniche di dinamica e modellistica molecolare. Queste due tecniche introdotte si basano su metodi teorici o tecniche computazionali utilizzate per simulare il comportamento delle molecole. Queste tecniche vengono utilizzate per studiare la dinamica di evoluzione nel tempo di un sistema chimico e svolgere il processo mediante l'utilizzo della tecnologia permette l'applicazione della modellistica a sistemi relativamente complessi. Il livello di dettaglio che si può ottenere utilizzando questi sistemi è il livello atomistico; il più piccolo livello di informazione rappresentato dagli atomi individuali (o piccoli gruppi di atomi). Queste tecniche vengono utilizzate per svariati compiti dal folding proteico, la catalisi enzimatica, la stabilità delle proteine, i cambiamenti conformazionali associati alla funzione biomolecolare e il riconoscimento molecolare delle proteine. 
 Le tecniche descritte in precedenza hanno però delle problematiche a partire dalle risorse necessarie a compiere questo tipo di compiti, il tempo computazionale necessario e il fatto che si possa lavorare in modo completo solo su piccole strutture oppure è necessario limitare di molto lo spazio di lavoro. 
  
-Ricollegandoci alla Glicoproteina spike del SARS-CoV-2 prendiamo in considerazione entrambe le configurazioni sia quello in stato chiuso che quella in stato aperto; esse differiscono per lo stato in cui si trova la parte mobile: nella chiusa si trova in uno stato di pre fusione; nello stato aperto è pronta a legarsi ad un recettore. Possiamo vedere realmente la differenza delle due configurazioni guardando la Fig. \ref{fig:Configurazioni}.  
+Ricollegandoci alla Glicoproteina spike del SARS-CoV-2 prendiamo in considerazione entrambe le configurazioni sia quello in stato chiuso che quella in stato aperto; esse differiscono per lo stato in cui si trova la parte mobile: nella chiusa si trova in uno stato di pre fusione; nel momento in cui il virus raggiunge i tessuti in cui è espressa ACE2 (il suo target), il microambiente cellulare, attraverso meccanismi biochimici complessi che interessano lo scudo glicidico della Spike, innesca la variazione conformazione dell'RBD che passa in conformazione aperta. Quando l'RBD è in conformazione aperta lega ACE2. Possiamo vedere realmente la differenza delle due configurazioni guardando la Fig. \ref{fig:onformazioneupdown}.  
 
-\begin{figure}
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Immagini/Struttura_aperta_chiusa.png}
+	\subfloat[][\emph{Struttura intera}]
+	{\includegraphics[width=0.6\textwidth]{Immagini/Struttura_aperta_chiusa.png}} \\
+	\subfloat[][\emph{Dettaglio}]
+	{\includegraphics[width=0.4\textwidth]{Immagini/Struttura_aperta_chiusa_dettaglio.png}}
 	\caption{La Glicoproteina spike nelle due configurazioni: contraddistinta dal colore magenta troviamo la configurazione chiusa; contraddistinta dal colore ciano troviamo la configurazione aperta.}
-	\label{fig:Configurazioni}
+	\label{fig:onformazioneupdown}
 \end{figure}
 
 L'obbiettivo di questo framework lavorando sulle due configurazione della glicoproteina spike del SARS-CoV-2 è quello di trovare uno shortest path tra le due configurazioni utilizzando due principi differenti per il costo del singolo movimento.

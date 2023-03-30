@@ -1,278 +1,164 @@
 \chapter{Background}\label{chapter:background}
 \addcontentsline{toc}{chapter}{Background}
-In questo capitolo verranno introdotti i concetti di base utili alla comprensione del contesto. Andremo ad introdurre cosa sono 
-le proteine e quali sono i loro componenti principali.
 
-\section{Amminoacidi}\label{sec:cap_sec_subsec}
-% Parte presa da wikipedia https://it.wikipedia.org/wiki/Amminoacido
-Le informazioni trattate in questa sezione sono prese da \cite{WikiAmminoacidi}.
-Gli amminoacidi sono una categoria di composti organici che hanno sia il gruppo funzionale amminico (-NH\_2), sia quello carbossilico (-COOH). La parola aminoacido 
-deriva quindi proprio dall'unione dei due gruppi funzionali citati prima. Siccome sono presenti contemporaneamente un gruppo acido (carbossilico) e un gruppo basico (amminico), 
-sono definite molecole anfotere. Anfotere sono sostanze chimiche che possono manifestare sia un comportamento acido che uno basico. 
+\section{Proteine}\label{sec:proteine}
+Le proteine sono considerate il più importante strumento molecolare con le quali è possibile esprimere l'informazione genetica. 
 
+Come riporta \cite{Principi}, le proteine di qualsiasi organismo, dai batterei più semplici agli essere umani, sono formate sempre dalla stessa serie di venti amminoacidi. Poiché ogni amminoacido ha una catena laterale con specifiche proprietà chimiche, questo gruppo di 20 precursori può essere considerato come una forma di alfabeto con cui è scritto il linguaggio della struttura delle proteine. 
+
+Gli amminoacidi, in modo retorico, possono essere considerati dei mattoncini che costruiscono le proteine e giocando con questi mattoncini possiamo costruire diverse tipologie di proteine. 
+Come riporta \cite{Principi}, le proteine sono polimeri di amminoacidi in cui ogni residuo amminoacidico  è unito a quello vicino da uno specifico legame covalente. Il legame covalente in questione è il legame peptidico o giunto peptidico che unisce il gruppo (-NH2) di un amminoacido con il gruppo (-COOH) di un altro amminoacido. Negli organismi viventi le proteine svolgono innumerevoli funzioni, tra cui la catalisi delle reazioni metaboliche, funzione di sintesi come replicazione del DNA, la risposta a stimoli e il trasporto di molecole da un luogo ad un altro. Le proteine in generale si differiscono nella sequenza degli amminoacidi, che viene conservata nei geni e che si traduce in un particolare ripiegamento della stessa e una struttura tridimensionale specifica che caratterizza la sua attività.
+
+\subsection{Amminoacidi}\label{subsec:amminoacido}
+Tutti gli amminoacidi presenti nelle proteine sono $\alpha$-amminoacidi. Essi sono composti da un gruppo carbosillico e un gruppo amminico legati allo stesso atomo di carbonio, denominato carbonio $\alpha$, e si distinguono l'uno dall'altro mediante il gruppo R, che si differenzia non solo per la struttura, ma anche per proprietà chimico-fisiche, Fig.\ref{fig:Amminoacido}. 
 \begin{figure}
-    \centering
-    \includegraphics[width=0.3\textwidth]{Immagini/800px-Selenocysteine_skeletal_3D.png}
-    \caption{Esempio di amminoacido}
-    \label{fig:Amminoacido}
+	\centering
+	\includegraphics[width=0.3\textwidth]{Immagini/StrutturaAmminoacido.png}
+	\caption{La struttura è comune a tutti gli amminoacidi. Il gruppo R è legato al carbonio $\alpha$ ed è diverso per ogni amminoacido. Solo nel caso della glicina il gruppo R è un atomo di idrogeno}
+	\label{fig:Amminoacido}
 \end{figure}
 
-In biochimica, ci si riferisce di solito ad un sottogruppo dei seguenti, ovvero gli $L-\alpha-amminoacidi$, ovvero amminoacidi il cui gruppo amminico e carbossilico sono 
-legati allo stesso atomo di carbonio, chiamato appunto $\alpha$ e la loro configurazione è ad L, ovvero il gruppo amminico si troverà sempre alla sinistra del carbonio $\alpha$.
-Sono presenti 22 $L-\alpha-amminoacidi$ che costituiscono la struttura delle proteine, anche detti amminoacidi proteinogenici. 
-Oltre hai al gruppo carbosillico e al gruppo aminico, ogni amminoacido si contraddistingue dagli altri per la presenza di un residuo R, conosciuto anche con il nome di 
-catena laterale.
+Nei comuni amminoacidi, il carbonio $\alpha$ è legato a quattro gruppi differenti: il gruppo carbosillico; il gruppo amminico; il gruppo R; un'atomo di idrogeno. Il carbonio $\alpha$ è detto centro chirale, ovvero ha quattro sostituenti diversi ed è asimmetrico. 
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.4\textwidth]{Immagini/StrutturaAmminoacido.png}
-    \caption{Struttura dell'amminoacido}
-    \label{fig:AmminoacidoStruttura}
-\end{figure}
-\subsection{Catena laterale}\label{subsec:Catena_laterale}
-La catena laterale gioca degli amminoacidi gioca un ruolo importante per la determinazione delle proprietà delle proteine. Esiste una vasta diversità nelle proprietà 
-chimiche delle catene laterali degli amminoacidi, tuttavia essi possono essere raggruppati in 6 classi differenti.
-
-\begin{table}[ht]
-    \centering
-    \resizebox{0.99\linewidth}{!}{
-        \begin{tabular}{%
-            |>{\itshape}p{40mm}%
-            |>{\ttfamily}p{75mm}|}
-            \hline
-            Tipo di catena laterale & Amminoacidi \\
-            \hline
-            Alifatica & Glicina, alanina, valina, leucina, isoleucina\\
-            \hline
-            Contenente idrossile o solfuro & Serina, cisteina, treonina, metionina\\
-            \hline
-            Aromatica & Fenilalanina, tiroxina, triptofano\\
-            \hline
-            Basica & Istidina, lisina, arginina\\
-            \hline
-            Acido e la sua ammide & Acido aspartico, acido glutammico, asparagina, glutammina\\
-            \hline
-            Ciclica & Prolina\\
-            \hline
-        \end{tabular}
-    }
-    \vspace*{2mm}
-	\caption{Classi di amminoacidi}
-	\label{tab:tabellaclassiamminoacido}    
+\subsubsection{Classificazione degli amminoacidi}\label{subsubsec:classiamminoacido}
+\begin{table}[h]
+	\centering
+	\fontfamily{ptm}\selectfont
+	\label{tab:gruppoamminico}
+	\begin{tabularx}{1\textwidth}{|l|l|l|l|l|l|l|l|l|}
+		\hline
+		\parbox{1.8cm}{\textbf{\small Ammino-\\acido}} & \parbox{1.4cm}{\textbf{\small Simbolo}} & \parbox{0.1cm}{$\mathbf{\small{M_r}}$} & \parbox{0.1cm}{$\mathbf{\small{pK_1}}$} & \parbox{0.1cm}{$\mathbf{\small{pK_2}}$} & \parbox{0.1cm}{$\mathbf{\small{pK_r}}$} & \parbox{0.1cm}{\textbf{pl}} & \parbox{1cm}{\textbf{\small Indice idropatico}} & \parbox{1.35cm}{\textbf{\small Presenza nelle proteine \%}}  \\ \hline
+		\multicolumn{9}{!{\vrule width 1pt}>{\columncolor{gray!25}}c!{\vrule width 1pt}}{\textbf{Gruppi R alifatici, non polari}} \\ \hline
+		\parbox{0.4cm}{\small Glicina}& Gly & 75 & 2.34 & 9.60 & & 5.97 & -0.4 & 7.2\\ \hline
+		\parbox{0.4cm}{\small Alanina} & Ala & 89 & 2.34 & 9.69 & & 6.01 & 1.8 & 7.8 \\ \hline
+		\parbox{0.4cm}{\small Prolina} & Pro & 115 & 1.99 & 10.96 & & 6.48 & -1.6 & 5.2\\ \hline
+		\parbox{0.4cm}{\small Valina} & Val & 117 & 2.32 & 9.62 & & 5.97 & 4.2 & 6.6 \\ \hline
+		\parbox{0.4cm}{\small Leucina} & Leu & 131 & 2.36 & 9.60 & & 5.98 & 3.8 & 9.1\\ \hline
+		\parbox{0.4cm}{\small Isoleucina} & Ile & 131 & 2.36 & 9.68 & & 6.02 & 4.5 & 5.3 \\ \hline
+		\parbox{0.4cm}{\small Metionina} & Met & 149 & 2.28 & 9.21 & & 5.74 & 1.9 & 2.3 \\ \hline
+		\multicolumn{9}{!{\vrule width 1pt}>{\columncolor{gray!25}}c!{\vrule width 1pt}}{\textbf{Gruppi R aromatici}} \\ \hline
+		\parbox{0.4cm}{\small Fenilalanina} & Phe & 165 & 1.83 & 9.13 & & 5.48 & 2.8 & 3.9\\ \hline
+		\parbox{0.4cm}{\small Tirosina} & Tyr & 181 & 2.20 & 9.11 & 10.07 &5.66 & -1.3 & 3.2\\ \hline
+		\parbox{0.4cm}{\small Triptofano} & Trp & 204 & 2.38 & 9.39 & & 5.89 & -0.9 & 1.4 \\ \hline
+		\multicolumn{9}{!{\vrule width 1pt}>{\columncolor{gray!25}}c!{\vrule width 1pt}}{\textbf{Gruppi R polari, non carichi}} \\ \hline
+		\parbox{0.4cm}{\small Serina} & Ser & 105 & 2.21 & 9.15 & & 5.68 & -0.8 & 6.8 \\ \hline
+		\parbox{0.4cm}{\small Treonina} & Thr & 119 & 2.11 & 9.62 & & 5.87 & -0.7 & 5.9 \\ \hline
+		\parbox{0.4cm}{\small Cisteina} & Cys & 121 & 1.96 & 10.28 & 8.18 & 5.07 & 2.5 & 1.9 \\ \hline
+		\parbox{0.4cm}{\small Asparagina} & Asn & 132 & 2.02 & 8.80 & & 5.41 & -3.5 & 4.3 \\ \hline
+		\parbox{0.4cm}{\small Glutammina} & Gln & 146 & 2.17 & 9.13 & & 5.65 & -3.5 & 4.2 \\ \hline
+		\multicolumn{9}{!{\vrule width 1pt}>{\columncolor{gray!25}}c!{\vrule width 1pt}}{\textbf{Gruppi R carichi positivamente}} \\ \hline
+		\parbox{0.4cm}{\small Lisina} & Lys & 146 & 2.18 & 8.95 & 10.53 & 9.74 & -3.9 & 5.9\\ \hline
+		\parbox{0.4cm}{\small Istidina} & His & 155 & 1.82 & 9.17 & 6.00 & 7.59 & -3.2 & 2.3\\ \hline
+		\parbox{0.4cm}{\small Arginina}& Arg & 174 & 2.17 & 9.04 & 12.48 & 10.76 & -4.5 & 5.1\\ \hline
+		\multicolumn{9}{!{\vrule width 1pt}>{\columncolor{gray!25}}c!{\vrule width 1pt}}{\textbf{Gruppi R carichi negativamente}} \\ \hline
+		\parbox{0.4cm}{\small Aspartato} & Asp & 133 & 1.88 & 9.60 & 3.65 & 2.77 & -3.5 & 5.3 \\ \hline
+		\parbox{0.4cm}{\small Glutammato} & Glu & 147 & 2.19 & 9.67 & 4.25 & 3.22 & -3.5 & 6.3 \\ \hline
+	\end{tabularx}
+	\normalfont
+	\caption{Proprietà e nomenclatura degli amminoacidi comuni presenti nelle proteine.}
+	\smallskip
+	\begin{tablenotes}
+		\item[\dag] \textbf{Indice idropatico} è un valore che combina idrofobicità e idrofilicità dei gruppi R e si riferisce all'energia libera di trasferimento ($\delta G$) della catena laterale dell'amminoacido da un solvente idrofobico all'acqua. Il trasferimento è favorito ($\delta G < 0$, valore dell'indice negativo) per le catene laterali degli amminoacidi carichi o polari; ed è sfavorito ($\delta G > 0$, valore dell'indice positivo) per le catene laterali degli amminoacidi non polari o idrofobici.
+		\item[\ddag] \textbf{Presenza nelle proteine \%} rappresenta la presenza media in più di 1150 proteine.
+	\end{tablenotes}
 \end{table}
 
-La prolina non può essere inserita in una qualsiasi classe perché è ciclica. La prolina condivide la maggior parte delle proprietà 
-con i gruppi alifatici. La rigidità dell'anello gioca un ruolo cruciale nella struttura delle proteine. Come già detto, 
-gli amminoacidi sono i mattoni di costruzione delle proteine e la metà di questi sono anche essenziali per l'essere umano, 
-poiché non è in grado di produrseli da soli.  
-
-Gli amminoacidi in azione combinata o in azione singola sono alla base di molte attività presenti nel nostro corpo.
-%%% Valuta se inserire le caratteristiche peculiari degli amminoacidi
-
-
-\section{Proteine}\label{sec:cap_sec_subsec}
-Le informazioni trattate in questa sezione sono prese da \cite{WikiProteine}
-A livello chimico, le proteine non sono altro che macromolecole biologiche costituite da catene di amminoacidi legate insieme da un legame peptidico. Il legame 
-peptidico o giunto peptidico è un legame covalente che unisce il gruppo (-NH\_2) di un amminoacido con il gruppo (-COOH) di un altro amminoacido. Negli organismi 
-viventi le proteine svolgono innumerevoli funzioni, tra cui la catalisi delle reazioni metaboliche, funzione di sintesi come replicazione del DNA, la risposta a 
-stimoli e il trasporto di molecole da un luogo ad un altro. Le proteine in generale si differiscono nella sequenza degli amminoacidi, che viene conservata nei geni 
-e che si traduce in un particolare ripiegamento della stessa e una struttura tridimensionale specifica che caratterizza la sua attività.
-
-A differenza di altre macromolecole biologiche come i polisaccaridi e gli acidi nucleici, le proteine sono essenziali negli organismi viventi perché prendono parte 
-a praticamente tutti i processi che avvengono nelle cellule. La maggior parte appartiene alla categoria degli enzimi, che caratterizzano le reazioni biochimiche 
-vitali per il metabolismo degli organismi. Hanno anche funzioni strutturali o meccaniche nei muscoli e che costituiscono il citoscheletro. Alcune sono fondamentali 
-per l'invio di segnali inter ed intracellulari e nella difesa immunitaria. Una volta che sono sintetizzate all'interno del organismo, esistono per un periodo di 
-tempo limitato per poi esser degradate e riciclate attraverso meccanismi cellulari. 
-
-Le proteine possono essere purificate da altri componenti cellulari e utilizzando tecniche come: l'ultracentrifugazione; la precipitazione; l'elettroforesi; 
-la cromatografia. L'avvento dell'ingengneria genetica ha portato a nuove tecniche che ne facilitano la purificazione. 
-
-Una catena lineare di residui amminoacidi è chiamata polipeptide, ed una proteina generalmente è costituita da uno o più polipeptidi lunghi eventualmente coordinati 
-a gruppi non peptidici, chiamati prostetici o cofattori. I polipeptidi che contengono meno di 20/30 amminoacidi non vengono quasi mai considerati proteine, ma più 
-spesso chiamati peptidi. La sequenza degli amminoacidi in una proteina è definita della sequenza presente nel gene a sua volta codificata nel codice genetico, 
-solitamente ne sono specificati 20 ma possono essere di più in alcuni organismi.
-
-Le proteine che hanno stesso numero e tipo di amminoacidi possono differire per come vengono posti all'interno della struttura, anche una singola variazione può 
-portare ad una variazione nella struttura tridimensionale della macromolecola che può rendere la proteina non funzionale. 
-
-\subsection{Classificazione}\label{subsec:es_subsec}
-
-Durante l'evoluzione ci sono stati duplicamenti di geni e alterazioni della funzione di una proteina che portano tutt'ora ad avere circa 500 famiglie proteiche. 
-All'interno della stessa famiglia le proteine svolgono funzioni leggermente diverse, ma per quanto riguarda la loro composizione a livello di sequenza di amminoacidi
-è quasi identica. Chiaramente ci sono anche casi in cui le proteine all'interno della stessa famiglia si differiscono a livello di sequenza di amminoacidi, ma hanno 
-una conformazione tridimensionale molto simile. 
-
-Si afferma quindi che nel corso dell'evoluzione si sia più conservata la conformazione tridimensionale, piuttosto che la sequenza. Si può dire che due proteine hanno 
-la stessa struttura generale quando almeno un quarto della loro sequenza amminoacidi corrisponde. Si dice invece che due proteine hanno un qualche grado di parentela, 
-se almeno il 30\% degli amminoacidi corrisponde. Alcune proteine possono anche essersi formate per rimescolamento dei domini proteici o per la duplicazione 
-all'interno della proteina stessa con unioni accidentali di DNA. 
-
-La classificazione può essere ottenuta grazie alla composizione chimica, alla configurazione molecolare o alla solubilità. Ci sono quindi proteine semplici che 
-sono costituite da soli amminoacidi e proteine coniugate composte dalla proteina semplice e da un gruppo prostetico non proteico.
-
-Tra le proteine semplici vi sono le proteine fibrose, tendenzialmente non solubili nei solventi acquosi e poco attaccabili dagli enzimi proteolitici, inoltre sono
-presenti le proteine globulari. Mentre per quanto riguarda le proteine coniugate troviamo l'emoglobina, le clorofille e le opsine.
-
-Si possono poi classificare le proteine in base alla funzione che compiono, ci sono le proteine strutturali che sono componenti delle strutture permanenti e che 
-hanno funzione meccanica, poi trovano posto le proteine di trasporto che prendono le sostanza poco idrosolubili e ne consentono il trasporto nell'organismo e poi
-trovano posto gli enzimi che sono proteine catalitiche. A queste funzioni che abbiamo brevemente descritto si aggiugono la regolazione dell'espressione dei geni, 
-la duplicazione, trascrizione e traduzione del DNA, la regolazione delle reazioni metaboliche, la generazione e la ricezione degli impulsi nervosi. 
-
-\subsection{biochimica}\label{subsec:es_subsec}
-
-La stra grande maggioranza delle proteine sono costituite da polimeri lineari combinando 20 diversi $L-\alpha-amminoacidi$. Tutti gli aminoacidi che possono essere 
-impiegati nella costruzione di proteine hanno una struttura comune, un carbonio $\alpha$ con un gruppo amminico, un gruppo carbosillico e una catena laterale 
-variabile a seconda dell'aminoacido, l'unica che si distingue è la prolina che contiene un anello insolito al gruppo amminico. Le catene laterali degli amminoacidi 
-hanno ognuna la loro struttura e le loro proprietà chimiche, l'effetto combinato delle catene laterali determina la struttura tridimensionale e la reattività chimica
-della proteina. Una volta collegati tramite legame peptidico gli amminoacidi sono chiamati residui e la serie di carbonio, azoto e atomi d'ossigeno è nota come 
-catena principale o backbone.
-
-Il legame peptidico ha due forme di risonanza che contribuiscono al doppio legame e non permettono la rotazione attorno al suo asse, in modo tale che i carbonio 
-$\alpha$ dei vari residui siano pressoche complanari. Ci sono però altri due angoli nel legame peptidico che ne determinano la forma assunta. 
-
-\subsection{Composizione}\label{subsec:es_subsec}
-Uno dei dogmi fondamentali della biologia è che ad ogni struttura tridimensionale di una proteina via sia associata una specifica funzione biochimica. In questo modo
-le proteine possono essere classificate in due famiglie: le proteine globulari e le proteine a struttura estesa o fibrosa. Questa separazione riflette anche una
-separazione funzionale:
+Gli amminoacidi possono essere classificati sulla base della caratteristiche chimico-fisiche del gruppo R legato al carbonio $\alpha$:
 \vspace{10pt}
 \begin{itemize}
-    \item le proteine estese o fibrose svolgono funzioni biomeccaniche quindi fornendo sostegno strutturale;
-    \vspace{5pt}
-    \item le proteine globulari sono coinvolte in molteplici e specifiche funzioni biologiche e sono di fondamentale importanza per l'economia cellulare.
+	\item Gruppi R alifatici, non polari: in questa classe gli amminoacidi non sono polari e quindi idrofobici; le catene laterali tendono a interagire all'interno della proteina tramite interazioni idrofobiche;
+	\vspace{5pt}
+	\item Gruppi R aromatici: in questa classe gli amminoacidi sono tutti non polari (idrofobici) e tutti possono intervenire nelle interazioni idrofobiche;
+	\vspace{5pt}
+	\item Gruppi R polari, non carichi: in questa classe gli amminoacidi sono più solubili in acqua (o più idrofilici), rispetto ai non polari, perché contengono gruppi funzionali che creano legami idrogeno;
+	\vspace{5pt}
+	\item Gruppi R carichi positivamente: in questa classe gli amminoacidi, sono quelli più idrofilici poichè contengono una carica netta positiva;
+	\vspace{5pt}
+	\item Gruppi R carichi negativamente: in questa classe gli amminoacidi, sono quelli più idrofilici poichè contengono una carica netta negativa e sono caratterizzati dall'avere un secondo gruppo carbosillico.
+	\vspace{5pt}
 \end{itemize}
 
-Una proteina è formata da uno o più polipeptidi, che sono molecole con più di 10 unità di amminoacidi, eventualmente accompagnati o legati da uno o più gruppi
-prostetici. Una proteina attiva può esistere solo in soluzioni salina diluita e la sua struttura dipendera esclusivamente dalle caratteristiche chimico-fisiche
-della soluzione in cui è inserita, che può anche determinare modifiche strutturali e alterare le sue propieta funzionali. 
-
-La molecola proteica risulta costituita da atomi di carbonio, ossigeno, idrogeno e azoto, può contenere anche zolfo  e, talvolta, fosforo e/o metalli.
-
-\subsection{Struttura}\label{subsec:es_subsec}
-Mettiamo un sunto sensato delle sottosottosezioni....
-\subsubsection{Ripiegamento}\label{subsec:es_subsec}
-Prendendo una proteina, ovvero una macromolecola formata da decina di migliaia di atomi, potrebbe assumere un numero di ripiegamenti elevati; tuttavia, non è 
-cosi perché ci sono considerazioni fisiche che limitano la maggior parte dei ripiegamenti. Gli atomi non possono sovrapporsi e il loro comportamento è da immaginarsi
-come delle semplici sfere, con un certo raggio detto raggio di van der Waals. Ciascun amminoacido contribuisce alla formazione della catena con tre possibili legami:
-\vspace{10pt}
-\begin{itemize}
-    \item legame peptidico (C-N) tra il carbonio di un amminoacido e l'azoto di un amminoacido adiacente;
-    \vspace{5pt}
-    \item legame convezionalmente chiamato C$\alpha$-C che è presente nei due carboni della catena principale del singolo amminoacido;
-    \vspace{5pt}
-    \item legame C$\alpha$-N all'interno dello stesso amminoacido.
-\end{itemize} 
-
-Il legame peptidico è planare e non consente alcuna rotazione, mentre gli altri due legami possono ruotare e definiscono due angoli: l'angolo di rotazione del 
-legame C$\alpha$-C è detto $\psi$; l'angolo di rotazione del legame C$\alpha$-N è $\varphi$. La conformazione degli atomi che fanno parte della catena principale 
-è determinata dagli angoli descritti in precedenza. Non è pero possibile ruotare come si vuole questi angoli dato che non sono possibili collisioni steriche tra gli 
-amminoacidi. Ramachandran come vedremo nella prossima sezione nel dettaglio ha individuato e rappresentato in un grafico le coppie di angoli di rotazione a seconda
-delle coppie di atomi. Dal grafico si può vedere che le proteine assumono due grandi tipologie di conformazione: l'$\alpha-elica$ e il $\beta-foglietto$.
-
-Tra gli atomi che sono all'interno di una proteina si stabiliscono dei legami che possono essere covalenti o non covalenti, i legami non covalenti sono sicuramente 
-meno potenti, tuttavia il numero all'internoo di una proteina li rende fondamentali per comprendere il ripiegamento. Ci sono tre tipi di legami non covalenti:
-\vspace{10pt}
-\begin{itemize}
-    \item il legame idrogeno, che si effettua tra un atomo di ossigeno e uno vicino ad idrogeno;
-    \vspace{5pt}
-    \item le attrazzioni elettrostatiche che avvengono tra gruppi laterali con cariche periferiche opposte;
-    \vspace{5pt}
-    \item le attrazzioni di van der Waals si verificano tra dipoli molecola istantanei indotti, tra dipoli permanenti o tra un dipolo permanente e uno corrisponde 
-    indotto, nelle quali entrano in gioco forze diverse.
-\end{itemize} 
-
-Vanno aggiunte alle precendenti interazioni la tendenza dei gruppo di amminoacidi idrofobici ad avvicinarsi e unirsi tra loro, formando delle tasche idrofobiche che
-sono però lontane dai legami idrogeno sempre presenti in un ambiente acquoso. Tendenzialmente questi gruppi sono posti all'interno della proteina, mentre i suoi 
-amminoacidi idrofili (polari e con carica) saranno tendenzialmente all'esterno, poiché essa si trova tipicamente in un ambiente acquoso. Di solito la proteina 
-tende poi ad assumere la struttura tridimensionale che ha la più bassa energia libera.
-
-\subsubsection{Le conformazioni più comuni}\label{subsec:es_subsec}
-L'$\alpha-elica$ e il $\beta-foglietto$ sono le conformazioni più comuni riscontrabili nelle catene polipeptidiche di una proteina. Una singola proteina può 
-prevedere sia $\alpha-elica$ che $\beta-foglietto$ in numero variabile.
-
-L'$\alpha-elica$ è la più comune nelle proteine, in particolare nei recettori cellulari, e si possono trovare più $\alpha-elica$ per singola proteina. L'elica è 
-una delle conformazioni più favorevoli perché riduce al minimo l'energia libera. Essa si forma quando una catena polipeptidica si ripiega su se stessa con formazione
-di legami idrogeno tra un legame peptidico e il quarto successivo, nel dettaglio tra il gruppo chetonico C=O dell'uno e il gruppo N-H dell'altro, e il legame 
-è tra O e H. Tutti i gruppi amminici di un'elica sono rivolti verso l'N-terminale della proteina, tutti quelli chetonici verso il C-terminale, così l'elica assume 
-parziale carica positiva all'N-terminale e parziale carica negativa al C-terminale.
-
-Il $\beta-foglio$ pieghettato è la seconda conformazione più comune nelle proteine, si trova maggiormente in alcuni enzimi e nelle proteine coinvolte nella difesa 
-immunitaria. Esso consiste in numerose catene polipeptidiche che si dispongono l'una adiacente all'altra, collegate in una struttura continua da brevi sequenze ad U.
-
-\subsubsection{Livelli di organizzazione}\label{subsec:es_subsec}
-All'interno della proteina si possono distinguere vari livelli di organizzazione, che possono essere tre o quattro a seconda della tipologia della stessa.
-I livelli d'organizzazione sono: 
-\vspace{10pt}
-\begin{itemize}
-    \item la struttura primaria è formata dalla sequenza specifica di amminoacidi, dalla catena peptidica e il numero delle catene determina anche il ripiegamento
-    della stessa;
-    \vspace{5pt}
-    \item la struttura secondaria consiste nella conformazione delle catene ($\alpha-elica$, $\beta-foglietto$, etc..). All'interno di una singola proteina vi può 
-    essere una combinazione una combinazione di varie tipologie di sequenze;
-    \vspace{5pt}
-    \item il dominio è un'unità globulare o fibrosa formata da catene polipeptidiche ripiegate in più regioni compatte, costituiscono divisioni della struttura 
-    terziaria, ha la caratteristica di ripiegarsi più o meno indipendentemente rispetto al resto della proteina. Molte delle proteine più complesse sono 
-    aggregazioni modulari di numerosi dominii proteici;
-    \vspace{5pt} 
-    \item la struttura terziaria, che dal punto di vista termodinamo è quella ccon la più bassa energia libera, è rappresentata dalla configurazione tridimensionale
-    completa che la catena polipeptidica assume nell'ambiente in cui si trova;
-    \vspace{5pt}
-    \item la struttura quaternaria deriva dall'associazione di due o più unità polipeptidiche, unite tra loro da legami deboli.
-\end{itemize} 
-
-Le proteine contenenti una parte non polipeptidica sono anche dette coniugate. Due proteine possono essere definite isoforme se a parità di struttura primaria ci sono 
-differenze in uno degli altri livelli di struttura. Quando si dice denaturare una proteina significa distruggerne la sua conformazione spaziale, anche se viene 
-mantenuta intatta la struttura primaria, essa non è più in grado di esplicare la sua funzione.
-
-\subsubsection{Proteine complesse}\label{subsec:es_subsec}
-Le proteine prese singolarmente sono si complesse, ma all'intermo degli organismi possono aggregarsi ad altre proteine identiche e non creando cosi dei complessi
-proteici. Tutto ciò avviene grazie ai legami non covalenti che permettono ad una proteina di assumere una determinata configurazione. Nella proteina sono presenti 
-una o più zone capaci di interazioni covalenti e vengono chiamate sidi di legame. Quando le proteine si uniscono insieme in un complesso proteico, le singole unità 
-vengono chiamate subunità proteiche.
-
-Ci sono complessi proteici formati da molte subunità che permettono di realizzare filamenti, poiché in un polo possiedono un sito di legame e dall'altro una struttura
-proteica complementare allo stesso sito. Vi sono poi proteine la cui funzione è resa possibile proprio dalla loro struttura poco caratterizzabile e quasi casuale;
-esse principalmente hanno molte funzioni all'interno della cellula. La loro caratteristica è quella di avere ridondanza di amminoacidi e bassa presenza di 
-amminoacidi idrofobici. 
-
-Ci possono essere casi in cui la proteina è esposta ad un alto livello di degradazione, esse sono quindi stabilizzate da legami di solfuro, che permettono di 
-mantenere la sua conformazione.
-
-\section{Principio di Ramachandran}\label{sec:cap_sec_subsec}
-Le informazioni trattate in questa sezione sono prese da \cite{SlideRamachandran} e da \cite{TutorialRamachandran}.
-Come detto nella sezione precedente Phi $\varphi$ e Psi $\psi$ determinano la conformazione di un polipeptide. Il principio di Ramachandran ci dice quali $\alpha-elica$, 
-$\beta-foglietto$ e spire sono le conformazioni più probabili da adottare per una catena polipeptidica, poiché la maggior parte delle configurazioni sono 
-impossibili a causa delle collisioni steriche tra gli atomi. 
+\subsection{Polimeri degli amminoacidi}\label{subsec:polimeri}
+Le proteine differiscono nel numero di amminoacidi che li compongono. Due molecole di amminoacidi come detto in precedenza possono unirsi covalentemente mediante un legame ammidico, chiamato appunto legame peptidico, formando un dipeptide. Come dice \cite{Principi}, questo tipo di legame si genera per eliminazione di una molecola d'acqua dal gruppo $\alpha$-carbosillico di un amminoacido e dal gruppo $\alpha$-amminico dell'altro (Fig. \ref{fig:legamepeptidico}). 
 
 \begin{figure}
-    \centering
-    \includegraphics[width=0.4\textwidth]{Immagini/GraficoRamachandran.png}
-    \caption{Esempio del grafico di Ramachandran}
-    \label{fig:graficoRamachandran}
+	\centering
+	\includegraphics[width=0.5\textwidth]{Immagini/LegamePeptidico.png}
+	\caption{Formazione di un legame peptidico per condensazione, li gruppo $\alpha$-amminico di un amminoacido (con ilgruppo R2) agisce da nucleofilo e reagisce con Il gruppo ossidrilico del carbossile di un altro amminoacido (con Il gruppo R1), formando un legame peptidico (ombreggiato in rosa).}
+	\label{fig:legamepeptidico}
 \end{figure}
 
-Il principio di Ramachandran ha stabilito che solo alcune configurazioni di angoli di torsione sono stabili e presenti naturalmente nelle proteine. 
-Queste configurazioni stabili sono descritte come regioni favorevoli o regioni accettabili nel grafico di Ramachandran. Le configurazioni non favorevoli o 
-non accettabili sono associate con strutture instabili o anomale.
+Oligopeptidi e Polipeptidi differiscono per il numero di amminoacidi costituenti. I polipeptidi o proteine sono delle macromolecole a struttura complessa costituite da un numero di unità monometriche convenzionalmente  superiore a 50. Alcune proteine sono costituite da una singola catena polipetidica, mentre altre hanno più polipetidi associati in modo non covalente e sono chiamate proteine multisubunità. All'interno delle proteine multisubunità, se almeno due dei polipeptidi presenti sono uguali, allora la proteina viene detta oligomerica, e le subunità identiche sono dette protomeri. Come riporta \cite{Principi}, la composizione amminoacidica delle proteine è molto variabile. Infatti i 20 amminoacidi comuni non sono quasi mai distribuiti in egual proporzione nella proteina.
 
-Il principio di Ramachandran viene utilizzato nella biologia strutturale per verificare la qualità delle predizioni di struttura proteica e per identificare 
-eventuali errore nella modellizzazione. Viene anche utilizzato nella progettazione di proteine artificiali e nella modifica della struttura delle proteine 
-esistenti per migliorare le proprietà terapeutiche o funzionali.
+Una volta espresse, alcune proteine possono subire delle modifiche chimico-strutturali essenziali per la loro funzione. Tra queste ricordiamo la glicosilazione, una modifica post-tradizionale tale per cui alcuni residui aminoacidici sono non-covalentemente legati a zuccheri, molecole formate da un anello a cinque o sei atomi di carbonio legati a gruppi ossidrilici
+ 
+\subsection{Struttura delle proteine}\label{subsec:strutturaproteine}
+Le caratteristiche strutturali conferiscono alla proteina stessa la sua funzione, ma la struttura di una proteina di grandi dimensioni è complessa e può essere descritta secondo vari livelli di complessità. In generale vengono descritti quattro livelli di struttura delle proteine, come si può vedere nella Fig. \ref{fig:strutturagerarchica}. 
 
-Non tutte le coppie di angoli teoricamente possibili sono realmente ottenibili all'interno delle strutture peptidiche in quanto impedite dalla presenza di 
-ingombri sterici fra i gruppi delle catene laterali dei residui amminoacidici; le zone del grafico in cui tali contatti sterici sfavorevoli non sono presenti 
-possono essere delimitate da linee di contorno, e possono essere associate ai motivi secondari assunti dalla catena. La conformazione complessiva del peptide 
-è quindi definita assegnando i valori a ciascuna coppia di angoli $\psi$i, $\varphi$i per ogni amminoacido.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{Immagini/StrutturaGerarchica.png}
+	\caption{Livelli di struttura delle proteine. La struttura primaria è una sequenza di amminoacidi unita da legame peptidico. I polipeptidi risultanti possono disporsi in una struttura regolare ricorrente che viene definita struttura secondaria, come l'$\alpha$ elica. Essa costituisce una delle parti della struttura terziaria, che può essere a sua volta una delle subunità della struttura quaternaria.}
+	\label{fig:strutturagerarchica}
+\end{figure}
 
-Nel caso della glicina, le zone di conformazioni possibili nel grafico presentano una simmetria centrale e sono molto più ampie rispetto a quelle degli 
-altri amminoacidi grazie alla simmetria del residuo ed alle piccole dimensioni dell'atomo di idrogeno legato in posizione $\alpha$. Gli altri amminoacidi presentano 
-invece un diagramma asimmetrico, con un insieme di zone indicanti le conformazioni ammesse meno esteso, e la cui ampiezza dipende soprattutto dalla presenza 
-di gruppi stericamente ingombranti in posizione $\beta$. La presenza di catene laterali, anche lunghe, che non siano ramificate al carbonio $\beta$, come nel caso della 
-leucina, ha invece una scarsa influenza e riduce solo di poco il dominio delle conformazioni permesse.
+La struttura primaria è costituita da tutti i legami covalenti che legano tra loro i vari amminoacidi della catena polipeptidica. La struttura secondaria contiene organizzazioni particolari e stabili di brevi sequenze di amminoacidi, che danno il via a profili strutturali ricorrenti. La struttura terziaria descrive l'aspetto tridimensionale del polipeptidico, mentre se sono presenti più unità allora è presente anche la struttura quaternaria. In particolar modo la struttura primaria di una proteina determina la disposizione degli atomi nello spazio tridimensionale che ne caratterizzano la funzione. 
 
-Un caso a parte si ha per la prolina, la cui struttura rigida rende possibili solo poche conformazioni in una porzione limitata del grafico.
+Come riporta \cite{Principi}, la disposizione spaziale degli atomi di una proteina, o di una porzione di proteina è detta conformazione. Le conformazioni possibili di una proteina, o di una parte di essa, corrispondono a tutte le strutture che la proteina può assumere senza rottura di legami covalenti. 
+I legami covalenti perciò hanno un ruolo importante nel determinare la conformazione di un polipeptide. Gli atomi di carbonio $\alpha$ di residui amminoacidici adiacenti sono separati da tre legami covalenti che si susseguono in questo modo: $C_\alpha$---C---N---$C_\alpha$. Facendo analisi su questi atomi del gruppo peptidico, si evince che i legami C---N, a causa del loro parziale carattere di doppio legame non può ruotare liberamente; è invece concessa la rotazione tra i legami N---$C_\alpha$ e $C_\alpha$---C. Lo scheletro della catena polipeptidica può quindi essere considerato una serie di piani rigidi, in cui i piani consecutivi hanno come punto di rotazione in comune $C_\alpha$ (Fig. \ref{fig:gruppopeptidico}). La rigidità del legame limita considerevolmente la possibilità di movimento e di conseguenza il numero delle conformazioni che possono essere assunte. La conformazione è poi specificata dai tre angoli diedrici (o angoli torsionali) chiamati $\phi$ (phi), $\psi$ (psi) e $\omega$ (omega). 
+
+La struttura secondaria si riferisce ad un segmento polipeptidico della proteina e descrive l'organizzazione spaziale della catena principale senza considera le catene laterali. Le strutture secondarie regolari più comuni sono l'$\alpha$ elica, la conformazione $\beta$ foglietto e il ripiegamento $\beta$. La struttura terziaria corrisponde alla struttura tridimensionale completa di una catena polipeptidica e in base ad essa si possono distinguere due classi di proteine: le fibrose e le globulari.La struttura quaternaria deriva dalle interazioni tra le subunità che costituiscono una proteina multimerica. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{Immagini/Gruppopeptidicoplanare.png}
+	\caption{Tre legami separano due atomi di carbonio $\alpha$ in successione in una catena polipeptidica. I legaml N---$C_\alpha$ e $C_\alpha$---C possono ruotare, descrivendo due angoli diedrici chiamati rispettivamente $\phi$ e $\psi$. Il legame C---N non è libero di ruotare. La rotazione degll altri legami singoli dello scheletro peptidico è resa difficoltosa dalle dimensioni e dalle cariche del gruppi R.}
+	\label{fig:gruppopeptidico}
+\end{figure}
+
+
+\subsection{Classificazione delle proteine}\label{subsec:classificazioneproteine}
+Le proteine hanno molteplici funzioni, sono coinvolte nel movimento, nella trasmissione dei segnali (ormoni), proteggono l'organismo (anticorpi), mantengono le sostanze, le trasportano, fungono da enzima, hanno funzione recettoriale e anche strutturale.E' possibile classificare le proteine sulla base della loro funzione come segue:
+\vspace{10pt}
+\begin{itemize}
+	\item proteine di trasporto: facilitano il trasporto passivo (per diffusione) o attivo (attraverso legame chimico e consumo di energia) di sostanze attraverso le membrane biologiche e nei vari tessuti. Ne è un esempio l'emoglobina, che trasporta ossigeno dai polmoni ai tessuti, e la mioglobina che permette di veicolare l'ossigeno ai mitocondri presenti nelle cellule del tessuto muscolare;
+	\vspace{5pt}
+	\item proteine implicate nella segnalazione cellulare: permettono la trasmissione di segnali chimici o elettrici essenziali per la vita cellulare. Appartengono a questa categoria anche gli anticorpi prodotti  dai linfociti B attivati in risposta agli antigeni, come batteri, virus e altre sostanze riconosciute come microorganismi e agenti estranei pericolosi;
+	\vspace{5pt}
+	\item enzimi: gli enzimi sono le proteine responsabili della catalisi delle reazioni chimiche all'interno del nostro organismo. Di fatto accelerano una reazione chimica specifica senza essere consumati e senza entrare nei prodotti finali della reazione;
+	\vspace{5pt}
+	\item proteine strutturali: tipicamente formano delle strutture di sostegno, si tratta infatti di molecole caratterizzate da durezza e resistenza, un esempio può essere l'$\alpha$-cheratina che forma le strutture interne dell'organismo.
+	\vspace{5pt}
+\end{itemize}
+
+\subsection{Principio di Ramachandran}\label{subsec:ramachandranPrinciple}
+Il principio di Ramachandran ha stabilito che solo alcune conformazioni di angoli di torsione sono stabili e presenti naturalmente nelle proteine. Queste conformazioni stabili sono descritte come regioni favorevoli o regioni accettabili nel grafico di Ramachandran. Le conformazioni non favorevoli o non accettabili sono associate con strutture instabili o anomale.
+
+Il principio di Ramachandran è spesso molto utile per saggiare la qualità e l'attendibilità delle strutture tridimensionali delle proteine. 
+
+Le conformazioni dei peptidi sono definite come descritto in precedenza da $\phi$ e $\psi$, che possono assumere qualsiasi valore compreso tra $-180°$ e $+180°$. Non tutte le coppie di angoli torsionali teoricamente possibili sono realmente ottenibili all'interno delle strutture peptidiche in quanto impedite dalla presenza di ingombri sterici fra i gruppi delle catene laterali, basati su calcoli in cui sono utilizzati il raggio di van der Walls e gli angoli di legame. Come si può vedere nella Fig. \ref{fig:graficoRamachandran}, le aree colorate in blu scuro, contengono le conformazioni che non presentano sovrapposizioni steriche, ovvero quando ogni atomo può essere mostrato come una sfera solida, di conseguenza sono zone completamente consentite. Le zone evidenziate con un colore intermedio sono zone in cui è presente un piccolo scontro; quindi, se viene concesso uno scontro di 0.1 nm sono conformazioni concesse. Le zone evidenziate in azzurro sono consentito a patto che sia consentita una leggera flessibilità dell'angolo $\omega$. Le regioni non evidenziate sono zone non consentite. Si può notare la poca simmetria presente nel grafico, a causa della stereochimica dei residui amminoacidici.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\textwidth]{Immagini/GraficoRamachandran.png}
+	\caption{Esempio grafico di Ramachandran}
+	\label{fig:graficoRamachandran}
+\end{figure}
+
+\section{Hydropathic INTeractions HINT}\label{sec:cap_sec_subsec}
+
+Come riportato da \cite{AgostaCozzini}, la valutazione della stabilità intramolecolare di una proteina gioca un ruolo fondamentale nella comprensione del comportamento e del meccanismo di azione. Piccole alterazioni strutturali possono impattare l'attività biologica e di conseguenza la modulazione farmacologica. 
+L'analisi della struttura tridimensionale della proteina e la risultante stabilità permettono di predire un possibile meccanismo di attivazione e rivelano nuove strategie per scoprire nuovi farmaci. Ogni modifica apportata alla struttura di una proteina porta quasi sicuramente ad una variazione del suo meccanismo di azione, e valutare la stabilità di una proteina può essere molto costoso in termini di tempo.
+La stabilità delle proteine è influenzata dalle interazioni intramolecolare, ovvero sono forze che permettono di creare e tenere insieme una struttura. Le strutture native delle proteine sono stabili poiché si formano come risultato di un equilibrio tra le varie forze non covalenti a cui sono soggette: i legami idrogeno, i legami ionici, le forze di Wan der Walls e le interazioni idrofobiche. In generale le interazioni chimiche deboli sono attrazzioni tra atomi appartenenti o alla stessa molecola (intramolecolari) o a molecole diverse (intermolecolari). Le interazioni chimiche deboli si formano e si rompono in continuazione alla temperatura fisiologica dell'organismo. a meno che, cumulandosi in gran numero, esse non diano collettivamente stabilità alle strutture che contribuiscono a generare.
+
+La valutazione della stabilità intramolecolare di una proteina è particolarmente complessa e ha portato allo sviluppo e ottimizzazione di metodi computazionali differenti che vanno dalla meccanica classica ai più recenti algoritmi di machine Learning
+
+HINT (Hydrophatic INTeractions) è un programma designato per quantificare le interazioni inter e intramolecolari, come citato in \cite{Kellogg1991} e in \cite{EUGENEKELLOGG2000651}.
+In breve, sulla base di valori di LogPo/W (coefficiente di ripartizione ottanolo/acqua di una sostanza, indice della sua polarità/idrofobicità) calcolati per tutti gli amminoacidi del sistema è possibile classificare e quantificare le interazioni calcolati come il prodotto tra la superficie accessibile al solvente e la costante idrofobica di ogni atomo e la loro distanza, come descritto in \cite{ExtensionFragment}. La funzione di energia intramolecolare di HINT può essere calcolata rapidamente dalla struttura in termini di somma di punteggi d'interazione atomo-atomo. Il punteggio intramolecolare viene calcolato come somma delle interazioni idrofobiche e polari tra tutte le coppie di atomi considerando l'area accessibile al solvente. Le interazioni idrofobiche si verificano quando le molecole non polari si avvicinano tra di loro in un solvente polare, come l'acqua. Le molecole non polari tendono a respingersi reciprocamente e ad attirarsi con le molecole del solvente. Il processo anche noto come esclusione dei solventi, porta alla formazioni di molecole non polari all'interno del solvente. Le molecole non polari quindi cercano di organizzarsi in modo tale da minimizzare il contatto con il solvente e massimizzare le interazioni tra di loro. 
+
+Il punteggio energetico di HINT intramolecolare consente quindi di calcolare tutte le interazioni idropatiche (idrofobiche e polari) che si verificano nella molecola e ne consentono di valutare la stabilità termodinamica. Dato il suo livello di sensibilità nell'individuare piccole differenze di energie verrà poi utilizzato per stimare la stabilità della Glicoproteina spike del SARS-CoV-2.
 
 \section{Ricerca Locale}\label{sec:cap_sec_subsec}
-La ricerca locale è una tecnica euristica di ottimizzazione e risoluzione dei problemi che mira a trovare una soluzione che sia vicina alla soluzione attuale e la migliori. 
+La ricerca locale è una tecnica euristica di ottimizzazione e risoluzione dei problemi che mira a trovare una soluzione che sia vicina alla soluzione attuale e la migliore. 
 Funziona apportando piccole modifiche alla soluzione corrente e valutando i risultati, con l'obiettivo di trovare una soluzione ottimale in uno spazio di ricerca 
 limitato. La ricerca locale viene spesso utilizzata nei problemi di ottimizzazione combinatoria, come il problema del commesso viaggiatore, e nell'apprendimento 
 automatico, dove può essere utilizzata per ottimizzare algoritmi complessi come le reti neurali. L'idea chiave alla base della ricerca locale è evitare di rimanere 
@@ -384,18 +270,6 @@ ricerca locale:
     è importante utilizzare questo algoritmo con cautela e verificare che la soluzione ottenuta soddisfi i requisiti del problema.
 \end{itemize}
 
-\section{Hydropathic INTeractions HINT}\label{sec:cap_sec_subsec}
-% File preso da Federica Agosta https://link.springer.com/article/10.1007/s10822-022-00477-y
-%https://it.wikipedia.org/wiki/Forza_intramolecolare
-Le informazioni trattate in questa sezione sono prese da \cite{AgostaCozzini} e da \cite{ForzaIntramolecolare}.
-La valutazione della stabilità intramolecolare di una proteina gioca un ruolo fondamentale nella comprensione del loro comportamento e nel meccanismo di azione. Piccole alterazioni strutturali possono impattare l'attività biologica e di conseguenza la modulazione farmacologica. 
-L'analisi della struttura tridimensionale della proteina e la risultante stabilità permettono di predirre un possibile meccanismo di attivazione e rivelano nuove strategie per scoprire nuovi farmaci. Ogni modifica apportata alla struttura di una proteina porta quasi sicuramente ad una variazione del suo meccanismo di azione, e valutare la stabilità di una proteina mutata può essere molto costoso in termini di tempo.
-La stabilità delle proteine mutate è influenzata dall'interazione intramolecolare, ovvero sono forze che permettono di creare e tenere insieme una struttura. Nel tentativo di analizzare la stabilità proteica, sono stati sviluppati molti metodi che svariano in diversi approcci dai meccanismi molecolari basati su force field fino a tecniche di machine learning. Tuttavia, questa pratica risulta essere molto costosa, specialmente quando sono presenti un elevato numero di mutazioni. Uno degli aspetti fondamentali su cui è basato HINT è dovuta al fatto che la stabilità delle proteine mutate è dimostrato essere influenzata dalle interazioni intramolecolari. Le strutture native delle proteine sono relativamente stabili poiché si formano come risultato di un equilibrio tra le varie forze non covalenti a cui sono soggette: i legami idrogeno, i legami ionici, le forze di Wan der Walls e le interazioni idrofobiche. In generale le interazioni chimiche deboli sono attrazzioni tra atomi appartenenti o alla stessa molecola (intramolecolari) o a molecole diverse (intermolecolari). A differenza dei legami covalenti che legano gli atomi tra loro, le interazioni chimiche deboli non sono forti abbastanza per legare tra loro atomi isolati. Per questo le interazioni chimiche deboli si formano e si rompono in continuazione alla temperatura fisiologica dell'organismo. a meno che, cumulandosi in gran numero, esse non diano collettivamente stabilità alle strutture che contribuiscono a generare.
-
-HINT è stato sviluppato sulla base dei lavoro svolto da (indica il personaggio) che ha esteso il metodo fragment per la predizione dei $\log P\_o/v$ (coefficiente di partizione per il trasferimento di soluti in 1-ottanolo/acqua), cio permette di quantificare le interazioni idrofobiche e polari tra o all'interno dei molecole. La funzione di energia intramolecolare di HINT può essere calcolata rapidamente dalla struttura in termini di somma di punteggi d'interazione atomo-atomo. Il punteggio intramolecolare viene calcolato come somma delle interazioni idrofobiche e polari tra tutte le coppie di atomi considerando l'area accessibile al solvente. Le interazioni idrofobiche si verificano quando le molecole non polari si avvicinano tra di loro in un solvente polare, come l'acqua. Le molecole non polari tendono a respingersi reciprocamente e ad attirarsi con le molecole del solvente. Il processo anche noto come esclusione dei solventi, porta alla formazioni di molecole non polari all'interno del solvente. Le molecole non polari quindi cercano di organizzarsi in modo tale da minimizzare il contatto con il solvente e massimizzare le interazioni tra di loro. 
-
-Il punteggio energetico di HINT intramolecolare consente quindi di calcolare tutte le interazioni idropatiche (idrofobiche e polari) che si verificano nella molecola e ne consentono di valutare la stabilità termodinamica. Dato il suo livello di sensibilità nell'individuare piccole differenze di energie verrà poi utilizzato per stimare la stabilità della Glicoproteina spike del SARS-CoV-2.
-
 \section{Shortest Path}\label{sec:cap_sec_subsec}
 Lo shortest path è un importante concetto nell'ambito dell'informatica cosi come nell'ingegneria e nella matematica applicata. Essa si riferisce al percorso più
 breve tra due punti in un grafo, ovvero insieme di nodi collegati da archi. 
@@ -469,7 +343,7 @@ Per ogni numero naturale $n \ge 1$ consideriamo l'insieme $\mathbf{R}^n$ delle n
 
 	$$\mathbf{R}^n = \{v = (x_1, .., x_n)| x_i \in \mathbf{R}\}$$.
 
-Viene chiamato $\mathbf{R}^n$ lo spazio n-dimensionale e i suoi elementi vettori o punti. 
+Viene chiamato $\mathbf{R}^n$ lo spazio n-dimensionale e i suoi elementi vettori o punti, come descritto in \cite{Algebra}. 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.3\textwidth]{Immagini/SpazioVettoriale.png}
@@ -505,7 +379,7 @@ Per la moltiplicazione per scalare di $a, b \in \mathbf{R}$ con $v, w \in \mathb
 	\vspace{5pt}
 	\item $1v = v$.
 \end{itemize}
-Si osserva che le operazioni di somma e di moltiplicazione per scalare si possono definire non solo nell'insieme dei numeri reali o delle n-uple di numeri, ma anche in altri insiemi (di funzioni, di matrici, ...). Un insieme con somma e moltiplicazione per scalare che verificano tutte le proprietà precedentemente descritte si dice spazio vettoriale.
+Si osserva che le operazioni di somma e di moltiplicazione per scalare si possono definire non solo nell'insieme dei numeri reali o delle n-uple di numeri, ma anche in altri insiemi (di funzioni, di matrici, ...). Un insieme con somma e moltiplicazione per scalare che verificano tutte le proprietà precedentemente descritte si dice spazio vettoriale, come descritto in \cite{Algebra}.
 
 \subsection{Prodotto scalare}\label{subsec:prodotto_scalare}
 Il prodotto scalare di $v = (x_1, .., x_n) e w = (y_1, .., y_n)$ è il numero
@@ -551,8 +425,7 @@ Ponendo $(x, y, z) = (1, 0, 0)$ oppure $(x, y, z) = (0, 1, 0)$ oppure $(x, y, z)
 Tale matrice è stata ottenuta scrivendo la matrice associata alla trasformazione lineare (rispetto alle basi canoniche nel dominio e codominio) della formula di Rodrigues.
 
 \subsection{Super Fibonacci Spirals}\label{subsec:superfibonaccispiral}
-Le informazioni di questa sezione sono state recuperate da \cite{Alexa_2022_CVPR}.
-Le super spirali di Fibonacci sono un'estensione delle spirali di Fibonacci che consentono la generazione rapida di un arbitrario ma fisso numero di orientamenti 3D. Una valutazione completa rispetto ad altri metodi mostra che gli insiemi di orientamenti generati hanno una bassa discrepanza, componenti spuri minimi nello spettro di potenza e volumi Voronoi quasi identici. 
+Le super spirali di Fibonacci sono un'estensione delle spirali di Fibonacci che consentono la generazione rapida di un arbitrario ma fisso numero di orientamenti 3D. Una valutazione completa rispetto ad altri metodi mostra che gli insiemi di orientamenti generati hanno una bassa discrepanza, componenti spuri minimi nello spettro di potenza e volumi Voronoi quasi identici, come descritto in \cite{Alexa_2022_CVPR}. 
 L'ottimizzazione degli insiemi per discrepanze basse è difficile. Inoltre, l'ottimizzazione $\mathcal{SO}(3)$ è scomoda a causa della geometria sottostante. \footnote{$\mathcal{SO}(3)$ è il gruppo delle rotazioni tridimensionali che preservano la norma e il prodotto vettoriale, e che hanno determinante 1. Sono tutte le possibili rotazioni attorno ad un punto nello spazio tridimensionale, senza alcuna traslazione.}
 
 Lo strumento principale per usare il campionamento di Fibonacci su $\mathcal{S}^3$ è una mappatura che preserva il volume di un cilindro solido in $\mathcal{R}^3$ alla 3-sfera. Considerando il cilindro ${(h, y = (y_0, y_1))| -\pi < h \le \pi, y^Ty \le 1}$. Allora 
@@ -611,7 +484,8 @@ $$.
 
 Il campionamento di questa curva a valori regolari di $t_i$ è un metodo naturale per la generazione di campioni di orientamento. L'implementazione algoritmica è la seguente \ref{alg:sampling}.
 \begin{algorithm}
-	\caption{Generazione di n campioni in $\mathcal{SO}(3)$}\label{alg:sampling}
+	\caption{Generazione di n campioni in $\mathcal{SO}(3)$}
+	\label{alg:sampling}
 	\begin{algorithmic}
 		\Function{Super-Fibonacci}{n, $\phi$, $\psi$} 
 			\For{$i \in {0, .., n-1}$}

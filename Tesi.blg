@@ -28,27 +28,27 @@ You're missing a field name---line 193 of file ./Bibliografia.bib
  :  "url"        = "http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec20"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 257 of file ./Bibliografia.bib
+I was expecting a `,' or a `}'---line 219 of file ./Bibliografia.bib
  :  
  :  journal={Journal of Computer-Aided Molecular Design},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 283 of file ./Bibliografia.bib
+I was expecting a `,' or a `}'---line 233 of file ./Bibliografia.bib
  :  
  :  journal={Malaysian J Pathol},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 297 of file ./Bibliografia.bib
+I was expecting a `,' or a `}'---line 247 of file ./Bibliografia.bib
  :  
  :  journal={SIMG},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 335 of file ./Bibliografia.bib
+I was expecting a `,' or a `}'---line 285 of file ./Bibliografia.bib
  :  
  :  journal={Frontiers in Immunology},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 351 of file ./Bibliografia.bib
+I was expecting a `,' or a `}'---line 301 of file ./Bibliografia.bib
  :  
  :  journal={Front Med Technol.},
 (Error may have been on previous line)
@@ -122,14 +122,6 @@ while executing---line 1098 of file apalike.bst
 Too many commas in name 1 of "Jeff Chang, Brad Chapman, Iddo Friedberg, Thomas Hamelryck,Michiel de Hoon, Peter Cock, Tiago Antao, Eric Talevich, Bartek Wilczyński" for entry BioPythonManual
 while executing---line 1098 of file apalike.bst
 Warning--empty year in BioPythonManual
-Warning--empty year in ProprietàCovid
-Warning--empty journal in ProprietàCovid
-Warning--empty year in SlideRamachandran
-Warning--empty institution in SlideRamachandran
-Warning--empty year in TutorialRamachandran
-Warning--empty institution in TutorialRamachandran
-Warning--empty year in RNApolimerasi
-Warning--empty institution in RNApolimerasi
 Warning--empty year in StoriaCovid
 Warning--empty journal in StoriaCovid
 Too many commas in name 1 of "Valério M, Borges-Araújo L, Melo MN, Lousa D, Soares CM" for entry RBDSpike
@@ -138,49 +130,45 @@ Too many commas in name 1 of "Valério M, Borges-Araújo L, Melo MN, Lousa D, So
 while executing---line 1098 of file apalike.bst
 Warning--empty year in RBDSpike
 Warning--empty journal in RBDSpike
-Warning--empty year in ForzaIntramolecolare
-Warning--empty institution in ForzaIntramolecolare
-Warning--empty year in WikiAmminoacidi
-Warning--empty year in WikiProteine
 You've used 14 entries,
             1935 wiz_defined-function locations,
-            541 strings with 5716 characters,
-and the built_in function-call counts, 3940 in all, are:
-= -- 385
-> -- 98
-< -- 15
-+ -- 34
-- -- 28
-* -- 234
-:= -- 732
-add.period$ -- 37
+            565 strings with 6409 characters,
+and the built_in function-call counts, 4637 in all, are:
+= -- 442
+> -- 147
+< -- 13
++ -- 48
+- -- 46
+* -- 341
+:= -- 827
+add.period$ -- 38
 call.type$ -- 14
-change.case$ -- 90
+change.case$ -- 91
 chr.to.int$ -- 14
-cite$ -- 37
-duplicate$ -- 184
-empty$ -- 292
-format.name$ -- 42
-if$ -- 754
+cite$ -- 25
+duplicate$ -- 202
+empty$ -- 349
+format.name$ -- 64
+if$ -- 908
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 6
-newline$ -- 68
+missing$ -- 14
+newline$ -- 69
 num.names$ -- 42
-pop$ -- 108
+pop$ -- 101
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 93
 quote$ -- 0
-skip$ -- 127
+skip$ -- 150
 stack$ -- 0
-substring$ -- 210
-swap$ -- 14
+substring$ -- 287
+swap$ -- 21
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
-warning$ -- 23
-while$ -- 30
+type$ -- 80
+warning$ -- 11
+while$ -- 34
 width$ -- 0
-write$ -- 151
+write$ -- 163
 (There were 39 error messages)

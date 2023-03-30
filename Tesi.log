@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  19 MAR 2023 17:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  30 MAR 2023 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -931,11 +931,90 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count361
 \c@blind@pangrammax=\count362
 )
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen292
+\lightrulewidth=\dimen293
+\cmidrulewidth=\dimen294
+\belowrulesep=\dimen295
+\belowbottomsep=\dimen296
+\aboverulesep=\dimen297
+\abovetopsep=\dimen298
+\cmidrulesep=\dimen299
+\cmidrulekern=\dimen300
+\defaultaddspace=\dimen301
+\@cmidla=\count363
+\@cmidlb=\count364
+\@aboverulesep=\dimen302
+\@belowrulesep=\dimen303
+\@thisruleclass=\count365
+\@lastruleclass=\count366
+\@thisrulewidth=\dimen304
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip74
+\multirow@cntb=\count367
+\multirow@dima=\skip75
+\bigstrutjot=\dimen305
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen306
+\c@nlinenum=\count368
+\TeXr@lab=\toks54
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+\everycr=\toks55
+\minrowclearance=\skip76
+\rownum=\count369
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threepar
+ttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box72
+)
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2023-03-14 v3.2.3 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen307
+\l__siunitx_angle_marker_box=\box73
+\l__siunitx_angle_unit_box=\box74
+\l__siunitx_compound_count_int=\count370
+
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_number_exponent_fixed_int=\count371
+\l__siunitx_number_min_decimal_int=\count372
+\l__siunitx_number_min_integer_int=\count373
+\l__siunitx_number_round_precision_int=\count374
+\l__siunitx_number_lower_threshold_int=\count375
+\l__siunitx_number_upper_threshold_int=\count376
+\l__siunitx_number_group_first_int=\count377
+\l__siunitx_number_group_size_int=\count378
+\l__siunitx_number_group_minimum_int=\count379
+\l__siunitx_table_tmp_box=\box75
+\l__siunitx_table_tmp_dim=\dimen308
+\l__siunitx_table_column_width_dim=\dimen309
+\l__siunitx_table_integer_box=\box76
+\l__siunitx_table_decimal_box=\box77
+\l__siunitx_table_uncert_box=\box78
+\l__siunitx_table_before_box=\box79
+\l__siunitx_table_after_box=\box80
+\l__siunitx_table_before_dim=\dimen310
+\l__siunitx_table_carry_dim=\dimen311
+\l__siunitx_unit_tmp_int=\count380
+\l__siunitx_unit_position_int=\count381
+\l__siunitx_unit_total_int=\count382
+)
 (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count363
-\l__pdf_internal_box=\box72
+\l__color_backend_stack_int=\count383
+\l__pdf_internal_box=\box81
 ) (Tesi.aux (Capitoli/Introduzione.aux) (Capitoli/Background.aux
 
 LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
@@ -944,27 +1023,6 @@ LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
 LaTeX Warning: Label `subsec:es_subsec' multiply defined.
 
 
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-
-LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
-
-
 LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
 
 
@@ -973,87 +1031,44 @@ LaTeX Warning: Label `subsec:es_subsec' multiply defined.
 
 LaTeX Warning: Label `subsec:es_subsec' multiply defined.
 
-
-LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
-
-
-LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
-
-
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-) (Capitoli/Covid.aux
-
-LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
-
-
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-
-LaTeX Warning: Label `fig:Amminoacido' multiply defined.
-
-
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-
-LaTeX Warning: Label `fig:Amminoacido' multiply defined.
-
-
-LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
-
-
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-
-LaTeX Warning: Label `subsec:es_subsec' multiply defined.
-
-
-LaTeX Warning: Label `sec:cap_sec_subsec' multiply defined.
-
-) (Capitoli/Obiettivi.aux) (Capitoli/Progettazione-Implementazione.aux)
-(Capitoli/Risultati.aux) (Capitoli/Conclusione.aux)
-(Capitoli/Ringraziamenti.aux) (Capitoli/Appendici/Appendice1.aux))
+) (Capitoli/Covid.aux) (Capitoli/Obiettivi.aux)
+(Capitoli/Progettazione-Implementazione.aux) (Capitoli/Risultati.aux)
+(Capitoli/Conclusione.aux) (Capitoli/Ringraziamenti.aux))
 \openout1 = `Tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
-\scratchdimen=\dimen292
-\scratchbox=\box73
-\nofMPsegments=\count365
-\nofMParguments=\count366
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count367
-\MPscratchDim=\dimen293
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count384
+\scratchdimen=\dimen312
+\scratchbox=\box82
+\nofMPsegments=\count385
+\nofMParguments=\count386
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count387
+\MPscratchDim=\dimen313
+\MPnumerator=\count388
+\makeMPintoPDFobject=\count389
+\everyMPtoPDFconversion=\toks57
 )
 (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1065,7 +1080,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 46.
  (Tesi.out) (Tesi.out)
 \@outlinefile=\write5
 \openout5 = `Tesi.out'.
@@ -1073,8 +1088,9 @@ Package hyperref Info: Link coloring OFF on input line 38.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
+Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count370
+\c@lstlisting=\count390
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1104,16 +1120,18 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \it@ocap on input line 38.
-LaTeX Info: Redefining \it@ccap on input line 38.
+LaTeX Info: Redefining \it@ocap on input line 46.
+LaTeX Info: Redefining \it@ccap on input line 46.
 
 File italian.ldf warning: 
 italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 38.
+italian.ldf    on input line 46.
 
+Package translations Info: no dictionary file `translations-basic-dictionary-it
+alian.trsl' found. on input line 46.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1154,7 +1172,7 @@ d PDF version <1.6>, but at most version <1.5> allowed
 <theme/logo_unipr.pdf, id=178, 156.79077pt x 142.01357pt>
 File: theme/logo_unipr.pdf Graphic file (type pdf)
 <use theme/logo_unipr.pdf>
-Package pdftex.def Info: theme/logo_unipr.pdf  used on input line 40.
+Package pdftex.def Info: theme/logo_unipr.pdf  used on input line 48.
 (pdftex.def)             Requested size: 172.78856pt x 156.49014pt.
 [1
 
@@ -1168,22 +1186,27 @@ Package pdftex.def Info: theme/logo_unipr.pdf  used on input line 40.
 \tf@toc=\write6
 \openout6 = `Tesi.toc'.
 
- [2] (Tesi.lof)
+ [2] (Tesi.lof
+Overfull \hbox (21.6208pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/12 strut-tu-ra com-ples-si-va del SARS-CoV-2(blu) le-ga-ta a ACE2
+(giallo). 
+ []
+
+[3
+
+
+])
 \tf@lof=\write7
 \openout7 = `Tesi.lof'.
 
- [3
-
-
-] [4
-
-
-]
-(Tesi.loa)
+ [4] (Tesi.loa)
 \tf@loa=\write8
 \openout8 = `Tesi.loa'.
 
- [5] [6
+ [5
+
+
+] [6
 
 
 ] (Tesi.lot)
@@ -1197,48 +1220,223 @@ Package pdftex.def Info: theme/logo_unipr.pdf  used on input line 40.
 
 
 
-])
+]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.65 \include{Capitoli/Introduzione}
-                                     [1]
-\openout2 = `Capitoli/Background.aux'.
-
- (Capitoli/Background.tex
+l.19 \begin{itemize}
+                     [1])
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Background}\label{chapter:background} [2
+l.73 \include{Capitoli/Introduzione}
+                                     [2]
+\openout2 = `Capitoli/Background.aux'.
+
+ (Capitoli/Background.tex
+Capitolo 1.
+<Immagini/StrutturaAmminoacido.png, id=392, 205.9695pt x 193.9245pt>
+File: Immagini/StrutturaAmminoacido.png Graphic file (type png)
+<use Immagini/StrutturaAmminoacido.png>
+Package pdftex.def Info: Immagini/StrutturaAmminoacido.png  used on input line 
+16.
+(pdftex.def)             Requested size: 117.00119pt x 110.15639pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3
 
 
 
 
 
 ]
-Capitolo 1.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+6.
 
-Overfull \hbox (27.53456pt too wide) in paragraph at lines 8--12
-\OT1/cmr/m/n/12 Le in-for-ma-zio-ni trat-ta-te in que-sta se-zio-ne so-no pre-s
-e da [[]].
+(C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 56.
+
+
+Overfull \hbox (14.51016pt too wide) in paragraph at lines 56--56
+[]$[]$ 
  []
 
-<Immagini/800px-Selenocysteine_skeletal_3D.png, id=319, 803.0pt x 1114.1625pt>
-File: Immagini/800px-Selenocysteine_skeletal_3D.png Graphic file (type png)
-<use Immagini/800px-Selenocysteine_skeletal_3D.png>
-Package pdftex.def Info: Immagini/800px-Selenocysteine_skeletal_3D.png  used on
- input line 15.
-(pdftex.def)             Requested size: 117.00119pt x 162.33995pt.
-<Immagini/StrutturaAmminoacido.png, id=321, 386.6445pt x 319.1925pt>
-File: Immagini/StrutturaAmminoacido.png Graphic file (type png)
-<use Immagini/StrutturaAmminoacido.png>
-Package pdftex.def Info: Immagini/StrutturaAmminoacido.png  used on input line 
-28.
-(pdftex.def)             Requested size: 155.99762pt x 128.78033pt.
-[3]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 56.
+
+
+Overfull \hbox (20.62404pt too wide) in paragraph at lines 56--56
+[]$[]$ 
+ []
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 56.
+
+
+Overfull \hbox (20.62404pt too wide) in paragraph at lines 56--56
+[]$[]$ 
+ []
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 56.
+
+
+Overfull \hbox (19.77403pt too wide) in paragraph at lines 56--56
+[]$[]$ 
+ []
+
+
+Overfull \hbox (7.16235pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/b/n/12 pl 
+ []
+
+
+Overfull \hbox (0.75037pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/b/n/10.95 Indice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\OT1/ptm/b/n/10.95 idro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\OT1/ptm/b/n/10.95 pa-ti-
+ []
+
+
+Overfull \hbox (3.35144pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/b/n/10.95 Presenza
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\OT1/ptm/b/n/10.95 nel-le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\OT1/ptm/b/n/10.95 pro-tei-
+ []
+
+
+Overfull \hbox (20.85535pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Glicina 
+ []
+
+
+Overfull \hbox (23.28635pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Alanina 
+ []
+
+
+Overfull \hbox (20.25319pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Prolina 
+ []
+
+
+Overfull \hbox (16.5959pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Valina 
+ []
+
+
+Overfull \hbox (23.88866pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Leucina 
+ []
+
+
+Overfull \hbox (33.62294pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Isoleucina 
+ []
+
+
+Overfull \hbox (33.63391pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Metionina 
+ []
+
+
+Overfull \hbox (42.75504pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Fenilalanina 
+ []
+
+
+Overfull \hbox (24.73169pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Tirosina 
+ []
+
+
+Overfull \hbox (34.95906pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Triptofano 
+ []
+
+
+Overfull \hbox (16.59593pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Serina 
+ []
+
+
+Overfull \hbox (27.76498pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Treonina 
+ []
+
+
+Overfull \hbox (24.51248pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Cisteina 
+ []
+
+
+Overfull \hbox (38.4848pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Asparagina 
+ []
+
+
+Overfull \hbox (43.3683pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Glutammina 
+ []
+
+
+Overfull \hbox (15.99364pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Lisina 
+ []
+
+
+Overfull \hbox (21.46849pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Istidina 
+ []
+
+
+Overfull \hbox (27.34888pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Arginina 
+ []
+
+
+Overfull \hbox (31.19208pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Aspartato 
+ []
+
+
+Overfull \hbox (43.3683pt too wide) in paragraph at lines 56--56
+[]\OT1/ptm/m/n/10.95 Glutammato 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 56--56
+[][][][][][][][][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 7.33049pt on input line 64.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1247,22 +1445,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4 <./Immagini/800px-Selenocysteine_skeletal_3D.png> <./Immagini/StrutturaAmmin
-oacido.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\OT1/cmtt/m/n/12 Glicina, alanina, valina, leucina,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\OT1/cmtt/m/n/12 Serina, cisteina, treonina,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\OT1/cmtt/m/n/12 Acido aspartico, acido glutammico,
- []
-
+[4 <./Immagini/StrutturaAmminoacido.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1281,45 +1464,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
+<Immagini/LegamePeptidico.png, id=419, 197.538pt x 149.358pt>
+File: Immagini/LegamePeptidico.png Graphic file (type png)
+<use Immagini/LegamePeptidico.png>
+Package pdftex.def Info: Immagini/LegamePeptidico.png  used on input line 86.
+(pdftex.def)             Requested size: 195.0pt x 147.44324pt.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[8]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[9]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10]
-Overfull \hbox (38.79695pt too wide) in paragraph at lines 241--245
-\OT1/cmr/m/n/12 Le in-for-ma-zio-ni trat-ta-te in que-sta se-zio-ne so-no pre-s
-e da [[]] e da [[]].
+Overfull \hbox (2.63759pt too wide) in paragraph at lines 93--94
+[]\OT1/cmr/m/n/12 Una vol-ta espres-se, al-cu-ne pro-tei-ne pos-so-no su-bi-re 
+del-le mo-di-fi-che chimico-
  []
 
 
@@ -1330,13 +1483,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
-<Immagini/GraficoRamachandran.png, id=374, 322.806pt x 311.9655pt>
-File: Immagini/GraficoRamachandran.png Graphic file (type png)
-<use Immagini/GraficoRamachandran.png>
-Package pdftex.def Info: Immagini/GraficoRamachandran.png  used on input line 2
-48.
-(pdftex.def)             Requested size: 155.99762pt x 150.76042pt.
+[7
+
+]
+<Immagini/StrutturaGerarchica.png, id=426, 418.56375pt x 208.98074pt>
+File: Immagini/StrutturaGerarchica.png Graphic file (type png)
+<use Immagini/StrutturaGerarchica.png>
+Package pdftex.def Info: Immagini/StrutturaGerarchica.png  used on input line 1
+00.
+(pdftex.def)             Requested size: 312.00119pt x 155.77533pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1346,7 +1501,75 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[8 <./Immagini/LegamePeptidico.png>]
+<Immagini/Gruppopeptidicoplanare.png, id=434, 864.831pt x 227.6505pt>
+File: Immagini/Gruppopeptidicoplanare.png Graphic file (type png)
+<use Immagini/Gruppopeptidicoplanare.png>
+Package pdftex.def Info: Immagini/Gruppopeptidicoplanare.png  used on input lin
+e 114.
+(pdftex.def)             Requested size: 312.00119pt x 82.12779pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9 <./Immagini/StrutturaGerarchica.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10 <./Immagini/Gruppopeptidicoplanare.png>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 139.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 139.
+
+Missing character: There is no ° in font cmr12!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 139.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 139.
+
+Missing character: There is no ° in font cmr12!
+<Immagini/GraficoRamachandran.png, id=447, 335.45325pt x 324.0105pt>
+File: Immagini/GraficoRamachandran.png Graphic file (type png)
+<use Immagini/GraficoRamachandran.png>
+Package pdftex.def Info: Immagini/GraficoRamachandran.png  used on input line 1
+42.
+(pdftex.def)             Requested size: 234.00238pt x 226.02959pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [12 <./Immagini/GraficoRamachandran.png>]
+Overfull \hbox (16.84857pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/12 fi-ca-re le in-te-ra-zio-ni in-ter e in-tra-mo-le-co-la-ri, co-
+me ci-ta-to in [[]]
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1401,19 +1624,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [18]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[19]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 421.
+nput line 295.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 420--455
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 294--329
 []$[]$ 
  []
 
@@ -1429,11 +1643,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20]
-<Immagini/SpazioVettoriale.png, id=455, 394.47375pt x 481.8pt>
+[19]
+<Immagini/SpazioVettoriale.png, id=531, 394.47375pt x 481.8pt>
 File: Immagini/SpazioVettoriale.png Graphic file (type png)
 <use Immagini/SpazioVettoriale.png>
-Package pdftex.def Info: Immagini/SpazioVettoriale.png  used on input line 475.
+Package pdftex.def Info: Immagini/SpazioVettoriale.png  used on input line 349.
 
 (pdftex.def)             Requested size: 117.00119pt x 142.90169pt.
 
@@ -1445,7 +1659,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21]
+[20]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1454,7 +1668,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22 <./Immagini/SpazioVettoriale.png>]
+[21 <./Immagini/SpazioVettoriale.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1464,16 +1687,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[24]
-Overfull \hbox (37.62416pt too wide) in paragraph at lines 578--579
+Overfull \hbox (37.62416pt too wide) in paragraph at lines 451--452
 []\OT1/cmr/m/n/12 Si pu^^Ro di-mo-stra-re ci^^Ro che vie-ne re-cla-ma-to in pre
 -ce-den-za co-me $\OML/cmm/m/it/12 det\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/c
 mr/m/n/12 (\OML/cmm/m/it/12 h; y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; J[]h; y\OT1
@@ -1488,9 +1702,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
+[24]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 614.
+put line 487.
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1500,22 +1714,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
+[25]
 \openout2 = `Capitoli/Covid.aux'.
 
- (Capitoli/Covid.tex
-Capitolo 2.
-[27
+ (Capitoli/Covid.tex [26
 
 
 
 
 
 ]
-Overfull \hbox (0.6316pt too wide) in paragraph at lines 35--38
-\OT1/cmr/m/n/12 [[]]. Ha avu-to ini-
- []
-
+Capitolo 2.
+<Immagini/coronavirus.png, id=572, 489.83pt x 367.3725pt>
+File: Immagini/coronavirus.png Graphic file (type png)
+<use Immagini/coronavirus.png>
+Package pdftex.def Info: Immagini/coronavirus.png  used on input line 10.
+(pdftex.def)             Requested size: 155.99762pt x 116.99542pt.
+[27 <./Immagini/coronavirus.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1525,11 +1740,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
-<Immagini/coronavirus.png, id=505, 489.83pt x 367.3725pt>
-File: Immagini/coronavirus.png Graphic file (type png)
-<use Immagini/coronavirus.png>
-Package pdftex.def Info: Immagini/coronavirus.png  used on input line 48.
-(pdftex.def)             Requested size: 155.99762pt x 116.99542pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
+<Immagini/Subunita.png, id=597, 456.7464pt x 173.2071pt>
+File: Immagini/Subunita.png Graphic file (type png)
+<use Immagini/Subunita.png>
+Package pdftex.def Info: Immagini/Subunita.png  used on input line 41.
+(pdftex.def)             Requested size: 350.99762pt x 133.11087pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1539,58 +1763,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29 <./Immagini/coronavirus.png>]
-<Immagini/RNA_polimerasi.png, id=511, 413.1435pt x 248.127pt>
-File: Immagini/RNA_polimerasi.png Graphic file (type png)
-<use Immagini/RNA_polimerasi.png>
-Package pdftex.def Info: Immagini/RNA_polimerasi.png  used on input line 90.
-(pdftex.def)             Requested size: 234.00238pt x 140.53653pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[30]
-Underfull \vbox (badness 1297) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[31 <./Immagini/RNA_polimerasi.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[32]
-<Immagini/Composizione_strutturale.png, id=528, 1403.2425pt x 1274.7625pt>
+[30 <./Immagini/Subunita.png>]
+<Immagini/Composizione_strutturale.png, id=604, 1403.2425pt x 1274.7625pt>
 File: Immagini/Composizione_strutturale.png Graphic file (type png)
 <use Immagini/Composizione_strutturale.png>
 Package pdftex.def Info: Immagini/Composizione_strutturale.png  used on input l
-ine 111.
+ine 54.
 (pdftex.def)             Requested size: 272.99881pt x 248.00388pt.
-
-
-LaTeX Warning: Reference `fig:StrutturaCovid' on page 33 undefined on input lin
-e 116.
-
-
-LaTeX Warning: Reference `fig:StrutturaCovid' on page 33 undefined on input lin
-e 116.
-
 
 Underfull \vbox (badness 6380) has occurred while \output is active []
 
@@ -1603,13 +1782,64 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33 <./Immagini/Composizione_strutturale.png>]
-<Immagini/RBD_structure.png, id=535, 752.8125pt x 245.91875pt>
-File: Immagini/RBD_structure.png Graphic file (type png)
-<use Immagini/RBD_structure.png>
-Package pdftex.def Info: Immagini/RBD_structure.png  used on input line 133.
-(pdftex.def)             Requested size: 272.99881pt x 89.17984pt.
+[31 <./Immagini/Composizione_strutturale.png>]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+Overfull \hbox (9.08757pt too wide) in paragraph at lines 82--82
+[]\OT1/ptm/m/n/10.95 T500/ 
+ []
+
+
+Overfull \hbox (7.259pt too wide) in paragraph at lines 82--82
+\OT1/ptm/m/n/10.95 N501 
+ []
+
+
+Overfull \hbox (8.8807pt too wide) in paragraph at lines 82--82
+[]\OT1/ptm/m/n/10.95 G446/ 
+ []
+
+
+Overfull \hbox (5.83672pt too wide) in paragraph at lines 82--82
+\OT1/ptm/m/n/10.95 Y449 
+ []
+
+
+Overfull \hbox (10.303pt too wide) in paragraph at lines 82--82
+[]\OT1/ptm/m/n/10.95 Y489/ 
+ []
+
+
+Overfull \hbox (7.259pt too wide) in paragraph at lines 82--82
+\OT1/ptm/m/n/10.95 N487 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 82--82
+[][][][][][][][] 
+ []
+
+<Immagini/RBD-ACE2.png, id=617, 1021.416pt x 322.806pt>
+File: Immagini/RBD-ACE2.png Graphic file (type png)
+<use Immagini/RBD-ACE2.png>
+Package pdftex.def Info: Immagini/RBD-ACE2.png  used on input line 94.
+(pdftex.def)             Requested size: 272.99881pt x 86.27708pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33 <./Immagini/RBD-ACE2.png>])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1619,44 +1849,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34]
-Underfull \vbox (badness 1231) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[35 <./Immagini/RBD_structure.png>])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[36]
 \openout2 = `Capitoli/Obiettivi.aux'.
 
  (Capitoli/Obiettivi.tex
 Capitolo 3.
-<Immagini/Struttura_aperta_chiusa.png, id=550, 366.168pt x 404.712pt>
-File: Immagini/Struttura_aperta_chiusa.png Graphic file (type png)
-<use Immagini/Struttura_aperta_chiusa.png>
-Package pdftex.def Info: Immagini/Struttura_aperta_chiusa.png  used on input li
-ne 14.
-(pdftex.def)             Requested size: 234.00238pt x 258.63809pt.
-[37
+[35
 
 
 
 
 
 ]
+<Immagini/Struttura_aperta_chiusa.png, id=637, 366.168pt x 404.712pt>
+File: Immagini/Struttura_aperta_chiusa.png Graphic file (type png)
+<use Immagini/Struttura_aperta_chiusa.png>
+Package pdftex.def Info: Immagini/Struttura_aperta_chiusa.png  used on input li
+ne 15.
+(pdftex.def)             Requested size: 234.00238pt x 258.63809pt.
+<Immagini/Struttura_aperta_chiusa_dettaglio.png, id=638, 283.65974pt x 263.1832
+4pt>
+File: Immagini/Struttura_aperta_chiusa_dettaglio.png Graphic file (type png)
+<use Immagini/Struttura_aperta_chiusa_dettaglio.png>
+Package pdftex.def Info: Immagini/Struttura_aperta_chiusa_dettaglio.png  used o
+n input line 17.
+(pdftex.def)             Requested size: 155.99762pt x 144.73517pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1665,12 +1882,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38 <./Immagini/Struttura_aperta_chiusa.png>]
-<Immagini/Struttura_spike_dettaglio.png, id=561, 497.4585pt x 442.65375pt>
+[36 <./Immagini/Struttura_aperta_chiusa.png> <./Immagini/Struttura_aperta_chius
+a_dettaglio.png>]
+<Immagini/Struttura_spike_dettaglio.png, id=647, 497.4585pt x 442.65375pt>
 File: Immagini/Struttura_spike_dettaglio.png Graphic file (type png)
 <use Immagini/Struttura_spike_dettaglio.png>
 Package pdftex.def Info: Immagini/Struttura_spike_dettaglio.png  used on input 
-line 31.
+line 34.
 (pdftex.def)             Requested size: 234.00238pt x 208.22289pt.
 )
 
@@ -1681,7 +1899,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39]
+[37]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1690,40 +1908,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40 <./Immagini/Struttura_spike_dettaglio.png>]
+[38 <./Immagini/Struttura_spike_dettaglio.png>]
 \openout2 = `Capitoli/Progettazione-Implementazione.aux'.
 
 
 (Capitoli/Progettazione-Implementazione.tex
 Capitolo 4.
-[41
+[39
 
 
 
 
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[42]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 5
-1.
- (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 39--70
-[]$[]$
- []
-
+<Immagini/Transizioni_semplici.png, id=665, 462.528pt x 346.896pt>
+File: Immagini/Transizioni_semplici.png Graphic file (type png)
+<use Immagini/Transizioni_semplici.png>
+Package pdftex.def Info: Immagini/Transizioni_semplici.png  used on input line 
+32.
+(pdftex.def)             Requested size: 195.0pt x 146.2511pt.
+<Immagini/Transizioni_complesse.png, id=666, 462.528pt x 346.896pt>
+File: Immagini/Transizioni_complesse.png Graphic file (type png)
+<use Immagini/Transizioni_complesse.png>
+Package pdftex.def Info: Immagini/Transizioni_complesse.png  used on input line
+ 34.
+(pdftex.def)             Requested size: 195.0pt x 146.2511pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1736,11 +1945,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43]
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 71--93
-[]$[]$ 
- []
+[40]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41 <./Immagini/Transizioni_semplici.png> <./Immagini/Transizioni_complesse.png
+>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43]
+<Immagini/Tagliox.png, id=696, 462.528pt x 346.896pt>
+File: Immagini/Tagliox.png Graphic file (type png)
+<use Immagini/Tagliox.png>
+Package pdftex.def Info: Immagini/Tagliox.png  used on input line 110.
+(pdftex.def)             Requested size: 234.00238pt x 175.50133pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1754,6 +1992,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [44]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45 <./Immagini/Tagliox.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1765,17 +2039,113 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45]
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
-00.
- (C:\Users\lorim\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
-File: omlcmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 100.
+[49]
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 98--117
-[]$[]$ 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[51]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52]
+Underfull \vbox (badness 1789) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54]
+<Immagini/Funzionedistanza.png, id=767, 495.0495pt x 302.93175pt>
+File: Immagini/Funzionedistanza.png Graphic file (type png)
+<use Immagini/Funzionedistanza.png>
+Package pdftex.def Info: Immagini/Funzionedistanza.png  used on input line 423.
+
+(pdftex.def)             Requested size: 234.00238pt x 143.19147pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[55]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[56 <./Immagini/Funzionedistanza.png>]
+\openout2 = `Capitoli/Risultati.aux'.
+
+ (Capitoli/Risultati.tex
+Capitolo 5.
+<Immagini/Parallelepipedo.png, id=780, 462.528pt x 346.896pt>
+File: Immagini/Parallelepipedo.png Graphic file (type png)
+<use Immagini/Parallelepipedo.png>
+Package pdftex.def Info: Immagini/Parallelepipedo.png  used on input line 8.
+(pdftex.def)             Requested size: 234.00238pt x 175.50133pt.
+[57
+
+
+
+
+
+ <./Immagini/Parallelepipedo.png>]
+<Immagini/Sequenza_transizioni.png, id=788, 462.528pt x 346.896pt>
+File: Immagini/Sequenza_transizioni.png Graphic file (type png)
+<use Immagini/Sequenza_transizioni.png>
+Package pdftex.def Info: Immagini/Sequenza_transizioni.png  used on input line 
+18.
+(pdftex.def)             Requested size: 195.0pt x 146.2511pt.
+<Immagini/Movimento.png, id=789, 462.528pt x 346.896pt>
+File: Immagini/Movimento.png Graphic file (type png)
+<use Immagini/Movimento.png>
+Package pdftex.def Info: Immagini/Movimento.png  used on input line 20.
+(pdftex.def)             Requested size: 234.00238pt x 175.50133pt.
+
+Overfull \hbox (39.00238pt too wide) in paragraph at lines 18--21
+ [][][] 
  []
 
 )
@@ -1787,137 +2157,82 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46]
-\openout2 = `Capitoli/Risultati.aux'.
-
- (Capitoli/Risultati.tex
-Capitolo 5.
-) [47
-
-
-
-
-
-]
+[58 <./Immagini/Sequenza_transizioni.png> <./Immagini/Movimento.png>]
 \openout2 = `Capitoli/Conclusione.aux'.
 
- (Capitoli/Conclusione.tex [48
+
+(Capitoli/Conclusione.tex) [59
 
 
 
 
 
-]) [49] [50
+] [60
 
 
 
 
 ] (Tesi.bbl
-Underfull \hbox (badness 1681) in paragraph at lines 4--8
+Underfull \hbox (badness 1681) in paragraph at lines 11--15
 []\OT1/cmr/m/n/12 Alexa, M. (2022).  Super-fibonacci spi-rals: Fa-st, low-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
-[]\OT1/cmr/m/n/12 di Sa-nit^^Ra
- []
-
-[51
+[61
 
 
-]
-Underfull \hbox (badness 1231) in paragraph at lines 70--73
-[]\OT1/cmr/m/n/12 WikipediaProteine.  Pro-tei-ne.  Tech-ni-cal re-port,
- []
-
-) [52]
+]) [62]
 \openout2 = `Capitoli/Ringraziamenti.aux'.
 
- (Capitoli/Ringraziamenti.tex [53
+ (Capitoli/Ringraziamenti.tex [63
 
 
 
-]) [54]
-\openout2 = `Capitoli/Appendici/Appendice1.aux'.
-
-
-(Capitoli/Appendici/Appendice1.tex
-Appendice A.
-)
-
-Package blindtext Warning: italian not defined, using English instead.
-(blindtext)                 on input line 90.
-
-
-Package blindtext Warning: italian not defined, using English instead.
-(blindtext)                 on input line 90.
-
-
-Package blindtext Warning: italian not defined, using English instead.
-(blindtext)                 on input line 90.
-
-
-Package blindtext Warning: italian not defined, using English instead.
-(blindtext)                 on input line 90.
-
-[55
-
-
-
-
-
-]
-
-Package blindtext Warning: italian not defined, using English instead.
-(blindtext)                 on input line 90.
-
-
-Package blindtext Warning: italian not defined, using English instead.
-(blindtext)                 on input line 90.
-
-[56] (Tesi.aux (Capitoli/Introduzione.aux) (Capitoli/Background.aux)
-(Capitoli/Covid.aux) (Capitoli/Obiettivi.aux)
-(Capitoli/Progettazione-Implementazione.aux) (Capitoli/Risultati.aux)
-(Capitoli/Conclusione.aux) (Capitoli/Ringraziamenti.aux)
-(Capitoli/Appendici/Appendice1.aux))
-
-LaTeX Warning: There were undefined references.
-
+]) [64] (Tesi.aux
+(Capitoli/Introduzione.aux) (Capitoli/Background.aux) (Capitoli/Covid.aux)
+(Capitoli/Obiettivi.aux) (Capitoli/Progettazione-Implementazione.aux)
+(Capitoli/Risultati.aux) (Capitoli/Conclusione.aux)
+(Capitoli/Ringraziamenti.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: DF073C435F39D1678AB7BAE2870AB3BA;2813.
+(rerunfilecheck)             Checksum: 6240265C203FECD2E92882C3396953E6;2978.
  ) 
 Here is how much of TeX's memory you used:
- 31013 strings out of 476374
- 564919 string characters out of 5788854
- 2079340 words of memory out of 5000000
- 50548 multiletter control sequences out of 15000+600000
- 522986 words of font info for 68 fonts, out of 8000000 for 9000
+ 34652 strings out of 476374
+ 669943 string characters out of 5788854
+ 2052340 words of memory out of 5000000
+ 54192 multiletter control sequences out of 15000+600000
+ 529585 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,12n,106p,1912b,2379s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,15n,106p,1912b,2438s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\lorim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1095.pk> <C:\Users\lorim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1200.pk><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lorim/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lorim/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lorim/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/l
-orim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr6.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lorim/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/lorim/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Tesi.pdf (66 pages, 1941108 bytes).
+1095.pk>{C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
+nc} <C:\Users\lorim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m1200.pk><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmbx8.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/lorim/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lorim/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lorim/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lorim/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/User
+s/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+<C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><C:/Users/lorim/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lorim/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/lorim/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lorim/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/lorim
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Us
+ers/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Us
+ers/lorim/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Tesi.pdf (74 pages, 3886713 bytes).
 PDF statistics:
- 835 PDF objects out of 1000 (max. 8388607)
- 241 named destinations out of 1000 (max. 500000)
- 424 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 958 PDF objects out of 1000 (max. 8388607)
+ 202 named destinations out of 1000 (max. 500000)
+ 474 words of extra memory for PDF output out of 10000 (max. 10000000)
 
